@@ -98,5 +98,4 @@ export const QUOTES = [
 	),
 	// new Quote("", ""),
 	// new Quote("", ""),
-	// new Quote("", ""),
 ];
