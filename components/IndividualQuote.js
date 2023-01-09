@@ -1,24 +1,43 @@
-import { useLayoutEffect, useState } from "react";
-import { View, Text } from "react-native";
+import { useEffect, useState } from "react";
+import { View, Text, StyleSheet } from "react-native";
 import { QUOTES } from "../data/QuoteData";
+import Colors from "../constants/colors";
 
 function IndividualQuote() {
-	const [randomNumber, setRandomNumber] = useState(0);
+	const randomNumber = Math.floor(Math.random() * 50);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 
-	useLayoutEffect(() => {
-		setRandomNumber(Math.random() * 10);
+	useEffect(() => {
 		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
 		setAuthorOfTheDay(QUOTES[randomNumber].author);
 	}, []);
 
+	function consoleLogger() {
+		console.log(QUOTES[randomNumber]);
+	}
+
 	return (
-		<View>
-			<Text>{authorOfTheDay}</Text>
+		<View style={styles.rootContainer}>
+			{/* <Text onPress={consoleLogger}>click here</Text> */}
 			<Text>{quoteOfTheDay}</Text>
+			<Text>{authorOfTheDay}</Text>
 		</View>
 	);
 }
 
 export default IndividualQuote;
+
+const styles = StyleSheet.create({
+	screen: {
+		flex: 1,
+	},
+	rootContainer: {
+		flex: 1,
+		justifyContent: "center",
+		alignItems: "center",
+		backgroundColor: Colors.primary500,
+		margin: 4,
+		// backgroundColor: "black",
+	},
+});
