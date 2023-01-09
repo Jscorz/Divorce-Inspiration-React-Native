@@ -96,6 +96,64 @@ export const QUOTES = [
 		"Ann Landers",
 		"An open marriage is nature's way of telling you that you need a divorce."
 	),
-	// new Quote("", ""),
+	new Quote(
+		"Lisa Alther",
+		"Any mother could perform the jobs of several air traffic controllers with ease."
+	),
+	new Quote(
+		"Unknown",
+		"Anyone can give up, it's the easiest thing in the world to do. But to hold it together when everyone else would understand if you fell apart, that's true strength."
+	),
+	new Quote("Jo Brand", "Anything is good if it is made of chocolate."),
+	new Quote("Author Unknown", "Anywhere is paradise; it is up to you."),
+	new Quote("Unknown", "Are you playing to win, or playing not to lose?"),
+	new Quote(
+		"Isabelle Holland",
+		"As long as you don't forgive, who and whatever it is will occupy rent-free space in your mind."
+	),
+	new Quote("Unknown", "As long as you have the power to choose, you have the power to change."),
+	new Quote(
+		"Oprah Winfrey",
+		"As you become more clear about who you really are, you'll be better able to decide what is best for you - the first time around."
+	),
+	new Quote("Sir Thomas Browne", "Be able to be alone. Don't lose the advantage of solitude."),
+	new Quote(
+		"Michael Caine",
+		"Be like a duck, my mother used to tell me. Remain calm on the surface and paddle like hell underneath."
+	),
+	new Quote(
+		"Christine M. Huppert",
+		"Be nice and smile to everyone you meet. You don't know what they are going through, and they may need that smile, and treasure it."
+	),
+	new Quote(
+		"Oprah Winfrey",
+		"Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough."
+	),
+	new Quote(
+		"Erma Bombeck",
+		"Before you try to keep up with the Joneses, be sure they're not trying to keep up with you."
+	),
+	new Quote(
+		"Marilyn vos Savant",
+		"Being defeated is only a temporary condition; giving up is what makes it permanent."
+	),
+	new Quote(
+		"Jean Kerr",
+		"Being divorced is like being hit by a Mack truck. If you live through it, you start looking very carefully to the right and to the left."
+	),
+	new Quote(
+		"Unknown",
+		"Being happy doesn't mean that everything is perfect. It means that you've decided to look beyond the imperfections."
+	),
+	new Quote("Charles F. Kettering", "Believe and act as if it were impossible to fail."),
+	new Quote(
+		"Christian D. Larson",
+		"Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle."
+	),
+	new Quote(
+		"William James",
+		"Believe that life is worth living and your belief will help create the fact."
+	),
+	new Quote("Unknown", "Believe you have it and you have it."),
 	// new Quote("", ""),
 ];
