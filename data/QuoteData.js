@@ -571,60 +571,80 @@ export const QUOTES = [
 		"If you believe you can, you will. Have confidence in your abilities, then follow through."
 	),
 	new Quote("Jan McKeithen", "If you cannot win, make the one ahead of you break the record."),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
+	new Quote(
+		"Unknown",
+		"If you can't be thankful for what you achieve, be thankful for what you escape."
+	),
+	new Quote(
+		"David Viscott",
+		"If you could get up the courage to begin, you have the courage to succeed."
+	),
+	new Quote(
+		"Michael E. Angier",
+		"If you develop the habits of success, you will make success a habit."
+	),
+	new Quote(
+		"Richard L. Evans",
+		"If you don’t want temptation to follow you, don’t act as if you are interested."
+	),
+	new Quote(
+		"Jim Rohn",
+		"If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much."
+	),
+	new Quote(
+		"Maya Angelou",
+		"If you don't like something change it. If you can't change it, change your attitude. Don't complain."
+	),
+	new Quote(
+		"Mary Engelbreit",
+		"If you don't like something change it; if you can't change it, change the way you think about it."
+	),
+	new Quote(
+		"Frank A. Clark",
+		"If you find a path with no obstacles, it probably doesn't lead anywhere."
+	),
+	new Quote("Unknown", "If you find yourself in a hole, the first thing to do is stop digging."),
+	new Quote("Mary Pickford", "If you have made mistakes, even serious mistakes, you may have a fresh start any moment you choose, for this thing we call "failure" is not the falling down, but the staying down."),
+	new Quote("Unknown", "If you keep talking about your ex with your next, he'll think that you're not over him…"),
+	new Quote("Zig Ziglar", "If you learn from defeat, you haven’t really lost."),
+	new Quote("Anonymous", "If you really do put a small value upon yourself, rest assured that the world will not raise your price."),
+	new Quote("Anonymous", "If you really want to do something, you will find a way. If you don't, you will find an excuse."),
+	new Quote("Unknown", "If you spend too much time thinking about your past, how can you move forward?"),
+	new Quote("Mark Twain", "If you tell the truth you don't have to remember anything."),
+	new Quote("The Dalai Lama", "If you think you are too small to make a difference, try sleeping with a mosquito."),
+	new Quote("Dean Smith", "If you treat every situation as a life and death matter, you'll die a lot of times."),
+	new Quote("Merry Browne", "If you want an accounting of your worth, count you friends."),
+	new Quote("Dolly Parton", "If you want the rainbow, you've got to put up with the rain."),
+	new Quote("Ann Landers", "If you want your children to listen, try talking softly - to someone else."),
+	new Quote("Unknown", "If you would like to spoil the day for a grouch, give him a smile."),
+	new Quote("Unknown", "If your life is free of failures, you're not taking enough risks."),
+	new Quote("Jonathan Winters","If your ship doesn't come in, swim out to it!"),
+	new Quote("Joyce Chapman","If you're still hanging onto a dead dream of yesterday, laying flowers on its grave by the hour, you cannot be planting the seeds for a new dream to grow today."),
+	new Quote("Unknown","I'm a good enough person to forgive you, but not stupid enough to trust you."),
+	new Quote("Friedrich Nietzsche","I'm not upset that you lied to me; I'm upset that from now on I can't believe you."),
+	new Quote("Livy","In difficult situations when hope seems feeble, the boldest plans are safest."),
+	new Quote("Flora Edwards","In helping others, we shall help ourselves, for whatever good we give out completes the circle and comes back to us."),
+	new Quote("Ralph Marston","In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have."),
+	new Quote("Mary Manin Morrissey","In order to be free, we must learn how to let go. Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."),
+	new Quote("Einstein","In the middle of difficulty lies opportunity."),
+	new Quote("John Erskine","In the simplest terms, a leader is one who knows where she wants to go, and gets up and goes."),
+	new Quote("Lee Iacoca","In times of great stress or adversity, it’s always best to keep busy, to plow your anger and your energy into something positive."),
+	new Quote("Anonymous","Instead of giving myself reasons why I can’t, I give myself reasons why I can."),
+	new Quote("Jim Rohn","It doesn't matter which side of the fence you get off on sometimes. What matters most is getting off. You cannot make progress without making decisions."),
+	new Quote("Herman Melville","It is better to fail in originality than to succeed in imitation."),
+	new Quote("Socrates","It is better to remain silent and be thought a fool than to speak and remove all doubt."),
+	new Quote("Unknown","It is difficult to see the picture when you are inside of the frame."),
+	new Quote("Naomi Williams","It is impossible to feel grateful and depressed in the same moment."),
+	new Quote("Ann Landers","It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings."),
+	new Quote("Chas. Austin Bates","It is the trouble that never comes that causes the loss of sleep."),
+	new Quote("Unknown","It isn't the great big pleasures that count the most; it's making a big deal out of the little ones."),
+	new Quote("Dale Carnegie","It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about."),
+	new Quote("Robert H. Schuller","It takes but one positive thought when given a chance to survive and thrive to overpower an entire army of negative thoughts."),
+	new Quote("Martin Van Buren","It’s easier to do a job than to explain why you didn’t."),
+	new Quote("",""),
 ];
 // (copy line up/down) CTRL + Shift + Alt + Up/Down
 
-//
-// Unknown	If you can't be thankful for what you achieve, be thankful for what you escape.
-// David Viscott	If you could get up the courage to begin, you have the courage to succeed.
-// Michael E. Angier	If you develop the habits of success, you will make success a habit.
-// Richard L. Evans	If you don’t want temptation to follow you, don’t act as if you are interested.
-// Jim Rohn	If you don't design your own life plan, chances are you'll fall into someone else's plan. And guess what they have planned for you? Not much.
-// Maya Angelou	If you don't like something change it. If you can't change it, change your attitude. Don't complain.
-// Mary Engelbreit	If you don't like something change it; if you can't change it, change the way you think about it.
-// Frank A. Clark	If you find a path with no obstacles, it probably doesn't lead anywhere.
-// Unknown	If you find yourself in a hole, the first thing to do is stop digging.
-// Mary Pickford	If you have made mistakes, even serious mistakes, you may have a fresh start any moment you choose, for this thing we call "failure" is not the falling down, but the staying down.
-// Unknown	If you keep talking about your ex with your next, he'll think that you're not over him…
-// Zig Ziglar	If you learn from defeat, you haven’t really lost.
-// Anonymous	If you really do put a small value upon yourself, rest assured that the world will not raise your price.
-// Anonymous	If you really want to do something, you will find a way. If you don't, you will find an excuse.
-// Unknown	If you spend too much time thinking about your past, how can you move forward?
-// Mark Twain	If you tell the truth you don't have to remember anything.
-// The Dalai Lama	If you think you are too small to make a difference, try sleeping with a mosquito.
-// Dean Smith	If you treat every situation as a life and death matter, you'll die a lot of times.
-// Merry Browne	If you want an accounting of your worth, count you friends.
-// Dolly Parton	If you want the rainbow, you've got to put up with the rain.
-// Ann Landers	If you want your children to listen, try talking softly - to someone else.
-// Unknown	If you would like to spoil the day for a grouch, give him a smile.
-// Unknown	If your life is free of failures, you're not taking enough risks.
-// Jonathan Winters	If your ship doesn't come in, swim out to it!
-// Joyce Chapman	If you're still hanging onto a dead dream of yesterday, laying flowers on its grave by the hour, you cannot be planting the seeds for a new dream to grow today.
-// Unknown	I'm a good enough person to forgive you, but not stupid enough to trust you.
-// Friedrich Nietzsche	I'm not upset that you lied to me; I'm upset that from now on I can't believe you.
-//  Livy	In difficult situations when hope seems feeble, the boldest plans are safest.
-// Flora Edwards	In helping others, we shall help ourselves, for whatever good we give out completes the circle and comes back to us.
-// Ralph Marston	In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.
-// Mary Manin Morrissey	In order to be free, we must learn how to let go. Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life.
-// Einstein	In the middle of difficulty lies opportunity.
-// John Erskine	In the simplest terms, a leader is one who knows where she wants to go, and gets up and goes.
-// Lee Iacoca	In times of great stress or adversity, it’s always best to keep busy, to plow your anger and your energy into something positive.
-// Anonymous	Instead of giving myself reasons why I can’t, I give myself reasons why I can.
-// Jim Rohn	It doesn't matter which side of the fence you get off on sometimes. What matters most is getting off. You cannot make progress without making decisions.
-// Herman Melville	It is better to fail in originality than to succeed in imitation.
-// Socrates	It is better to remain silent and be thought a fool than to speak and remove all doubt.
-// Author Unknown	It is difficult to see the picture when you are inside of the frame.
-// Naomi Williams	It is impossible to feel grateful and depressed in the same moment.
-// Ann Landers	It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.
-// Chas. Austin Bates	It is the trouble that never comes that causes the loss of sleep.
-// Unknown	It isn't the great big pleasures that count the most; it's making a big deal out of the little ones.
-// Dale Carnegie	It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about.
-// Robert H. Schuller	It takes but one positive thought when given a chance to survive and thrive to overpower an entire army of negative thoughts.
-// Martin Van Buren	It’s easier to do a job than to explain why you didn’t.
 // Barbara Sher	It’s essential to distinguish between events that are really beyond your control and events you caused yourself.
 // Hans Selye	It’s not stress that kills us, it is our reaction to it.
 // Babe Ruth	It's hard to beat a person who never gives up.
