@@ -155,17 +155,35 @@ export const QUOTES = [
 		"Believe that life is worth living and your belief will help create the fact."
 	),
 	new Quote("Unknown", "Believe you have it and you have it."),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
+	new Quote("Theodore Roosevelt", "Believe you can and you're halfway there."),
+	new Quote("Anonymous", "Believng that you can is half the battle."),
+	new Quote(
+		"Author Unknown",
+		"Blessed are those that can give without remembering and receive without forgetting."
+	),
+	new Quote(
+		"Leo Aikman",
+		"Blessed is the person who is too busy to worry in the daytime and too sleepy to worry at night."
+	),
+	new Quote("J. G. Holland", "Calmness is the cradle of power."),
+	new Quote(
+		"Joshua J. Marine",
+		"Challenges are what make life interesting and overcoming them is what makes life meaningful."
+	),
+	new Quote("Unknown", "Champions believe in themselves, even when others do not."),
+	new Quote(
+		"Samuel Johnson",
+		"Change is not made without inconvenience, even from worse to better."
+	),
+	new Quote(
+		"John F. Kennedy",
+		"Change is the law of life. And those who look only to the past or present are certain to miss the future."
+	),
+	new Quote(
+		"Joan Didion",
+		"Character - the willingness to accept responsibility for one's own life - is the source from which self-respect springs."
+	),
+	new Quote("J. C. Watts", "Character is doing the right thing when nobody's looking."),
 	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
@@ -174,18 +192,11 @@ export const QUOTES = [
 	new Quote("", ""),
 ];
 
-// Unknown	Believe you have it and you have it.
-// Theodore Roosevelt	Believe you can and you're halfway there.
-// Anonymous	Believng that you can is half the battle.
-// Author Unknown	Blessed are those that can give without remembering and receive without forgetting.
-// Leo Aikman	Blessed is the person who is too busy to worry in the daytime and too sleepy to worry at night.
-// J. G. Holland	Calmness is the cradle of power.
-// Joshua J. Marine	Challenges are what make life interesting and overcoming them is what makes life meaningful.
-// Unknown	Champions believe in themselves, even when others do not.
-// Samuel Johnson	Change is not made without inconvenience, even from worse to better.
-// John F. Kennedy	Change is the law of life. And those who look only to the past or present are certain to miss the future.
-// Joan Didion	Character - the willingness to accept responsibility for one's own life - is the source from which self-respect springs.
-// J. C. Watts	Character is doing the right thing when nobody's looking.
+//
+//
+//
+//
+//
 // Thomas Paine	Character is much easier kept than recovered.
 // Booker T. Washington	Character, not circumstance, makes the person.
 // Ralph Bus	Children really brighten up a household. They never turn the lights off.
