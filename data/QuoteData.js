@@ -275,65 +275,135 @@ export const QUOTES = [
 		"Coco Chanel",
 		"Don't spend time beating on a wall, hoping to transform it into a door."
 	),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
+	new Quote(
+		"Pooh's Little Instruction Book",
+		"Don't underestimate the value of Doing Nothing, of just going along, listening to all the things you can't hear, and not bothering."
+	),
+	new Quote("Unknown", "Don't wait for people to be friendly, show them how."),
+	new Quote("Unknown", "Don't wait for the storm to pass, learn how to dance in the rain!"),
+	new Quote(
+		"Lora Brody",
+		"Don't wreck a sublime chocolate experience by feeling guilty. Chocolate isn't like premarital sex. It will not make you pregnant. And it always feels good."
+	),
+	new Quote("Astrid Alauda", "Dreams are free, so free your dreams."),
+	new Quote("Josie Bisset", "Dreams come a size too big so that we may grow into them."),
+	new Quote(
+		"Pete Seeger",
+		"Education is when you read the fine print. Experience is what you get if you don't."
+	),
+	new Quote("Philip Sydney", "Either I will find a way or I will make one."),
+	new Quote(
+		"Dr. Norman Vincent Peale",
+		"Empty pockets never held anyone back. Only empty heads and empty hearts can do that."
+	),
+	new Quote(
+		"Robert Brault",
+		"Enjoy the little things, for one day you may look back and realize they were the big things."
+	),
+	new Quote(
+		"Henry Ford",
+		"Even a mistake may turn out to be the one thing necessary to a worthwhile achievement."
+	),
+	new Quote(
+		"Danielle Fotopoulis",
+		"Even if I don't reach all my goals, I've gone higher than I would have if I hadn't set any."
+	),
+	new Quote(
+		"Will Rogers",
+		"Even if you're on the right track, you'll get run over if you just sit there."
+	),
+	new Quote("Author Unknown", "Every accomplishment starts with the decision to try."),
+	new Quote(
+		"Carrie Underwood",
+		"Every day is a new day and you'll never be able to find happiness if you don't move on."
+	),
+	new Quote("Tom Stoppard", "Every exit is an entry somewhere else."),
+	new Quote("Buddha", "Every human being is the author of his own health or disease."),
+	new Quote(
+		"Britney Spears",
+		"Every night, I have to read a book, so that my mind will stop thinking about things that I stress about."
+	),
+	new Quote("Unknown", "Every path has a few puddles."),
+	new Quote(
+		"Bill Meyer",
+		"Every thought is a seed. If you plant crab apples, don't count on harvesting Golden Delicious."
+	),
+	new Quote("Thomas Edison", "Everything comes to those who hustle while they wait."),
+	new Quote(
+		"Dennis Wholey",
+		"Expecting the world to treat you fairly because you are a good person is a little like expecting the bull not to attack you because you are a vegetarian."
+	),
+	new Quote(
+		"Unknown",
+		"Experience is a hard teacher because she gives the test first, the lesson afterwards."
+	),
+	new Quote(
+		"Aldous Huxley",
+		"Experience is not what happens to you. Experience is what you DO with what happens to you."
+	),
+	new Quote("Oscar Wilde", "Experience is the name everyone gives to their mistakes."),
+	new Quote("Ann Landers", "Experience is what you get when you don't get what you wanted."),
+	new Quote(
+		"Norman Vincent Peale",
+		"Failure and misfortune may find us, but we do not have to nurture them."
+	),
+	new Quote("Unknown", "Failure is only the opportunity to begin again, this time more wisely."),
+	new Quote(
+		"Denis Waitley",
+		"Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It is a temporary detour, not a dead end."
+	),
+	new Quote(
+		"Robert H. Schuller",
+		"Faith is daring to put your dream to the test. It is better to try to do something and fail than to try to do nothing and succeed."
+	),
+	new Quote("Japanese Proverb", "Fall seven times, stand up eight."),
+	new Quote("Unknown", "Families are like fudge... mostly sweet with a few nuts."),
+	new Quote("German Proverb", "Fear makes the wolf bigger than he is."),
+	new Quote(
+		"Christiane Northrup",
+		"Feeling grateful or appreciative of someone or something in your life actually attracts more of the things that you appreciate and value into your life."
+	),
+	new Quote(
+		"Thucydides",
+		"Few things are brought to a successful issue by impetuous desire, but most by calm and prudent forethought."
+	),
+	new Quote("June Smith", "Few wishes come true by themselves."),
+	new Quote("Jack Nicklaus", "Focus on remedies, not faults."),
+	new Quote(
+		"Linda Knight",
+		"For every sunset, there is a sunrise. For every setback, a new beginning."
+	),
+	new Quote("Emerson", "For everything you have missed, you have gained something else."),
+	new Quote("Lily Tomlin", "For fast acting relief, try slowing down."),
+	new Quote(
+		"Joyce Brothers",
+		"For some reason, we see divorce as a signal of failure, despite the fact that each of us has a right, and an obligation, to rectify any other mistake we make in life."
+	),
+	new Quote("Unknown", "Forgive your enemies. It messes up their heads."),
+	new Quote(
+		"Paul Boese",
+		"Forgiveness does not change the past, but it does enlarge the future."
+	),
+	new Quote(
+		"Ken Hart",
+		"Forgiveness does not equal forgetting. It is about healing the memory of the harm, not erasing it."
+	),
+	new Quote(
+		"Salsamisa",
+		"Forgiveness is about your inner peace, not the other person. Forgiving eases you from negative baggage."
+	),
+	new Quote(
+		"Anonymous",
+		"Friends are angels who lift us to our feet when our wings have trouble remembering how to fly."
+	),
+	new Quote("Samuel Butler", "Friendship is like money, easier made than kept."),
 	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
 ];
-// copy line up/down
-// CTRL + Shift + Alt + Up/Down
+// (copy line up/down) CTRL + Shift + Alt + Up/Down
 
-//
-// Pooh's Little Instruction Book	Don't underestimate the value of Doing Nothing, of just going along, listening to all the things you can't hear, and not bothering.
-// Unknown	Don't wait for people to be friendly, show them how.
-// Unknown	Don't wait for the storm to pass, learn how to dance in the rain!
-// Lora Brody	Don't wreck a sublime chocolate experience by feeling guilty. Chocolate isn't like premarital sex. It will not make you pregnant. And it always feels good.
-// Astrid Alauda	Dreams are free, so free your dreams.
-// Josie Bisset	Dreams come a size too big so that we may grow into them.
-// Pete Seeger	Education is when you read the fine print. Experience is what you get if you don't.
-// Philip Sydney	Either I will find a way or I will make one.
-// Dr. Norman Vincent Peale	Empty pockets never held anyone back. Only empty heads and empty hearts can do that.
-// Robert Brault	Enjoy the little things, for one day you may look back and realize they were the big things.
-// Henry Ford	Even a mistake may turn out to be the one thing necessary to a worthwhile achievement.
-// Danielle Fotopoulis	Even if I don't reach all my goals, I've gone higher than I would have if I hadn't set any.
-// Will Rogers	Even if you're on the right track, you'll get run over if you just sit there.
-// Author Unknown	Every accomplishment starts with the decision to try.
-// Carrie Underwood	Every day is a new day and you'll never be able to find happiness if you don't move on.
-// Tom Stoppard	Every exit is an entry somewhere else.
-// Buddha	Every human being is the author of his own health or disease.
-// Britney Spears	Every night, I have to read a book, so that my mind will stop thinking about things that I stress about.
-// Unknown	Every path has a few puddles.
-// Bill Meyer	Every thought is a seed. If you plant crab apples, don't count on harvesting Golden Delicious.
-// Thomas Edison	Everything comes to those who hustle while they wait.
-// Dennis Wholey	Expecting the world to treat you fairly because you are a good person is a little like expecting the bull not to attack you because you are a vegetarian.
-// Unknown	Experience is a hard teacher because she gives the test first, the lesson afterwards.
-// Aldous Huxley	Experience is not what happens to you. Experience is what you DO with what happens to you.
-// Oscar Wilde	Experience is the name everyone gives to their mistakes.
-// Ann Landers	Experience is what you get when you don't get what you wanted.
-// Norman Vincent Peale	Failure and misfortune may find us, but we do not have to nurture them.
-// Unknown	Failure is only the opportunity to begin again, this time more wisely.
-// Denis Waitley	Failure should be our teacher, not our undertaker. Failure is delay, not defeat. It is a temporary detour, not a dead end.
-// Robert H. Schuller	Faith is daring to put your dream to the test. It is better to try to do something and fail than to try to do nothing and succeed.
-// Japanese Proverb	Fall seven times, stand up eight.
-// Unknown	Families are like fudge... mostly sweet with a few nuts.
-// German Proverb	Fear makes the wolf bigger than he is.
-// Christiane Northrup	Feeling grateful or appreciative of someone or something in your life actually attracts more of the things that you appreciate and value into your life.
-// Thucydides	Few things are brought to a successful issue by impetuous desire, but most by calm and prudent forethought.
-// June Smith	Few wishes come true by themselves.
-// Jack Nicklaus	Focus on remedies, not faults.
-// Linda Knight	For every sunset, there is a sunrise. For every setback, a new beginning.
-// Emerson	For everything you have missed, you have gained something else.
-// Lily Tomlin	For fast acting relief, try slowing down.
-//  Joyce Brothers	For some reason, we see divorce as a signal of failure, despite the fact that each of us has a right, and an obligation, to rectify any other mistake we make in life.
-// Unknown	Forgive your enemies. It messes up their heads.
-// Paul Boese 	Forgiveness does not change the past, but it does enlarge the future.
-// Ken Hart	Forgiveness does not equal forgetting. It is about healing the memory of the harm, not erasing it.
-// Salsamisa	Forgiveness is about your inner peace, not the other person. Forgiving eases you from negative baggage.
-// Anonymous	Friends are angels who lift us to our feet when our wings have trouble remembering how to fly.
-// Samuel Butler	Friendship is like money, easier made than kept.
 // Robert H. Schuller	Frustrations are mosquito bites. Don't scratch them. You can make them worse.
 // Unknown	Getting over a painful experience is much like crossing monkey bars. You have to let go at some point in order to move forward.
 // Bertha Damon	Getting what you go after is success; but liking it while you are getting it is happiness.
