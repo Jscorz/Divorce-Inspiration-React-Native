@@ -231,31 +231,62 @@ export const QUOTES = [
 		"Unknown",
 		"Do not fear the winds of adversity. Remember: A kite rises against the wind rather than with it."
 	),
+	new Quote("John Wooden", "Do not let what you cannot do interfere with what you can do."),
+	new Quote("Theodore Roosevelt", "Do what you can, with what you have, where you are."),
+	new Quote("Unknown", "Do what you love. The rest will come."),
+	new Quote(
+		"Oprah Winfrey",
+		"Don’t back down just to keep the peace. Standing up for your beliefs builds self-confidence and self-esteem."
+	),
+	new Quote("Unknown", "Don't ask for a light load, but rather ask for a strong back."),
+	new Quote(
+		"Belva Davis",
+		"Don't be afraid of the space between your dreams and reality. If you can dream it, you can make it so."
+	),
+	new Quote(
+		"H. Jackson Browne",
+		"Don't be afraid to go out on a limb. That's where the fruit is."
+	),
+	new Quote(
+		"David Lloyd George",
+		"Don't be afraid to take a big step if one is indicated. You can't cross a chasm in two small jumps."
+	),
+	new Quote(
+		"Marcus Aurelius",
+		"Don't be run so much by what you lack as by what you have already achieved."
+	),
+	new Quote("Unknown", "Don't cry because it’s over, smile because it happened."),
+	new Quote(
+		"Unknown",
+		"Don't get discouraged; it is often the last key in the bunch that opens the lock."
+	),
+	new Quote(
+		`Coach Paul “Bear” Bryant`,
+		"Don't give up at half time. Concentrate on winning the second half."
+	),
+	new Quote(
+		"Michael Josephson",
+		"Don't let others define you. Don't let the past confine you. Take charge of your life with confidence and determination and there are no limits on what you can do or be."
+	),
+	new Quote("Babe Ruth", "Don't let the fear of striking out hold you back."),
+	new Quote("Cherokee Indian proverb", "Don't let yesterday use up too much of today."),
+	new Quote("Marc Holm", "Don't look back unless you intend to go that way."),
+	new Quote(
+		"Coco Chanel",
+		"Don't spend time beating on a wall, hoping to transform it into a door."
+	),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
 	new Quote("", ""),
 ];
+// copy line up/down
+// CTRL + Shift + Alt + Up/Down
 
 //
-//
-//
-//
-//
-// John Wooden	Do not let what you cannot do interfere with what you can do.
-// Theodore Roosevelt	Do what you can, with what you have, where you are.
-// Unknown	Do what you love. The rest will come.
-// Oprah Winfrey	Don’t back down just to keep the peace. Standing up for your beliefs builds self-confidence and self-esteem.
-// Unknown	Don't ask for a light load, but rather ask for a strong back.
-// Belva Davis	Don't be afraid of the space between your dreams and reality. If you can dream it, you can make it so.
-// H. Jackson Browne	Don't be afraid to go out on a limb. That's where the fruit is.
-// David Lloyd George	Don't be afraid to take a big step if one is indicated. You can't cross a chasm in two small jumps.
-// Marcus Aurelius	Don't be run so much by what you lack as by what you have already achieved.
-// Unknown	Don't cry because it’s over, smile because it happened.
-// Unknown	Don't get discouraged; it is often the last key in the bunch that opens the lock.
-// Coach Paul “Bear” Bryant	Don't give up at half time. Concentrate on winning the second half.
-// Michael Josephson	Don't let others define you. Don't let the past confine you. Take charge of your life with confidence and determination and there are no limits on what you can do or be.
-// Babe Ruth	Don't let the fear of striking out hold you back.
-// Cherokee Indian proverb	Don't let yesterday use up too much of today.
-// Marc Holm	Don't look back unless you intend to go that way.
-// Coco Chanel	Don't spend time beating on a wall, hoping to transform it into a door.
 // Pooh's Little Instruction Book	Don't underestimate the value of Doing Nothing, of just going along, listening to all the things you can't hear, and not bothering.
 // Unknown	Don't wait for people to be friendly, show them how.
 // Unknown	Don't wait for the storm to pass, learn how to dance in the rain!
