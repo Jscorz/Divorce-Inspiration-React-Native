@@ -456,10 +456,121 @@ export const QUOTES = [
 		"Red Skelton",
 		"Have a little laugh at life and look around you for happiness instead of sadness."
 	),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
+	new Quote(
+		"W. Clement Stone",
+		"Have the courage to say no. Have the courage to face the truth. Do the right thing because it is right. These are the magic keys to living your life with integrity."
+	),
+	new Quote(
+		"George Carlin",
+		"Have you ever noticed that anybody going slower than you is an idiot and anyone going faster than you is a maniac?"
+	),
+	new Quote(
+		"Epictetus",
+		"He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has."
+	),
+	new Quote("Joan L. Brannon", "He who walks in another's tracks leaves no footprints."),
+	new Quote(
+		"Tori Amos",
+		"Healing takes courage, and we all have courage, even if we have to dig a little to find it."
+	),
+	new Quote("Billy Wilder", "Hindsight is always twenty-twenty."),
+	new Quote(
+		"Buddha",
+		"Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned."
+	),
+	new Quote("Albius Tibullus", "Hope tells us tomorrow will be better."),
+	new Quote("Spanish Proverb", "How beautiful it is to do nothing, and then to rest afterward."),
+	new Quote(
+		"Charles Swindoll",
+		"I am convinced that life is ten percent what happens to me and ninety percent how I react to it."
+	),
+	new Quote(
+		"James Cash Penney, Founder of J.C. Penney Stores",
+		"I am grateful for all of my problems. After each one was overcome, I became stronger and more able to meet those that were still to come."
+	),
+	new Quote("Louise May Alcott", "I am not afraid of storms, I am learning to sail my own ship."),
+	new Quote(
+		"Albert Einstein",
+		"I am thankful for all of those who said NO to me. Its because of them I'm doing it myself."
+	),
+	new Quote(
+		"Maya Angelou",
+		"I can be changed by what happens to me. But I refuse to be reduced by it."
+	),
+	new Quote("Jonathan Winters", "I couldn't wait for success, so I went ahead without it."),
+	new Quote(
+		"Judith Knowlton",
+		"I discovered I always have choices and sometimes it's only a choice of attitudes."
+	),
+	new Quote(
+		"General George S. Patton",
+		"I don't measure a man's success by how high he climbs but how high he bounces when he hits bottom."
+	),
+	new Quote(
+		"Carol Burnett",
+		"I have always grown from my problems and challenges, from the things that didn't work out. That's when I've really learned."
+	),
+	new Quote("Sir Humphry Davy", "I have learned more from my mistakes than from my successes."),
+	new Quote(
+		"Rosa Parks",
+		"I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear."
+	),
+	new Quote(
+		"Erica Jong",
+		"I have not ceased being fearful, but I have ceased to let fear control me."
+	),
+	new Quote(
+		"Norman Vincent Peale",
+		"I have two choices for this day; to be happy or to be unhappy and I choose to be happy."
+	),
+	new Quote("Oprah Winfrey", "I know for sure that what we dwell on is who we become."),
+	new Quote(
+		"Mother Theresa",
+		"I know God will not give me anything I can't handle. I just wish that He didn't trust me so much."
+	),
+	new Quote(
+		"Noel Coward",
+		"I like long walks, especially when they are taken by people who annoy me."
+	),
+	new Quote(
+		"Oprah Winfrey",
+		`I was once afraid of people saying, “Who does she think she is?” Now I have the courage to stand and say, “This is who I am".`
+	),
+	new Quote(
+		"Gilda Radner",
+		"I'd much rather be a woman than a man. Women can cry, they can wear cute clothes, and they are the first to be rescued off of sinking ships."
+	),
+	new Quote("Unknown", "If at first you don't succeed, do it the way your mother told you to."),
+	new Quote(
+		"Allyson Jones",
+		"If I could wish for my life to be perfect, it would be tempting but I would have to decline, for life would no longer teach me anything."
+	),
+	new Quote("Dr. Phil", "If it's not working, stop doing it!"),
+	new Quote("Unknown", "If marriage means you fell in love, does divorce mean you climbed out?"),
+	new Quote(
+		"Flavia Weedn",
+		"If one dream should fall and break into a thousand pieces, never be afraid to pick one of those pieces up and begin again."
+	),
+	new Quote(
+		"Eleanor Roosevelt",
+		"If someone betrays you once, it’s their fault; if they betray you twice, it’s your fault."
+	),
+	new Quote("Unknown", "If the going is real easy, beware, you may be headed down hill."),
+	new Quote(
+		"Abigail Van Buren",
+		"If we could sell our experiences for what they cost us, we would be millionaires."
+	),
+	new Quote("American Proverb", "If you are always dwelling in trouble, change your address."),
+	new Quote("Winston Churchill", "If you are going through hell, keep going."),
+	new Quote(
+		"Denis Waitley",
+		"If you believe you can, you probably can. If you believe you won't, you most assuredly won't. Belief is the ignition switch that gets you off the launching pad."
+	),
+	new Quote(
+		"Anonymous",
+		"If you believe you can, you will. Have confidence in your abilities, then follow through."
+	),
+	new Quote("Jan McKeithen", "If you cannot win, make the one ahead of you break the record."),
 	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
@@ -468,47 +579,6 @@ export const QUOTES = [
 // (copy line up/down) CTRL + Shift + Alt + Up/Down
 
 //
-//
-// W. Clement Stone	Have the courage to say no. Have the courage to face the truth. Do the right thing because it is right. These are the magic keys to living your life with integrity.
-// George Carlin	Have you ever noticed that anybody going slower than you is an idiot and anyone going faster than you is a maniac?
-// Epictetus	He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.
-// Joan L. Brannon	He who walks in another's tracks leaves no footprints.
-// Tori Amos	Healing takes courage, and we all have courage, even if we have to dig a little to find it.
-// Billy Wilder	Hindsight is always twenty-twenty.
-// Buddha	Holding on to anger is like grasping a hot coal with the intent of throwing it at someone else; you are the one who gets burned.
-// Albius Tibullus	Hope tells us tomorrow will be better.
-// Spanish Proverb	How beautiful it is to do nothing, and then to rest afterward.
-// Charles Swindoll	I am convinced that life is ten percent what happens to me and ninety percent how I react to it.
-// James Cash Penney, Founder of J.C. Penney Stores	I am grateful for all of my problems. After each one was overcome, I became stronger and more able to meet those that were still to come.
-// Louise May Alcott	I am not afraid of storms, I am learning to sail my own ship.
-// Albert Einstein	I am thankful for all of those who said NO to me. Its because of them I'm doing it myself.
-// Maya Angelou	I can be changed by what happens to me. But I refuse to be reduced by it.
-// Jonathan Winters	I couldn't wait for success, so I went ahead without it.
-// Judith Knowlton	I discovered I always have choices and sometimes it's only a choice of attitudes.
-// General George S. Patton	I don't measure a man's success by how high he climbs but how high he bounces when he hits bottom.
-// Carol Burnett	I have always grown from my problems and challenges, from the things that didn't work out. That's when I've really learned.
-// Sir Humphry Davy	I have learned more from my mistakes than from my successes.
-// Rosa Parks	I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear.
-// Erica Jong	I have not ceased being fearful, but I have ceased to let fear control me.
-// Norman Vincent Peale	I have two choices for this day; to be happy or to be unhappy and I choose to be happy.
-// Oprah Winfrey	I know for sure that what we dwell on is who we become.
-// Mother Theresa	I know God will not give me anything I can't handle. I just wish that He didn't trust me so much.
-// Noel Coward	I like long walks, especially when they are taken by people who annoy me.
-// Oprah Winfrey	I was once afraid of people saying, “Who does she think she is?” Now I have the courage to stand and say, “This is who I am".
-// Gilda Radner	I'd much rather be a woman than a man. Women can cry, they can wear cute clothes, and they are the first to be rescued off of sinking ships.
-// Unknown	If at first you don't succeed, do it the way your mother told you to.
-// Allyson Jones	If I could wish for my life to be perfect, it would be tempting but I would have to decline, for life would no longer teach me anything.
-// Dr. Phil	If it's not working, stop doing it!
-// Unknown	If marriage means you fell in love, does divorce mean you climbed out?
-// Flavia Weedn	If one dream should fall and break into a thousand pieces, never be afraid to pick one of those pieces up and begin again.
-// Eleanor Roosevelt	If someone betrays you once, it’s their fault; if they betray you twice, it’s your fault.
-// Unknown	If the going is real easy, beware, you may be headed down hill.
-// Abigail Van Buren	If we could sell our experiences for what they cost us, we would be millionaires.
-// American Proverb	If you are always dwelling in trouble, change your address.
-// Winston Churchill	If you are going through hell, keep going.
-// Denis Waitley	If you believe you can, you probably can. If you believe you won't, you most assuredly won't. Belief is the ignition switch that gets you off the launching pad.
-// Anonymous	If you believe you can, you will. Have confidence in your abilities, then follow through.
-// Jan McKeithen	If you cannot win, make the one ahead of you break the record.
 // Unknown	If you can't be thankful for what you achieve, be thankful for what you escape.
 // David Viscott	If you could get up the courage to begin, you have the courage to succeed.
 // Michael E. Angier	If you develop the habits of success, you will make success a habit.
