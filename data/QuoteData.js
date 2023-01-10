@@ -397,6 +397,69 @@ export const QUOTES = [
 		"Friends are angels who lift us to our feet when our wings have trouble remembering how to fly."
 	),
 	new Quote("Samuel Butler", "Friendship is like money, easier made than kept."),
+	new Quote(
+		"Robert H. Schuller",
+		"Frustrations are mosquito bites. Don't scratch them. You can make them worse."
+	),
+	new Quote(
+		"Unknown",
+		"Getting over a painful experience is much like crossing monkey bars. You have to let go at some point in order to move forward."
+	),
+	new Quote(
+		"Bertha Damon",
+		"Getting what you go after is success; but liking it while you are getting it is happiness."
+	),
+	new Quote(
+		"Christian D. Larson",
+		"Give so much time to the improvement of yourself that you have no time to criticize others."
+	),
+	new Quote(
+		"Jim Rohn",
+		"Give whatever you are doing and whoever you are with the gift of your attention."
+	),
+	new Quote(
+		"Kelly Clarkson",
+		"God will never give you anything you can't handle, so don't stress."
+	),
+	new Quote(
+		"Unknown",
+		"Good judgment comes from experience, and a lotta that comes from bad judgment."
+	),
+	new Quote(
+		"Reinhold Niebuhr",
+		"Grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference."
+	),
+	new Quote(
+		"Melody Beattie",
+		"Gratitude unlocks the fullness of life. It turns what we have into enough, and more."
+	),
+	new Quote(
+		"Bill Blackman",
+		"Great changes may not happen right away, but with effort even the difficult may become easy."
+	),
+	new Quote("Fernando Flores", "Great work is done by people who are not afraid to be great."),
+	new Quote(
+		"Ann Landers",
+		"Hanging onto resentment is letting someone you despise live rent-free in your head."
+	),
+	new Quote(
+		"Francesca Reigler",
+		"Happiness is an attitude. We either make ourselves miserable, or happy and strong. The amount of work is the same."
+	),
+	new Quote("Unknown", "Happiness is not having what you want, but wanting what you have."),
+	new Quote("Marcelene Cox", "Happiness is not something you get, but something you do."),
+	new Quote(
+		"Jim Rohn",
+		"Happiness is not something you postpone for the future; it is something you design for the present."
+	),
+	new Quote(
+		"Red Skelton",
+		"Have a little laugh at life and look around you for happiness instead of sadness."
+	),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
 	new Quote("", ""),
@@ -404,23 +467,8 @@ export const QUOTES = [
 ];
 // (copy line up/down) CTRL + Shift + Alt + Up/Down
 
-// Robert H. Schuller	Frustrations are mosquito bites. Don't scratch them. You can make them worse.
-// Unknown	Getting over a painful experience is much like crossing monkey bars. You have to let go at some point in order to move forward.
-// Bertha Damon	Getting what you go after is success; but liking it while you are getting it is happiness.
-// Christian D. Larson	Give so much time to the improvement of yourself that you have no time to criticize others.
-// Jim Rohn	Give whatever you are doing and whoever you are with the gift of your attention.
-// Kelly Clarkson	God will never give you anything you can't handle, so don't stress.
-// Unknown	Good judgment comes from experience, and a lotta that comes from bad judgment.
-// Reinhold Niebuhr	Grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.
-// Melody Beattie	Gratitude unlocks the fullness of life. It turns what we have into enough, and more.
-// Bill Blackman	Great changes may not happen right away, but with effort even the difficult may become easy.
-// Fernando Flores	Great work is done by people who are not afraid to be great.
-// Ann Landers	Hanging onto resentment is letting someone you despise live rent-free in your head.
-// Francesca Reigler	Happiness is an attitude. We either make ourselves miserable, or happy and strong. The amount of work is the same.
-// Unknown	Happiness is not having what you want, but wanting what you have.
-// Marcelene Cox	Happiness is not something you get, but something you do.
-// Jim Rohn	Happiness is not something you postpone for the future; it is something you design for the present.
-// Red Skelton	Have a little laugh at life and look around you for happiness instead of sadness.
+//
+//
 // W. Clement Stone	Have the courage to say no. Have the courage to face the truth. Do the right thing because it is right. These are the magic keys to living your life with integrity.
 // George Carlin	Have you ever noticed that anybody going slower than you is an idiot and anyone going faster than you is a maniac?
 // Epictetus	He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.
