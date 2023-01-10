@@ -184,11 +184,53 @@ export const QUOTES = [
 		"Character - the willingness to accept responsibility for one's own life - is the source from which self-respect springs."
 	),
 	new Quote("J. C. Watts", "Character is doing the right thing when nobody's looking."),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
+	new Quote("Thomas Paine", "Character is much easier kept than recovered."),
+	new Quote("Booker T. Washington", "Character, not circumstance, makes the person."),
+	new Quote(
+		"Ralph Bus",
+		"Children really brighten up a household. They never turn the lights off."
+	),
+	new Quote(
+		"Confucius",
+		"Choose a job you love, and you will never have to work a day in your life."
+	),
+	new Quote(
+		"Italian Proverb",
+		"Count your night by stars, not shadows. Count your life with smiles, not tears."
+	),
+	new Quote(
+		"Mary Anne Radmacher",
+		"Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says I'll try again tomorrow."
+	),
+	new Quote("Dan Rather", "Courage is being afraid but going on anyhow."),
+	new Quote("Thomas Fuller", "Courage is fear holding on a minute longer."),
+	new Quote("Ruth Gordon", "Courage is like a muscle. We strengthen it with use."),
+	new Quote("Mark Twain", "Courage is the mastery of fear; not absence of it."),
+	new Quote("Raymond Lindquist", "Courage is the power to let go of the familiar."),
+	new Quote(
+		"Flavia",
+		"Cut not the wings of your dreams, for they are the heartbeat and the freedom of your soul."
+	),
+	new Quote(
+		"William Jennings ",
+		"Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for; it is a thing to be achieved."
+	),
+	new Quote(
+		"Denis Waitley",
+		"Determination gives you the resolve to keep going in spite of the roadblocks that lay before you."
+	),
+	new Quote(
+		"Author Unknown",
+		"Do not ask the Lord to guide your footsteps, If you are not willing to move your feet."
+	),
+	new Quote(
+		"Unknown",
+		"Do not ask the Lord to guide your footsteps, if you are not willing to move your feet."
+	),
+	new Quote(
+		"Unknown",
+		"Do not fear the winds of adversity. Remember: A kite rises against the wind rather than with it."
+	),
 	new Quote("", ""),
 ];
 
@@ -197,23 +239,6 @@ export const QUOTES = [
 //
 //
 //
-// Thomas Paine	Character is much easier kept than recovered.
-// Booker T. Washington	Character, not circumstance, makes the person.
-// Ralph Bus	Children really brighten up a household. They never turn the lights off.
-// Confucius	Choose a job you love, and you will never have to work a day in your life.
-// Italian Proverb	Count your night by stars, not shadows. Count your life with smiles, not tears.
-// Mary Anne Radmacher	Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says I'll try again tomorrow.
-// Dan Rather	Courage is being afraid but going on anyhow.
-// Thomas Fuller	Courage is fear holding on a minute longer.
-// Ruth Gordon	Courage is like a muscle. We strengthen it with use.
-// Mark Twain	Courage is the mastery of fear; not absence of it.
-// Raymond Lindquist	Courage is the power to let go of the familiar.
-// Flavia	Cut not the wings of your dreams, for they are the heartbeat and the freedom of your soul.
-// William Jennings 	Destiny is not a matter of chance; it is a matter of choice. It is not a thing to be waited for; it is a thing to be achieved.
-// Denis Waitley	Determination gives you the resolve to keep going in spite of the roadblocks that lay before you.
-// Author Unknown	Do not ask the Lord to guide your footsteps, If you are not willing to move your feet.
-// Unknown	Do not ask the Lord to guide your footsteps, if you are not willing to move your feet.
-// Unknown	Do not fear the winds of adversity. Remember: A kite rises against the wind rather than with it.
 // John Wooden	Do not let what you cannot do interfere with what you can do.
 // Theodore Roosevelt	Do what you can, with what you have, where you are.
 // Unknown	Do what you love. The rest will come.
