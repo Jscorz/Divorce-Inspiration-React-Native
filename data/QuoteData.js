@@ -641,36 +641,39 @@ export const QUOTES = [
 	new Quote("Dale Carnegie","It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about."),
 	new Quote("Robert H. Schuller","It takes but one positive thought when given a chance to survive and thrive to overpower an entire army of negative thoughts."),
 	new Quote("Martin Van Buren","It’s easier to do a job than to explain why you didn’t."),
+	new Quote("Barbara Sher","It’s essential to distinguish between events that are really beyond your control and events you caused yourself."),
+	new Quote("Hans Selye","It’s not stress that kills us, it is our reaction to it."),
+	new Quote("Babe Ruth","It's hard to beat a person who never gives up."),
+	new Quote("Leana Horne","It's not the load that breaks you down, it's the way you carry it."),
+	new Quote("African proverb","It's not what you call me, but what I answer to."),
+	new Quote("Jenny Craig","It's not what you do once in a while, it's what you do day in and day out that makes a difference."),
+	new Quote("John Wooden","It's what you learn after you know it all that counts."),
+	new Quote("Michael Jordan","I've failed over and over and over again in my life and that is why I succeed."),
+	new Quote("Mike Todd","I've never been poor, only broke. Being poor is a frame of mind. Being broke is only a temporary situation."),
+	new Quote("J.B. Handlesman","Just another of our many disagreements. He wants a no-fault divorce, whereas I would prefer to have the bastard crucified."),
+	new Quote("Helen Keller","Keep your face to the Sunshine and you will not see the Shadows."),
+	new Quote("William Randolph Hearst","Keep your mind on the objective, not the obstacle."),
+	new Quote("Mother Theresa","Kind words can be short and easy to speak, but their echoes are truly endless."),
+	new Quote("Blaise Pascal","Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured."),
+	new Quote("Kurt Vonnegut","Laughter and tears are both responses to frustration and exhaustion. I myself prefer to laugh, since there is less cleaning up to do afterward."),
+	new Quote("Henri Bergson","Laughter is the corrective force which prevents us from becoming cranks."),
+	new Quote("Unknown","Laughter is the shock absorber that eases the blows of life."),
+	new Quote("Eleanor Roosevelt","Learn from the mistakes of others. You can’t live long enough to make them all yourself."),
+	new Quote("Albert Einstein","Learn from yesterday, live for today, hope for tomorrow."),
+	new Quote("Leo Buscaglia","Let go. Why do you cling to pain? There is nothing you can do about the wrongs of yesterday. It is not yours to judge. Why hold on to the very thing which keeps you from hope and love?"),
+	new Quote("Mark Twain","Let us so live that when we come to die even the undertaker will be sorry."),
+	new Quote("Unknown","Letting go doesn’t mean giving up, but rather accepting that there are things that cannot be."),
+	new Quote("Steve Maraboli","Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny."),
+	new Quote("Mary MacCracken","Level with your child by being honest. Nobody spots a phony quicker than a child."),
+	new Quote("Josh Billings","Life consists not in holding good cards, but in playing well those you hold."),
+	new Quote("Annette Funicello","Life does not have to be perfect to be wonderful."),
 	new Quote("",""),
 ];
 // (copy line up/down) CTRL + Shift + Alt + Up/Down
 
-// Barbara Sher	It’s essential to distinguish between events that are really beyond your control and events you caused yourself.
-// Hans Selye	It’s not stress that kills us, it is our reaction to it.
-// Babe Ruth	It's hard to beat a person who never gives up.
-// Leana Horne	It's not the load that breaks you down, it's the way you carry it.
-// African proverb	It's not what you call me, but what I answer to.
-// Jenny Craig	It's not what you do once in a while, it's what you do day in and day out that makes a difference.
-// John Wooden	It's what you learn after you know it all that counts.
-// Michael Jordan	I've failed over and over and over again in my life and that is why I succeed.
-// Mike Todd	I've never been poor, only broke. Being poor is a frame of mind. Being broke is only a temporary situation.
-// J.B. Handlesman	Just another of our many disagreements. He wants a no-fault divorce, whereas I would prefer to have the bastard crucified.
-// Helen Keller	Keep your face to the Sunshine and you will not see the Shadows.
-// William Randolph Hearst	Keep your mind on the objective, not the obstacle.
-// Mother Theresa	Kind words can be short and easy to speak, but their echoes are truly endless.
-// Blaise Pascal	Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured.
-// Kurt Vonnegut	Laughter and tears are both responses to frustration and exhaustion. I myself prefer to laugh, since there is less cleaning up to do afterward.
-// Henri Bergson	Laughter is the corrective force which prevents us from becoming cranks.
-// Unknown	Laughter is the shock absorber that eases the blows of life.
-// Eleanor Roosevelt	Learn from the mistakes of others. You can’t live long enough to make them all yourself.
-// Albert Einstein	Learn from yesterday, live for today, hope for tomorrow.
-// Leo Buscaglia	Let go. Why do you cling to pain? There is nothing you can do about the wrongs of yesterday. It is not yours to judge. Why hold on to the very thing which keeps you from hope and love?
-// Mark Twain	Let us so live that when we come to die even the undertaker will be sorry.
-// Unknown	Letting go doesn’t mean giving up, but rather accepting that there are things that cannot be.
-// Steve Maraboli	Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny.
-// Mary MacCracken	Level with your child by being honest. Nobody spots a phony quicker than a child.
-// Josh Billings	Life consists not in holding good cards, but in playing well those you hold.
-// Annette Funicello	Life does not have to be perfect to be wonderful.
+// 	
+// 	
+// 	
 // Danny Kaye	Life is a big canvas, throw all the paint on it you can.
 // Charles Schultz	Life is like a ten-speed bike.  Most of us have gears we never use.
 // Unknown	Life is like monkey bars. You have to let go to move forward.
