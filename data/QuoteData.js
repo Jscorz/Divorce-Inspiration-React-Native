@@ -667,6 +667,41 @@ export const QUOTES = [
 	new Quote("Mary MacCracken","Level with your child by being honest. Nobody spots a phony quicker than a child."),
 	new Quote("Josh Billings","Life consists not in holding good cards, but in playing well those you hold."),
 	new Quote("Annette Funicello","Life does not have to be perfect to be wonderful."),
+	new Quote("Danny Kaye","Life is a big canvas, throw all the paint on it you can."),
+	new Quote("Charles Schultz","Life is like a ten-speed bike.  Most of us have gears we never use."),
+	new Quote("Unknown","Life is like monkey bars. You have to let go to move forward."),
+	new Quote("Unknown","Life is like photography. You need the negatives to develop."),
+	new Quote("Sadie Delaney","Life is short, and it's up to you to make it sweet."),
+	new Quote("Drew Barrymore","Life is very interesting... in the end, some of your greatest pains, become your greatest strengths."),
+	new Quote("Alfred Marshall","Life is what happens to you while you are making other plans."),
+	new Quote("Grandma Moses","Life is what we make it, always has been, always will be."),
+	new Quote("George Bernard Shaw","Life isn't about finding yourself. Life is about creating yourself."),
+	new Quote("Unknown","Life may not be the party we hoped for, but while we're here we should dance."),
+	new Quote("Maya Angelou","Life's a bitch. You've got to go out and kick ass."),
+	new Quote("Will Rogers","Live so you wouldn't be ashamed to sell the family parrot to the town gossip."),
+	new Quote("Raymond Burr","Live your life the way you wish other people would live theirs."),
+	new Quote("Betty Smith","Look at everything as though you were seeing it either for the first or last time."),
+	new Quote("Rosetta Smith","Look at life as though all your geese were swans and every swan a princess."),
+	new Quote("Alice Walker","Look closely at the present you are constructing: it should look like the future you are dreaming."),
+	new Quote("Unknown","Love is like playing the piano. First you must learn to play by the rules, then you must forget the rules and play from your heart."),
+	new Quote("Steve Maraboli","Love yourself. Forgive yourself. Be true to yourself. How you treat yourself sets the standard for how others will treat you."),
+	new Quote("Katherine Mansfield","Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it, it's only good for wallowing in."),
+	new Quote("Unknown","Make the most of every failure. Fall forward."),
+	new Quote("Karen A. Baquiran","Make yourself a priority once in a while. It's not selfish, it's necessary."),
+	new Quote("Vic Johnson","Many people can’t achieve the success of their dreams because they won’t leave their past behind. They won’t tear down the monuments they’ve built to their old hurts and problems."),
+	new Quote("Joshua L. Liebman","Maturity is achieved when a person accepts life is full of tension."),
+	new Quote("Unknown","May the hinges of friendship never grow rusty."),
+	new Quote("Sophia Loren","Mistakes are part of the dues that one pays for a full life."),
+	new Quote("Abraham Lincoln","Most folks are about as happy as they make up their minds to be."),
+	new Quote("Bob Moawad","Most people don't aim too high and miss. They aim too low and hit."),
+	new Quote("Stephen Covey","Most people struggle with life balance simply because they haven't paid the price to decide what is really important to them."),
+	new Quote("Unknown","Mother Nature is wonderful. She gives us twelve years to develop a love for our children before turning them into teenagers."),
+	new Quote("Danielle Steel","Motherhood is not for the faint-hearted. Frogs, skinned knees, and the insults of teenage girls are not meant for the wimpy."),
+	new Quote("Helen Gurley Brown","My success was not based so much on any great intelligence but on great common sense."),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
 	new Quote("",""),
 ];
 // (copy line up/down) CTRL + Shift + Alt + Up/Down
@@ -674,37 +709,8 @@ export const QUOTES = [
 // 	
 // 	
 // 	
-// Danny Kaye	Life is a big canvas, throw all the paint on it you can.
-// Charles Schultz	Life is like a ten-speed bike.  Most of us have gears we never use.
-// Unknown	Life is like monkey bars. You have to let go to move forward.
-// Unknown	Life is like photography. You need the negatives to develop.
-// Sadie Delaney	Life is short, and it's up to you to make it sweet.
-// Drew Barrymore	Life is very interesting... in the end, some of your greatest pains, become your greatest strengths.
-// Alfred Marshall	Life is what happens to you while you are making other plans.
-// Grandma Moses	Life is what we make it, always has been, always will be.
-// George Bernard Shaw	Life isn't about finding yourself. Life is about creating yourself.
-// Unknown	Life may not be the party we hoped for, but while we're here we should dance.
-// Maya Angelou	Life's a bitch. You've got to go out and kick ass.
-// Will Rogers	Live so you wouldn't be ashamed to sell the family parrot to the town gossip.
-// Raymond Burr	Live your life the way you wish other people would live theirs.
-// Betty Smith	Look at everything as though you were seeing it either for the first or last time.
-// Rosetta Smith	Look at life as though all your geese were swans and every swan a princess.
-// Alice Walker	Look closely at the present you are constructing: it should look like the future you are dreaming.
-// Unknown	Love is like playing the piano. First you must learn to play by the rules, then you must forget the rules and play from your heart.
-// Steve Maraboli	Love yourself. Forgive yourself. Be true to yourself. How you treat yourself sets the standard for how others will treat you.
-// Katherine Mansfield 	Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it, it's only good for wallowing in.
-// Unknown	Make the most of every failure. Fall forward.
-// Karen A. Baquiran	Make yourself a priority once in a while. It's not selfish, it's necessary.
-// Vic Johnson	Many people can’t achieve the success of their dreams because they won’t leave their past behind. They won’t tear down the monuments they’ve built to their old hurts and problems.
-// Joshua L. Liebman	Maturity is achieved when a person accepts life is full of tension.
-// Unknown	May the hinges of friendship never grow rusty.
-// Sophia Loren	Mistakes are part of the dues that one pays for a full life.
-// Abraham Lincoln	Most folks are about as happy as they make up their minds to be.
-// Bob Moawad	Most people don't aim too high and miss. They aim too low and hit.
-// Stephen Covey	Most people struggle with life balance simply because they haven't paid the price to decide what is really important to them.
-// Unknown	Mother Nature is wonderful. She gives us twelve years to develop a love for our children before turning them into teenagers.
-// Danielle Steel	Motherhood is not for the faint-hearted. Frogs, skinned knees, and the insults of teenage girls are not meant for the wimpy.
-// Helen Gurley Brown	My success was not based so much on any great intelligence but on great common sense.
+// 	
+// 	
 // Jessica Alba	My theory is that if you look confident you can pull off anything - even if you have no clue what you're doing.
 // Erma Bombeck	My theory on housework is, if the item does not multiply, smell, catch on fire or block the refrigerator door, let it be. No one cares. Why should you?
 // Robert Albert Bloch	Nature gave us two ends: one to sit on and one to think with.? Ever since then, man's success or failure has been dependent on the one he used most.
