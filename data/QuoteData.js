@@ -698,67 +698,58 @@ export const QUOTES = [
 	new Quote("Unknown","Mother Nature is wonderful. She gives us twelve years to develop a love for our children before turning them into teenagers."),
 	new Quote("Danielle Steel","Motherhood is not for the faint-hearted. Frogs, skinned knees, and the insults of teenage girls are not meant for the wimpy."),
 	new Quote("Helen Gurley Brown","My success was not based so much on any great intelligence but on great common sense."),
+	new Quote("Jessica Alba","My theory is that if you look confident you can pull off anything - even if you have no clue what you're doing."),
+	new Quote("Erma Bombeck","My theory on housework is, if the item does not multiply, smell, catch on fire or block the refrigerator door, let it be. No one cares. Why should you?"),
+	new Quote("Robert Albert Bloch","Nature gave us two ends: one to sit on and one to think with.? Ever since then, man's success or failure has been dependent on the one he used most."),
+	new Quote("Mark Twain","Never allow someone to be your priority while allowing yourself to be their option."),
+	new Quote("Unknown","Never be afraid to try something new. Remember, amateurs built the ark, professionals built the Titanic."),
+	new Quote("Helen Keller","Never bend your head. Hold it high. Look the world straight in the eye."),
+	new Quote("Unknown","Never chase love, affection, or attention. If it isn't given freely by another person, it isn't worth having."),
+	new Quote("Harriet Beecher Stowe","Never give up, for that is just the place and time that the tide will turn."),
+	new Quote("H. Jackson Brown, JR.","Never let the odds keep you from doing what you know in your heart you were meant to do."),
+	new Quote("J Jenkins","Never let yesterday use up too much of today."),
+	new Quote("Unknown","Never mistake a woman's silence for her ignorance, her calmness for her acceptance, and her kindness for her weakness…"),
+	new Quote("Sandra Carey","Never mistake knowledge for wisdom. One helps you make a living, the other helps you make a life."),
+	new Quote("Unknown","No man is worth your tears, but once you find one that is, he won't make you cry."),
+	new Quote("Les Brown","No matter how hard it is, or how hard it gets, I'm going to make it."),
+	new Quote("Buddha","No matter how hard the past, you can always begin again today."),
+	new Quote("Harry Emerson Fosdick","No one can get inner peace by poucing on it."),
+	new Quote("Eleanor Roosevelt","No one can make you feel inferior without your consent."),
+	new Quote("Cynthia Nelms","Nobody really cares if you're miserable, so you might as well be happy."),
+	new Quote("Ralph Waldo Emerson","Nothing can bring you peace but yourself."),
+	new Quote("Anonymous","Nothing is as real as a dream. Have the courage to reach for it."),
+	new Quote("Thomas Heywood","Nothing is impossible to the willing heart."),
+	new Quote("Anonymous","Nothing is particularly hard if you divide it into small jobs."),
+	new Quote("Sophia Loren","Nothing makes a woman more beautiful than the belief that she is beautiful."),
+	new Quote("John Wooden","Nothing will work unless you do."),
+	new Quote("Unknown","Nurture the dreams that inspire you to go beyond your limits."),
+	new Quote("Anonymous","Of all the judgment you pass, none is as important as how you see yourself."),
+	new Quote("Aldous Huxley","On no account brood over your wrongdoing. Rolling in the muck is not the best way of getting clean."),
+	new Quote("Col. Harland Sanders","One has to remember that every failure can be a stepping stone to something better."),
+	new Quote("Carol Burnett","Only I can change my life. No one can do it for me."),
+	new Quote("William Arthur Ward","Opportunities are like sunrises - if you wait too long, you miss them."),
+	new Quote("Monta Crane","Opportunity may be hard to recognize if you are only looking for a lucky break."),
+	new Quote("Confucius","Our greatest glory is not in never falling, but in rising every time we fall."),
+	new Quote("Dr. Maxwell Maltz","Our self-image and our habits tend to go together. Change one and you will automatically change the other."),
+	new Quote("Stephen Covey","Our ultimate freedom is the right and power to decide how anybody or anything outside ourselves will affect us."),
+	new Quote("Anonymous","Pain is inevitable, but misery is optional."),
+	new Quote("Marcelene Cox","Parenthood: The state of being better chaperoned than you were before Marrriage."),
+	new Quote("Zig Ziglar","People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily."),
+	new Quote("Stedman Graham","People who consider themselves victims of their circumstances will always remain victims unless they develop a greater vision for their lives."),
+	new Quote("Abigail Van Buren","People who fight fire with fire usually end up with ashes."),
+	new Quote("Unknown","People who soar are those who refuse to sit back, sigh and wish things would change."),
+	new Quote("Harry Emerson Fosdick","Picture yourself vividly as winning, and that alone will contribute immeasurably to your success."),
+	new Quote("General Features Corp.","Plan ahead - it wasn't raining when Noah built the Ark."),
+	new Quote("William Feather","Plenty of people miss their share of happiness, not because they never found it, but because they didn't stop to enjoy it."),
+	new Quote("Andrew Denton","Pressure and stress is the common cold of the psyche."),
+	new Quote("Robert Schuller","Problems are not stop signs, they are guidelines."),
+	new Quote("Henry J. Kaiser","Problems are opportunities in work clothes."),
+	new Quote("Christopher Parker","Procrastination is like a credit card: it's a lot of fun until you get the bill."),
+	new Quote("Korean proverb","Put off for one day, and ten days will pass."),
 	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
+	// (copy line up/down) CTRL + Shift + Alt + Up/Down
 ];
-// (copy line up/down) CTRL + Shift + Alt + Up/Down
 
-// 	
-// 	
-// 	
-// 	
-// 	
-// Jessica Alba	My theory is that if you look confident you can pull off anything - even if you have no clue what you're doing.
-// Erma Bombeck	My theory on housework is, if the item does not multiply, smell, catch on fire or block the refrigerator door, let it be. No one cares. Why should you?
-// Robert Albert Bloch	Nature gave us two ends: one to sit on and one to think with.? Ever since then, man's success or failure has been dependent on the one he used most.
-// Mark Twain	Never allow someone to be your priority while allowing yourself to be their option.
-// Unknown	Never be afraid to try something new. Remember, amateurs built the ark, professionals built the Titanic.
-// Helen Keller	Never bend your head. Hold it high. Look the world straight in the eye.
-// Unknown	Never chase love, affection, or attention. If it isn't given freely by another person, it isn't worth having.
-// Harriet Beecher Stowe	Never give up, for that is just the place and time that the tide will turn.
-// H. Jackson Brown, JR.	Never let the odds keep you from doing what you know in your heart you were meant to do.
-// J Jenkins	Never let yesterday use up too much of today.
-// Unknown	Never mistake a woman's silence for her ignorance, her calmness for her acceptance, and her kindness for her weakness…
-// Sandra Carey	Never mistake knowledge for wisdom. One helps you make a living, the other helps you make a life.
-// Unknown	No man is worth your tears, but once you find one that is, he won't make you cry.
-// Les Brown	No matter how hard it is, or how hard it gets, I'm going to make it.
-// Buddha	No matter how hard the past, you can always begin again today.
-// Harry Emerson Fosdick	No one can get inner peace by poucing on it.
-// Eleanor Roosevelt	No one can make you feel inferior without your consent.
-// Cynthia Nelms	Nobody really cares if you're miserable, so you might as well be happy.
-// Ralph Waldo Emerson	Nothing can bring you peace but yourself.
-// Anonymous	Nothing is as real as a dream. Have the courage to reach for it.
-// Thomas Heywood	Nothing is impossible to the willing heart.
-// Anonymous	Nothing is particularly hard if you divide it into small jobs.
-// Sophia Loren	Nothing makes a woman more beautiful than the belief that she is beautiful.
-// John Wooden	Nothing will work unless you do.
-// Unknown	Nurture the dreams that inspire you to go beyond your limits.
-// Anonymous	Of all the judgment you pass, none is as important as how you see yourself.
-// Aldous Huxley	On no account brood over your wrongdoing. Rolling in the muck is not the best way of getting clean.
-// Col. Harland Sanders	One has to remember that every failure can be a stepping stone to something better.
-// Carol Burnett	Only I can change my life. No one can do it for me.
-// William Arthur Ward 	Opportunities are like sunrises - if you wait too long, you miss them.
-// Monta Crane	Opportunity may be hard to recognize if you are only looking for a lucky break.
-// Confucius	Our greatest glory is not in never falling, but in rising every time we fall.
-// Dr. Maxwell Maltz	Our self-image and our habits tend to go together. Change one and you will automatically change the other.
-// Stephen Covey	Our ultimate freedom is the right and power to decide how anybody or anything outside ourselves will affect us.
-// Anonymous	Pain is inevitable, but misery is optional.
-// Marcelene Cox	Parenthood: The state of being better chaperoned than you were before Marrriage.
-// Zig Ziglar	People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily.
-// Stedman Graham	People who consider themselves victims of their circumstances will always remain victims unless they develop a greater vision for their lives.
-// Abigail Van Buren	People who fight fire with fire usually end up with ashes.
-// Unknown	People who soar are those who refuse to sit back, sigh and wish things would change.
-// Harry Emerson Fosdick	Picture yourself vividly as winning, and that alone will contribute immeasurably to your success.
-// General Features Corp.	Plan ahead - it wasn't raining when Noah built the Ark.
-// William Feather	Plenty of people miss their share of happiness, not because they never found it, but because they didn't stop to enjoy it.
-// Andrew Denton	Pressure and stress is the common cold of the psyche.
-// Robert Schuller	Problems are not stop signs, they are guidelines.
-// Henry J. Kaiser	Problems are opportunities in work clothes.
-// Christopher Parker	Procrastination is like a credit card: it's a lot of fun until you get the bill.
-// Korean proverb	Put off for one day, and ten days will pass.
 // Old Postcard	Put your troubles in a pocket with a hole in it.
 // Charles Dickens	Reflect upon your blessings, of which every man has plenty, not on your past misfortunes, of which all men have some.
 // Mary Manin Morrissey	Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life.
