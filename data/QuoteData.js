@@ -785,90 +785,76 @@ export const QUOTES = [
 	new Quote("Steve Chandler","The best way for a person to have happy thoughts is to count his blessings and not his cash."),
 	new Quote("The Miles Glassette","The best way to appreciate your job is to imagine yourself without it."),
 	new Quote("Mark Twain","The best way to cheer yourself is to try to cheer someone else up."),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
-	new Quote("",""),
+	new Quote("Abraham Lincoln","The best way to destroy your enemy is to make him your friend."),
+	new Quote("Clarence Clemons","The calm mind allows one to connect with the inner self, the Soul, the very source of our being. That's where the music lives."),
+	new Quote("Johnny Carson","The difference between divorce and legal separation is that a legal separation gives a husband time to hide his money."),
+	new Quote("Issac Asimov","The first law of dietetics seems to be: if it tastes good, it's bad for you."),
+	new Quote("Andre Maurois","The first recipe for happiness is: Avoid too lengthy meditations on the past."),
+	new Quote("Mark Caine","The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."),
+	new Quote("Walter Bagehot","The great pleasure in life is doing what people say you cannot do."),
+	new Quote("Moliere","The greater the obstacle, the more glory in overcoming it."),
+	new Quote("William James","The greatest discovery is that a human being can alter his life by altering his attitudes of mind."),
+	new Quote("Unknown","The greatest hurdle is convincing yourself that what you want is possible."),
+	new Quote("William James","The greatest weapon against stress is our ability to choose one thought over another."),
+	new Quote("Murphy's Law of Computers","The hard drive on your computer will only crash when it contains vital information that has not been backed up."),
+	new Quote("Rita Mero","The hard times that you go through build character, making you a much stronger person."),
+	new Quote("David Russell","The hardest thing to learn in life is which bridge to cross and which to burn."),
+	new Quote("Jennifer Garner","The life you're living while you wait for the grade, the college, the job, the man, is your actual life. Decide to enjoy it..."),
+	new Quote("Voltaire","The longer we dwell on our misfortunes, the greater is their power to harm us."),
+	new Quote("Chines Proverb","The man who moved a mountain was the one who began carrying away small stones."),
+	new Quote("John Foster Dulles","The measure of success is not whether you have a tough problem to deal with, but whether it's the same problem you had last year."),
+	new Quote("Oprah Winfrey","The more you praise and celebrate your life, the more there is in life to celebrate."),
+	new Quote("Alice Walker","The most common way people give up their power is by thinking they don't have any."),
+	new Quote("Coco Chanel","The most courageous act is still to think for yourself. Aloud."),
+	new Quote("David Copperfield",`The most important think in ife is to stop saying "I wish" and start saying "I will." Consider nothing impossible, then treat possibilites as probabilites.`),
+	new Quote("Cher","The only thing in the world you can change is yourself, and that makes all the difference in the world."),
+	new Quote("Ralph Waldo Emerson","The only way to have a friend is to be one."),
+	new Quote("Thomas Holcroft","The past is a guidepost, not a hitching post."),
+	new Quote("Unknown","The PAST is where you learned the Lesson. The FUTURE is where you apply the Lesson."),
+	new Quote("Anonymous","The person who removes a mountain begins by carrying away small stones."),
+	new Quote("Robert H. Schuller","The picture you persistently hold of yourself will gradually mold and shape you into that person! Picture yourself as a cheerful person - you'll become a cheerful person!"),
+	new Quote("Ayn Rand","The question isn't who is going to let me; it's who is going to stop me."),
+	new Quote("Barbara Pletcher","The real winners in life are the people who look at every situation with an expectation that they can make it work or make it better."),
+	new Quote("Robert Kiyosaki","The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way."),
+	new Quote("Molly Shannon","The three words every woman really longs to hear; I'll clean up."),
+	new Quote("Sydney J. Harris","The time to relax is when you don't have time for it."),
+	new Quote("Barbara Kingsolver","The truth needs so little rehearsal."),
+	new Quote("Norman Schwarzkopf","The truth of the matter is that you always know the right thing to do. The hard part is doing it."),
+	new Quote("Gloria Steinem","The truth will set you free. But first, it will piss you off."),
+	new Quote("Unknown","The way a man plays a game shows some of his character. The way he loses shows all of it."),
+	new Quote("Walt Disney","The way to get started is to quit talking and begin doing."),
+	new Quote("Blood of the Martyr","The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it."),
+	new Quote("Will Rogers","The worst thing that happens to you may be the best thing for you if you don’t let it get the best of you."),
+	new Quote("Unknown","There are 3 choices: you can either give up, give in, or give it your all!"),
+	new Quote("Anonymous","There are many things in life that will catch your eye, but only a few that will catch your heart. Pursue them."),
+	new Quote("Napoleon Hill","There are no limitations to the mind except those we acknowledge; both poverty and riches are the offspring of thought."),
+	new Quote("Colin Powell","There are no secrets to success. It is the result of preparation, hard work, learning from failure."),
+	new Quote("Denis Waitley","There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them."),
+	new Quote("Unknown","There are two ways of being rich. One is to have all you want, and the other is to be satisfied with what you have."),
+	new Quote("Henry Kissinger","There cannot be a crisis next week. My schedule is already full."),
+	new Quote("Peyton Conway March","There is a wonderful mythical law of nature that the three things we crave most in life -- happiness, freedom, and peace of mind -- are always attained by giving them to someone else."),
+	new Quote("Author Unknown","There is always, always, always something to be thankful for."),
+	new Quote("Mohandas K Gandhi","There is more to life than increasing its speed."),
+	new Quote("Unknown","There is no failure. Only feedback."),
+	new Quote("The Christian Athlete","There is nothing wrong with making mistakes - just don't respond with encores."),
+	new Quote("Sylvia Plath","There must be quite a few things that a hot bath won't cure, but I don't know many of them."),
+	new Quote("Bob Parsons","There's always a reason to smile. Find it."),
+	new Quote("Mahatma Gandhi","They cannot take away our self respect if we do not give it to them."),
+	new Quote("Andy Warhol","They say that time changes things, but you actually have to change them yourself."),
+	new Quote("John Wooden","Things turn out best for people who make the best of the way things turn out."),
+	new Quote("Anne Frank","Think of all the beauty still left around you and be happy."),
+	new Quote("Shakespeare","This above all: to thine own self be true."),
+	new Quote("Susan Polis Schutz","This life is yours. Take the power to choose what you want to do and do it well. Take the power to control your own life. No one else can do it for you."),
+	new Quote("Unknown","Those on top of the mountain did not fall there."),
+	new Quote("Benjamin Franklin","Those who desire to give up freedom in order to gain security will not have, nor do they deserve, either one."),
+	new Quote("Robert Orben","Time flies. It's up to you to be the navigator."),
+	new Quote("Jim Rohn","Time is more value than money. You can get more money, but you cannot get more time."),
+	new Quote("Carl Sandburg","Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent. Be careful lest you let other people spend it for you."),
+	new Quote("Anatole France","To accomplish great things, we must not only act, but also dream; not only plan, but also believe."),
 	new Quote("",""),
 	// (copy line up/down) CTRL + Shift + Alt + Up/Down
 ];
 
-// 	
-// 	
-// 	
-// 	
-// 	
-// 	
-// 	
-// Abraham Lincoln	The best way to destroy your enemy is to make him your friend.
-// Clarence Clemons	The calm mind allows one to connect with the inner self, the Soul, the very source of our being. That's where the music lives.
-// Johnny Carson	The difference between divorce and legal separation is that a legal separation gives a husband time to hide his money.
-// Issac Asimov	The first law of dietetics seems to be: if it tastes good, it's bad for you.
-// Andre Maurois	The first recipe for happiness is: Avoid too lengthy meditations on the past.
-// Mark Caine	The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.
-// Walter Bagehot  	The great pleasure in life is doing what people say you cannot do.
-// Moliere	The greater the obstacle, the more glory in overcoming it.
-// William James	The greatest discovery is that a human being can alter his life by altering his attitudes of mind.
-// Unknown	The greatest hurdle is convincing yourself that what you want is possible.
-// William James	The greatest weapon against stress is our ability to choose one thought over another.
-// Murphy's Law of Computers	The hard drive on your computer will only crash when it contains vital information that has not been backed up.
-// Rita Mero	The hard times that you go through build character, making you a much stronger person.
-// David Russell	The hardest thing to learn in life is which bridge to cross and which to burn.
-// Jennifer Garner	The life you're living while you wait for the grade, the college, the job, the man, is your actual life. Decide to enjoy it...
-// Voltaire	The longer we dwell on our misfortunes, the greater is their power to harm us.
-// Chines Proverb	The man who moved a mountain was the one who began carrying away small stones.
-// John Foster Dulles	The measure of success is not whether you have a tough problem to deal with, but whether it's the same problem you had last year.
-// Oprah Winfrey	The more you praise and celebrate your life, the more there is in life to celebrate.
-// Alice Walker	The most common way people give up their power is by thinking they don't have any.
-// Coco Chanel	The most courageous act is still to think for yourself. Aloud.
-// David Copperfield	The most important think in ife is to stop saying "I wish" and start saying "I will." Consider nothing impossible, then treat possibilites as probabilites.
-// Cher	The only thing in the world you can change is yourself, and that makes all the difference in the world.
-// Ralph Waldo Emerson	The only way to have a friend is to be one.
-// Thomas Holcroft	The past is a guidepost, not a hitching post.
-// Unknown	The PAST is where you learned the Lesson. The FUTURE is where you apply the Lesson.
-// Anonymous 	The person who removes a mountain begins by carrying away small stones.
-// Robert H. Schuller	The picture you persistently hold of yourself will gradually mold and shape you into that person! Picture yourself as a cheerful person - you'll become a cheerful person!
-// Ayn Rand	The question isn't who is going to let me; it's who is going to stop me.
-// Barbara Pletcher	The real winners in life are the people who look at every situation with an expectation that they can make it work or make it better.
-// Robert Kiyosaki	The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way.
-// Molly Shannon	The three words every woman really longs to hear; I'll clean up.
-// Sydney J. Harris	The time to relax is when you don't have time for it.
-// Barbara Kingsolver	The truth needs so little rehearsal.
-// Norman Schwarzkopf	The truth of the matter is that you always know the right thing to do. The hard part is doing it.
-// Gloria Steinem	The truth will set you free. But first, it will piss you off.
-// Unknown	The way a man plays a game shows some of his character. The way he loses shows all of it.
-// Walt Disney	The way to get started is to quit talking and begin doing.
-// Blood of the Martyr	The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it.
-// Will Rogers	The worst thing that happens to you may be the best thing for you if you don’t let it get the best of you.
-// Unknown	There are 3 choices: you can either give up, give in, or give it your all!
-// Anonymous	There are many things in life that will catch your eye, but only a few that will catch your heart. Pursue them.
-// Napoleon Hill	There are no limitations to the mind except those we acknowledge; both poverty and riches are the offspring of thought.
-// Colin Powell	There are no secrets to success. It is the result of preparation, hard work, learning from failure.
-// Denis Waitley	There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them.
-// Unknown	There are two ways of being rich. One is to have all you want, and the other is to be satisfied with what you have.
-// Henry Kissinger	There cannot be a crisis next week. My schedule is already full.
-// Peyton Conway March	There is a wonderful mythical law of nature that the three things we crave most in life -- happiness, freedom, and peace of mind -- are always attained by giving them to someone else.
-// Author Unknown	There is always, always, always something to be thankful for.
-// Mohandas K Gandhi	There is more to life than increasing its speed.
-// Unknown	There is no failure. Only feedback.
-// The Christian Athlete	There is nothing wrong with making mistakes - just don't respond with encores.
-// Sylvia Plath	There must be quite a few things that a hot bath won't cure, but I don't know many of them.
-// Bob Parsons	There's always a reason to smile. Find it.
-// Mahatma Gandhi	They cannot take away our self respect if we do not give it to them.
-// Andy Warhol	They say that time changes things, but you actually have to change them yourself.
-// John Wooden	Things turn out best for people who make the best of the way things turn out.
-// Anne Frank	Think of all the beauty still left around you and be happy.
-// Shakespeare	This above all: to thine own self be true.
-// Susan Polis Schutz	This life is yours. Take the power to choose what you want to do and do it well. Take the power to control your own life. No one else can do it for you.
-// Unknown	Those on top of the mountain did not fall there.
-// Benjamin Franklin	Those who desire to give up freedom in order to gain security will not have, nor do they deserve, either one.
-// Robert Orben	Time flies. It's up to you to be the navigator.
-// Jim Rohn	Time is more value than money. You can get more money, but you cannot get more time.
-// Carl Sandburg	Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent. Be careful lest you let other people spend it for you.
-// Anatole France	To accomplish great things, we must not only act, but also dream; not only plan, but also believe.
 // Unknown	To achieve, you must believe something and want something with all your might. Then, you must be willing to commit yourself to a course.
 // Unknown	To admit you were wrong is to declare you are wiser now than before.
 // Muhammad Ali	To be a great champion you must believe you are the best. If you’re not, pretend you are.
