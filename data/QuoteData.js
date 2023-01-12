@@ -746,49 +746,63 @@ export const QUOTES = [
 	new Quote("Henry J. Kaiser","Problems are opportunities in work clothes."),
 	new Quote("Christopher Parker","Procrastination is like a credit card: it's a lot of fun until you get the bill."),
 	new Quote("Korean proverb","Put off for one day, and ten days will pass."),
+	new Quote("Old Postcard","Put your troubles in a pocket with a hole in it."),
+	new Quote("Charles Dickens","Reflect upon your blessings, of which every man has plenty, not on your past misfortunes, of which all men have some."),
+	new Quote("Mary Manin Morrissey","Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."),
+	new Quote("Jeb Dickerson","Releasing the pressure - it's good for the teapot and the water. Try it sometime."),
+	new Quote("Benjamin Franklin","Remember not only to say the right thing in the right place, but far more difficult still, to leave unsaid the wrong thing at the tempting moment."),
+	new Quote("Andrew Bernstein","Remember that stress doesn't come from what's going on in your life. It comes from your thoughts about what's going on in your life."),
+	new Quote("Dale Carnegie","Remember, happiness doesn't depend on who you are or what you have; it depends solely on what you think."),
+	new Quote("Unknown","Remind me again why I need a man"),
+	new Quote("Susan Jeffers","Remove those 'I want you to like me' stickers from your forehead, and instead, place them where they truly will do the most good -- on your mirror!"),
+	new Quote("Frankie Byrne","Respect is love in plain clothes."),
+	new Quote("J.K. Rowling","Rock bottom became the solid foundation on which I rebuilt my life."),
+	new Quote("Robert Eliot","Rule number one is, don't sweat the small stuff. Rule number two is, it's all small stuff."),
+	new Quote("Robert A. Cook","Say and do something positive that will help the situation; it doesn't take any brains to complain."),
+	new Quote("W.K. Hope","Self-discipline is when your conscience tells you to do someting and you don't talk back."),
+	new Quote("Adrienne Gusoff","Shopping is better than sex. At least if you’re not satisfied, you can exchange it for something you really like."),
+	new Quote("Peter Marshall","Small deeds done are better than great deeds planned."),
+	new Quote("Emory Austin","Some days there won't be a song in your heart. Sing anyway."),
+	new Quote("Erma Bombeck","Sometimes I can't figure designers out. It's as if they flunked human anatomy."),
+	new Quote("Unknown","Sometimes your best friend is actually a guardian angel in disguise."),
+	new Quote("Ambrose Bierce","Speak when you are angry and you will make the best speech you will ever regret."),
+	new Quote("Mother Theresa","Spread love everywhere you go."),
+	new Quote("Roy T. Bennett","Start each day with a positive thought and a grateful heart."),
+	new Quote("Issa Rae","Stop finding all the ways that you can’t do something and find all the ways that you can."),
+	new Quote("Arnold Schwarzenegger","Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."),
+	new Quote("Marilu Henner","Stress is an important dragon to slay - or at least tame - in your life."),
+	new Quote("Bill Phillips","Stress should be a powerful driving force, not an obstacle."),
+	new Quote("Sir Winston Churchill","Success consists of going from failure to failure without loss of enthusiasm."),
+	new Quote("George Patton","Success is how high you bounce after you hit bottom."),
+	new Quote("Winston Churchill","Success is not final. Failure is not fatal: It is the courage to continue that counts."),
+	new Quote("Conrad Hilton","Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit."),
+	new Quote("William Feather","Success seems to be largely a matter of hanging on after others have let go."),
+	new Quote(`Brian Tracy","Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’`),
+	new Quote("Unknown","Successful people aren't those without problems, they’re those who've learned to solve their problems."),
+	new Quote("Debasish Mridha","The best friend you will ever find is you. Love yourself with joy and fill your heart with bliss and happiness."),
+	new Quote("Abigail Van Buren","The best index to a person's character is how he treats people who can't do him any good and how he treats people who can't fight back."),
+	new Quote("Swedish Proverb","The best place to find a helping hand is at the end of your arm."),
+	new Quote("Steve Chandler","The best way for a person to have happy thoughts is to count his blessings and not his cash."),
+	new Quote("The Miles Glassette","The best way to appreciate your job is to imagine yourself without it."),
+	new Quote("Mark Twain","The best way to cheer yourself is to try to cheer someone else up."),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
+	new Quote("",""),
 	new Quote("",""),
 	// (copy line up/down) CTRL + Shift + Alt + Up/Down
 ];
 
-// Old Postcard	Put your troubles in a pocket with a hole in it.
-// Charles Dickens	Reflect upon your blessings, of which every man has plenty, not on your past misfortunes, of which all men have some.
-// Mary Manin Morrissey	Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life.
-// Jeb Dickerson	Releasing the pressure - it's good for the teapot and the water. Try it sometime.
-// Benjamin Franklin	Remember not only to say the right thing in the right place, but far more difficult still, to leave unsaid the wrong thing at the tempting moment.
-// Andrew Bernstein	Remember that stress doesn't come from what's going on in your life. It comes from your thoughts about what's going on in your life.
-// Dale Carnegie	Remember, happiness doesn't depend on who you are or what you have; it depends solely on what you think.
-// Unknown	Remind me again why I need a man
-// Susan Jeffers	Remove those 'I want you to like me' stickers from your forehead, and instead, place them where they truly will do the most good -- on your mirror!
-// Frankie Byrne	Respect is love in plain clothes.
-// J.K. Rowling	Rock bottom became the solid foundation on which I rebuilt my life.
-// Robert Eliot	Rule number one is, don't sweat the small stuff. Rule number two is, it's all small stuff.
-// Robert A. Cook	Say and do something positive that will help the situation; it doesn't take any brains to complain.
-// W.K. Hope	Self-discipline is when your conscience tells you to do someting and you don't talk back.
-// Adrienne Gusoff	Shopping is better than sex. At least if you’re not satisfied, you can exchange it for something you really like.
-// Peter Marshall	Small deeds done are better than great deeds planned.
-// Emory Austin	Some days there won't be a song in your heart. Sing anyway.
-// Erma Bombeck	Sometimes I can't figure designers out. It's as if they flunked human anatomy.
-// Unknown	Sometimes your best friend is actually a guardian angel in disguise.
-// Ambrose Bierce	Speak when you are angry and you will make the best speech you will ever regret.
-// Mother Theresa	Spread love everywhere you go.
-// Roy T. Bennett	Start each day with a positive thought and a grateful heart.
-// Issa Rae	Stop finding all the ways that you can’t do something and find all the ways that you can.
-// Arnold Schwarzenegger	Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.
-// Marilu Henner	Stress is an important dragon to slay - or at least tame - in your life.
-// Bill Phillips	Stress should be a powerful driving force, not an obstacle.
-// Sir Winston Churchill	Success consists of going from failure to failure without loss of enthusiasm.
-// George Patton	Success is how high you bounce after you hit bottom.
-// Winston Churchill	Success is not final. Failure is not fatal: It is the courage to continue that counts.
-// Conrad Hilton	Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit.
-// William Feather	Success seems to be largely a matter of hanging on after others have let go.
-// Brian Tracy	Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’
-// Unknown	Successful people aren't those without problems, they’re those who've learned to solve their problems.
-// Debasish Mridha	The best friend you will ever find is you. Love yourself with joy and fill your heart with bliss and happiness.
-// Abigail Van Buren	The best index to a person's character is how he treats people who can't do him any good and how he treats people who can't fight back.
-// Swedish Proverb	The best place to find a helping hand is at the end of your arm.
-// Steve Chandler	The best way for a person to have happy thoughts is to count his blessings and not his cash.
-// The Miles Glassette	The best way to appreciate your job is to imagine yourself without it.
-// Mark Twain	The best way to cheer yourself is to try to cheer someone else up.
+// 	
+// 	
+// 	
+// 	
+// 	
+// 	
+// 	
 // Abraham Lincoln	The best way to destroy your enemy is to make him your friend.
 // Clarence Clemons	The calm mind allows one to connect with the inner self, the Soul, the very source of our being. That's where the music lives.
 // Johnny Carson	The difference between divorce and legal separation is that a legal separation gives a husband time to hide his money.
