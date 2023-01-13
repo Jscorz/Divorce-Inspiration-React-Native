@@ -1,8 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { useState, useEffect } from "react";
 import { StyleSheet, View, SafeAreaView } from "react-native";
-import IndividualQuote from "./components/IndividualQuote";
 import Colors from "./constants/colors";
+import QuoteDisplayScreen from "./screens/QuoteDisplayScreen";
 import WelcomeScreen from "./screens/WelcomeScreen";
 
 export default function App() {
@@ -11,7 +11,7 @@ export default function App() {
 	let screen = <WelcomeScreen />;
 
 	if (welcomeBackIsOver) {
-		screen = <IndividualQuote />;
+		screen = <QuoteDisplayScreen />;
 	}
 
 	useEffect(() => {
@@ -22,7 +22,7 @@ export default function App() {
 
 	return (
 		<SafeAreaView style={styles.container}>
-			{/* <SafeAreaView>{screen}</SafeAreaView> */}
+			{/* <View>{screen}</View> */}
 			<WelcomeScreen />
 			<StatusBar style='auto' />
 		</SafeAreaView>
