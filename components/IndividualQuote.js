@@ -38,6 +38,5 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		backgroundColor: Colors.primary500,
 		margin: 4,
-		// backgroundColor: "black",
 	},
 });
