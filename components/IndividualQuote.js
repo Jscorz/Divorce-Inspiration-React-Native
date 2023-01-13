@@ -4,7 +4,7 @@ import { QUOTES } from "../data/QuoteData";
 import Colors from "../constants/colors";
 
 function IndividualQuote() {
-	const randomNumber = Math.floor(Math.random() * 50);
+	const randomNumber = Math.floor(Math.random() * 454 + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 
@@ -14,12 +14,12 @@ function IndividualQuote() {
 	}, []);
 
 	function consoleLogger() {
-		console.log(QUOTES.length);
+		console.log(QUOTES.length, randomNumber);
 	}
 
 	return (
 		<View style={styles.rootContainer}>
-			{/* <Text onPress={consoleLogger}>click here</Text> */}
+			<Text onPress={consoleLogger}>click here</Text>
 			<Text>{quoteOfTheDay}</Text>
 			<Text>{authorOfTheDay}</Text>
 		</View>
