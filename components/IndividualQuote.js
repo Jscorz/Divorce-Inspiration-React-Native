@@ -14,7 +14,7 @@ function IndividualQuote() {
 	}, []);
 
 	function consoleLogger() {
-		console.log(QUOTES[randomNumber]);
+		console.log(QUOTES.length);
 	}
 
 	return (

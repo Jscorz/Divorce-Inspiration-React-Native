@@ -604,254 +604,754 @@ export const QUOTES = [
 		"If you find a path with no obstacles, it probably doesn't lead anywhere."
 	),
 	new Quote("Unknown", "If you find yourself in a hole, the first thing to do is stop digging."),
-	new Quote("Mary Pickford", "If you have made mistakes, even serious mistakes, you may have a fresh start any moment you choose, for this thing we call "failure" is not the falling down, but the staying down."),
-	new Quote("Unknown", "If you keep talking about your ex with your next, he'll think that you're not over him…"),
+	new Quote(
+		"Mary Pickford",
+		`If you have made mistakes, even serious mistakes, you may have a fresh start any moment you choose, for this thing we call "failure" is not the falling down, but the staying down.`
+	),
+	new Quote(
+		"Unknown",
+		"If you keep talking about your ex with your next, he'll think that you're not over him…"
+	),
 	new Quote("Zig Ziglar", "If you learn from defeat, you haven’t really lost."),
-	new Quote("Anonymous", "If you really do put a small value upon yourself, rest assured that the world will not raise your price."),
-	new Quote("Anonymous", "If you really want to do something, you will find a way. If you don't, you will find an excuse."),
-	new Quote("Unknown", "If you spend too much time thinking about your past, how can you move forward?"),
+	new Quote(
+		"Anonymous",
+		"If you really do put a small value upon yourself, rest assured that the world will not raise your price."
+	),
+	new Quote(
+		"Anonymous",
+		"If you really want to do something, you will find a way. If you don't, you will find an excuse."
+	),
+	new Quote(
+		"Unknown",
+		"If you spend too much time thinking about your past, how can you move forward?"
+	),
 	new Quote("Mark Twain", "If you tell the truth you don't have to remember anything."),
-	new Quote("The Dalai Lama", "If you think you are too small to make a difference, try sleeping with a mosquito."),
-	new Quote("Dean Smith", "If you treat every situation as a life and death matter, you'll die a lot of times."),
+	new Quote(
+		"The Dalai Lama",
+		"If you think you are too small to make a difference, try sleeping with a mosquito."
+	),
+	new Quote(
+		"Dean Smith",
+		"If you treat every situation as a life and death matter, you'll die a lot of times."
+	),
 	new Quote("Merry Browne", "If you want an accounting of your worth, count you friends."),
 	new Quote("Dolly Parton", "If you want the rainbow, you've got to put up with the rain."),
-	new Quote("Ann Landers", "If you want your children to listen, try talking softly - to someone else."),
+	new Quote(
+		"Ann Landers",
+		"If you want your children to listen, try talking softly - to someone else."
+	),
 	new Quote("Unknown", "If you would like to spoil the day for a grouch, give him a smile."),
 	new Quote("Unknown", "If your life is free of failures, you're not taking enough risks."),
-	new Quote("Jonathan Winters","If your ship doesn't come in, swim out to it!"),
-	new Quote("Joyce Chapman","If you're still hanging onto a dead dream of yesterday, laying flowers on its grave by the hour, you cannot be planting the seeds for a new dream to grow today."),
-	new Quote("Unknown","I'm a good enough person to forgive you, but not stupid enough to trust you."),
-	new Quote("Friedrich Nietzsche","I'm not upset that you lied to me; I'm upset that from now on I can't believe you."),
-	new Quote("Livy","In difficult situations when hope seems feeble, the boldest plans are safest."),
-	new Quote("Flora Edwards","In helping others, we shall help ourselves, for whatever good we give out completes the circle and comes back to us."),
-	new Quote("Ralph Marston","In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have."),
-	new Quote("Mary Manin Morrissey","In order to be free, we must learn how to let go. Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."),
-	new Quote("Einstein","In the middle of difficulty lies opportunity."),
-	new Quote("John Erskine","In the simplest terms, a leader is one who knows where she wants to go, and gets up and goes."),
-	new Quote("Lee Iacoca","In times of great stress or adversity, it’s always best to keep busy, to plow your anger and your energy into something positive."),
-	new Quote("Anonymous","Instead of giving myself reasons why I can’t, I give myself reasons why I can."),
-	new Quote("Jim Rohn","It doesn't matter which side of the fence you get off on sometimes. What matters most is getting off. You cannot make progress without making decisions."),
-	new Quote("Herman Melville","It is better to fail in originality than to succeed in imitation."),
-	new Quote("Socrates","It is better to remain silent and be thought a fool than to speak and remove all doubt."),
-	new Quote("Unknown","It is difficult to see the picture when you are inside of the frame."),
-	new Quote("Naomi Williams","It is impossible to feel grateful and depressed in the same moment."),
-	new Quote("Ann Landers","It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings."),
-	new Quote("Chas. Austin Bates","It is the trouble that never comes that causes the loss of sleep."),
-	new Quote("Unknown","It isn't the great big pleasures that count the most; it's making a big deal out of the little ones."),
-	new Quote("Dale Carnegie","It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about."),
-	new Quote("Robert H. Schuller","It takes but one positive thought when given a chance to survive and thrive to overpower an entire army of negative thoughts."),
-	new Quote("Martin Van Buren","It’s easier to do a job than to explain why you didn’t."),
-	new Quote("Barbara Sher","It’s essential to distinguish between events that are really beyond your control and events you caused yourself."),
-	new Quote("Hans Selye","It’s not stress that kills us, it is our reaction to it."),
-	new Quote("Babe Ruth","It's hard to beat a person who never gives up."),
-	new Quote("Leana Horne","It's not the load that breaks you down, it's the way you carry it."),
-	new Quote("African proverb","It's not what you call me, but what I answer to."),
-	new Quote("Jenny Craig","It's not what you do once in a while, it's what you do day in and day out that makes a difference."),
-	new Quote("John Wooden","It's what you learn after you know it all that counts."),
-	new Quote("Michael Jordan","I've failed over and over and over again in my life and that is why I succeed."),
-	new Quote("Mike Todd","I've never been poor, only broke. Being poor is a frame of mind. Being broke is only a temporary situation."),
-	new Quote("J.B. Handlesman","Just another of our many disagreements. He wants a no-fault divorce, whereas I would prefer to have the bastard crucified."),
-	new Quote("Helen Keller","Keep your face to the Sunshine and you will not see the Shadows."),
-	new Quote("William Randolph Hearst","Keep your mind on the objective, not the obstacle."),
-	new Quote("Mother Theresa","Kind words can be short and easy to speak, but their echoes are truly endless."),
-	new Quote("Blaise Pascal","Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured."),
-	new Quote("Kurt Vonnegut","Laughter and tears are both responses to frustration and exhaustion. I myself prefer to laugh, since there is less cleaning up to do afterward."),
-	new Quote("Henri Bergson","Laughter is the corrective force which prevents us from becoming cranks."),
-	new Quote("Unknown","Laughter is the shock absorber that eases the blows of life."),
-	new Quote("Eleanor Roosevelt","Learn from the mistakes of others. You can’t live long enough to make them all yourself."),
-	new Quote("Albert Einstein","Learn from yesterday, live for today, hope for tomorrow."),
-	new Quote("Leo Buscaglia","Let go. Why do you cling to pain? There is nothing you can do about the wrongs of yesterday. It is not yours to judge. Why hold on to the very thing which keeps you from hope and love?"),
-	new Quote("Mark Twain","Let us so live that when we come to die even the undertaker will be sorry."),
-	new Quote("Unknown","Letting go doesn’t mean giving up, but rather accepting that there are things that cannot be."),
-	new Quote("Steve Maraboli","Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny."),
-	new Quote("Mary MacCracken","Level with your child by being honest. Nobody spots a phony quicker than a child."),
-	new Quote("Josh Billings","Life consists not in holding good cards, but in playing well those you hold."),
-	new Quote("Annette Funicello","Life does not have to be perfect to be wonderful."),
-	new Quote("Danny Kaye","Life is a big canvas, throw all the paint on it you can."),
-	new Quote("Charles Schultz","Life is like a ten-speed bike.  Most of us have gears we never use."),
-	new Quote("Unknown","Life is like monkey bars. You have to let go to move forward."),
-	new Quote("Unknown","Life is like photography. You need the negatives to develop."),
-	new Quote("Sadie Delaney","Life is short, and it's up to you to make it sweet."),
-	new Quote("Drew Barrymore","Life is very interesting... in the end, some of your greatest pains, become your greatest strengths."),
-	new Quote("Alfred Marshall","Life is what happens to you while you are making other plans."),
-	new Quote("Grandma Moses","Life is what we make it, always has been, always will be."),
-	new Quote("George Bernard Shaw","Life isn't about finding yourself. Life is about creating yourself."),
-	new Quote("Unknown","Life may not be the party we hoped for, but while we're here we should dance."),
-	new Quote("Maya Angelou","Life's a bitch. You've got to go out and kick ass."),
-	new Quote("Will Rogers","Live so you wouldn't be ashamed to sell the family parrot to the town gossip."),
-	new Quote("Raymond Burr","Live your life the way you wish other people would live theirs."),
-	new Quote("Betty Smith","Look at everything as though you were seeing it either for the first or last time."),
-	new Quote("Rosetta Smith","Look at life as though all your geese were swans and every swan a princess."),
-	new Quote("Alice Walker","Look closely at the present you are constructing: it should look like the future you are dreaming."),
-	new Quote("Unknown","Love is like playing the piano. First you must learn to play by the rules, then you must forget the rules and play from your heart."),
-	new Quote("Steve Maraboli","Love yourself. Forgive yourself. Be true to yourself. How you treat yourself sets the standard for how others will treat you."),
-	new Quote("Katherine Mansfield","Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it, it's only good for wallowing in."),
-	new Quote("Unknown","Make the most of every failure. Fall forward."),
-	new Quote("Karen A. Baquiran","Make yourself a priority once in a while. It's not selfish, it's necessary."),
-	new Quote("Vic Johnson","Many people can’t achieve the success of their dreams because they won’t leave their past behind. They won’t tear down the monuments they’ve built to their old hurts and problems."),
-	new Quote("Joshua L. Liebman","Maturity is achieved when a person accepts life is full of tension."),
-	new Quote("Unknown","May the hinges of friendship never grow rusty."),
-	new Quote("Sophia Loren","Mistakes are part of the dues that one pays for a full life."),
-	new Quote("Abraham Lincoln","Most folks are about as happy as they make up their minds to be."),
-	new Quote("Bob Moawad","Most people don't aim too high and miss. They aim too low and hit."),
-	new Quote("Stephen Covey","Most people struggle with life balance simply because they haven't paid the price to decide what is really important to them."),
-	new Quote("Unknown","Mother Nature is wonderful. She gives us twelve years to develop a love for our children before turning them into teenagers."),
-	new Quote("Danielle Steel","Motherhood is not for the faint-hearted. Frogs, skinned knees, and the insults of teenage girls are not meant for the wimpy."),
-	new Quote("Helen Gurley Brown","My success was not based so much on any great intelligence but on great common sense."),
-	new Quote("Jessica Alba","My theory is that if you look confident you can pull off anything - even if you have no clue what you're doing."),
-	new Quote("Erma Bombeck","My theory on housework is, if the item does not multiply, smell, catch on fire or block the refrigerator door, let it be. No one cares. Why should you?"),
-	new Quote("Robert Albert Bloch","Nature gave us two ends: one to sit on and one to think with.? Ever since then, man's success or failure has been dependent on the one he used most."),
-	new Quote("Mark Twain","Never allow someone to be your priority while allowing yourself to be their option."),
-	new Quote("Unknown","Never be afraid to try something new. Remember, amateurs built the ark, professionals built the Titanic."),
-	new Quote("Helen Keller","Never bend your head. Hold it high. Look the world straight in the eye."),
-	new Quote("Unknown","Never chase love, affection, or attention. If it isn't given freely by another person, it isn't worth having."),
-	new Quote("Harriet Beecher Stowe","Never give up, for that is just the place and time that the tide will turn."),
-	new Quote("H. Jackson Brown, JR.","Never let the odds keep you from doing what you know in your heart you were meant to do."),
-	new Quote("J Jenkins","Never let yesterday use up too much of today."),
-	new Quote("Unknown","Never mistake a woman's silence for her ignorance, her calmness for her acceptance, and her kindness for her weakness…"),
-	new Quote("Sandra Carey","Never mistake knowledge for wisdom. One helps you make a living, the other helps you make a life."),
-	new Quote("Unknown","No man is worth your tears, but once you find one that is, he won't make you cry."),
-	new Quote("Les Brown","No matter how hard it is, or how hard it gets, I'm going to make it."),
-	new Quote("Buddha","No matter how hard the past, you can always begin again today."),
-	new Quote("Harry Emerson Fosdick","No one can get inner peace by poucing on it."),
-	new Quote("Eleanor Roosevelt","No one can make you feel inferior without your consent."),
-	new Quote("Cynthia Nelms","Nobody really cares if you're miserable, so you might as well be happy."),
-	new Quote("Ralph Waldo Emerson","Nothing can bring you peace but yourself."),
-	new Quote("Anonymous","Nothing is as real as a dream. Have the courage to reach for it."),
-	new Quote("Thomas Heywood","Nothing is impossible to the willing heart."),
-	new Quote("Anonymous","Nothing is particularly hard if you divide it into small jobs."),
-	new Quote("Sophia Loren","Nothing makes a woman more beautiful than the belief that she is beautiful."),
-	new Quote("John Wooden","Nothing will work unless you do."),
-	new Quote("Unknown","Nurture the dreams that inspire you to go beyond your limits."),
-	new Quote("Anonymous","Of all the judgment you pass, none is as important as how you see yourself."),
-	new Quote("Aldous Huxley","On no account brood over your wrongdoing. Rolling in the muck is not the best way of getting clean."),
-	new Quote("Col. Harland Sanders","One has to remember that every failure can be a stepping stone to something better."),
-	new Quote("Carol Burnett","Only I can change my life. No one can do it for me."),
-	new Quote("William Arthur Ward","Opportunities are like sunrises - if you wait too long, you miss them."),
-	new Quote("Monta Crane","Opportunity may be hard to recognize if you are only looking for a lucky break."),
-	new Quote("Confucius","Our greatest glory is not in never falling, but in rising every time we fall."),
-	new Quote("Dr. Maxwell Maltz","Our self-image and our habits tend to go together. Change one and you will automatically change the other."),
-	new Quote("Stephen Covey","Our ultimate freedom is the right and power to decide how anybody or anything outside ourselves will affect us."),
-	new Quote("Anonymous","Pain is inevitable, but misery is optional."),
-	new Quote("Marcelene Cox","Parenthood: The state of being better chaperoned than you were before Marrriage."),
-	new Quote("Zig Ziglar","People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily."),
-	new Quote("Stedman Graham","People who consider themselves victims of their circumstances will always remain victims unless they develop a greater vision for their lives."),
-	new Quote("Abigail Van Buren","People who fight fire with fire usually end up with ashes."),
-	new Quote("Unknown","People who soar are those who refuse to sit back, sigh and wish things would change."),
-	new Quote("Harry Emerson Fosdick","Picture yourself vividly as winning, and that alone will contribute immeasurably to your success."),
-	new Quote("General Features Corp.","Plan ahead - it wasn't raining when Noah built the Ark."),
-	new Quote("William Feather","Plenty of people miss their share of happiness, not because they never found it, but because they didn't stop to enjoy it."),
-	new Quote("Andrew Denton","Pressure and stress is the common cold of the psyche."),
-	new Quote("Robert Schuller","Problems are not stop signs, they are guidelines."),
-	new Quote("Henry J. Kaiser","Problems are opportunities in work clothes."),
-	new Quote("Christopher Parker","Procrastination is like a credit card: it's a lot of fun until you get the bill."),
-	new Quote("Korean proverb","Put off for one day, and ten days will pass."),
-	new Quote("Old Postcard","Put your troubles in a pocket with a hole in it."),
-	new Quote("Charles Dickens","Reflect upon your blessings, of which every man has plenty, not on your past misfortunes, of which all men have some."),
-	new Quote("Mary Manin Morrissey","Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."),
-	new Quote("Jeb Dickerson","Releasing the pressure - it's good for the teapot and the water. Try it sometime."),
-	new Quote("Benjamin Franklin","Remember not only to say the right thing in the right place, but far more difficult still, to leave unsaid the wrong thing at the tempting moment."),
-	new Quote("Andrew Bernstein","Remember that stress doesn't come from what's going on in your life. It comes from your thoughts about what's going on in your life."),
-	new Quote("Dale Carnegie","Remember, happiness doesn't depend on who you are or what you have; it depends solely on what you think."),
-	new Quote("Unknown","Remind me again why I need a man"),
-	new Quote("Susan Jeffers","Remove those 'I want you to like me' stickers from your forehead, and instead, place them where they truly will do the most good -- on your mirror!"),
-	new Quote("Frankie Byrne","Respect is love in plain clothes."),
-	new Quote("J.K. Rowling","Rock bottom became the solid foundation on which I rebuilt my life."),
-	new Quote("Robert Eliot","Rule number one is, don't sweat the small stuff. Rule number two is, it's all small stuff."),
-	new Quote("Robert A. Cook","Say and do something positive that will help the situation; it doesn't take any brains to complain."),
-	new Quote("W.K. Hope","Self-discipline is when your conscience tells you to do someting and you don't talk back."),
-	new Quote("Adrienne Gusoff","Shopping is better than sex. At least if you’re not satisfied, you can exchange it for something you really like."),
-	new Quote("Peter Marshall","Small deeds done are better than great deeds planned."),
-	new Quote("Emory Austin","Some days there won't be a song in your heart. Sing anyway."),
-	new Quote("Erma Bombeck","Sometimes I can't figure designers out. It's as if they flunked human anatomy."),
-	new Quote("Unknown","Sometimes your best friend is actually a guardian angel in disguise."),
-	new Quote("Ambrose Bierce","Speak when you are angry and you will make the best speech you will ever regret."),
-	new Quote("Mother Theresa","Spread love everywhere you go."),
-	new Quote("Roy T. Bennett","Start each day with a positive thought and a grateful heart."),
-	new Quote("Issa Rae","Stop finding all the ways that you can’t do something and find all the ways that you can."),
-	new Quote("Arnold Schwarzenegger","Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."),
-	new Quote("Marilu Henner","Stress is an important dragon to slay - or at least tame - in your life."),
-	new Quote("Bill Phillips","Stress should be a powerful driving force, not an obstacle."),
-	new Quote("Sir Winston Churchill","Success consists of going from failure to failure without loss of enthusiasm."),
-	new Quote("George Patton","Success is how high you bounce after you hit bottom."),
-	new Quote("Winston Churchill","Success is not final. Failure is not fatal: It is the courage to continue that counts."),
-	new Quote("Conrad Hilton","Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit."),
-	new Quote("William Feather","Success seems to be largely a matter of hanging on after others have let go."),
-	new Quote(`Brian Tracy","Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’`),
-	new Quote("Unknown","Successful people aren't those without problems, they’re those who've learned to solve their problems."),
-	new Quote("Debasish Mridha","The best friend you will ever find is you. Love yourself with joy and fill your heart with bliss and happiness."),
-	new Quote("Abigail Van Buren","The best index to a person's character is how he treats people who can't do him any good and how he treats people who can't fight back."),
-	new Quote("Swedish Proverb","The best place to find a helping hand is at the end of your arm."),
-	new Quote("Steve Chandler","The best way for a person to have happy thoughts is to count his blessings and not his cash."),
-	new Quote("The Miles Glassette","The best way to appreciate your job is to imagine yourself without it."),
-	new Quote("Mark Twain","The best way to cheer yourself is to try to cheer someone else up."),
-	new Quote("Abraham Lincoln","The best way to destroy your enemy is to make him your friend."),
-	new Quote("Clarence Clemons","The calm mind allows one to connect with the inner self, the Soul, the very source of our being. That's where the music lives."),
-	new Quote("Johnny Carson","The difference between divorce and legal separation is that a legal separation gives a husband time to hide his money."),
-	new Quote("Issac Asimov","The first law of dietetics seems to be: if it tastes good, it's bad for you."),
-	new Quote("Andre Maurois","The first recipe for happiness is: Avoid too lengthy meditations on the past."),
-	new Quote("Mark Caine","The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."),
-	new Quote("Walter Bagehot","The great pleasure in life is doing what people say you cannot do."),
-	new Quote("Moliere","The greater the obstacle, the more glory in overcoming it."),
-	new Quote("William James","The greatest discovery is that a human being can alter his life by altering his attitudes of mind."),
-	new Quote("Unknown","The greatest hurdle is convincing yourself that what you want is possible."),
-	new Quote("William James","The greatest weapon against stress is our ability to choose one thought over another."),
-	new Quote("Murphy's Law of Computers","The hard drive on your computer will only crash when it contains vital information that has not been backed up."),
-	new Quote("Rita Mero","The hard times that you go through build character, making you a much stronger person."),
-	new Quote("David Russell","The hardest thing to learn in life is which bridge to cross and which to burn."),
-	new Quote("Jennifer Garner","The life you're living while you wait for the grade, the college, the job, the man, is your actual life. Decide to enjoy it..."),
-	new Quote("Voltaire","The longer we dwell on our misfortunes, the greater is their power to harm us."),
-	new Quote("Chines Proverb","The man who moved a mountain was the one who began carrying away small stones."),
-	new Quote("John Foster Dulles","The measure of success is not whether you have a tough problem to deal with, but whether it's the same problem you had last year."),
-	new Quote("Oprah Winfrey","The more you praise and celebrate your life, the more there is in life to celebrate."),
-	new Quote("Alice Walker","The most common way people give up their power is by thinking they don't have any."),
-	new Quote("Coco Chanel","The most courageous act is still to think for yourself. Aloud."),
-	new Quote("David Copperfield",`The most important think in ife is to stop saying "I wish" and start saying "I will." Consider nothing impossible, then treat possibilites as probabilites.`),
-	new Quote("Cher","The only thing in the world you can change is yourself, and that makes all the difference in the world."),
-	new Quote("Ralph Waldo Emerson","The only way to have a friend is to be one."),
-	new Quote("Thomas Holcroft","The past is a guidepost, not a hitching post."),
-	new Quote("Unknown","The PAST is where you learned the Lesson. The FUTURE is where you apply the Lesson."),
-	new Quote("Anonymous","The person who removes a mountain begins by carrying away small stones."),
-	new Quote("Robert H. Schuller","The picture you persistently hold of yourself will gradually mold and shape you into that person! Picture yourself as a cheerful person - you'll become a cheerful person!"),
-	new Quote("Ayn Rand","The question isn't who is going to let me; it's who is going to stop me."),
-	new Quote("Barbara Pletcher","The real winners in life are the people who look at every situation with an expectation that they can make it work or make it better."),
-	new Quote("Robert Kiyosaki","The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way."),
-	new Quote("Molly Shannon","The three words every woman really longs to hear; I'll clean up."),
-	new Quote("Sydney J. Harris","The time to relax is when you don't have time for it."),
-	new Quote("Barbara Kingsolver","The truth needs so little rehearsal."),
-	new Quote("Norman Schwarzkopf","The truth of the matter is that you always know the right thing to do. The hard part is doing it."),
-	new Quote("Gloria Steinem","The truth will set you free. But first, it will piss you off."),
-	new Quote("Unknown","The way a man plays a game shows some of his character. The way he loses shows all of it."),
-	new Quote("Walt Disney","The way to get started is to quit talking and begin doing."),
-	new Quote("Blood of the Martyr","The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it."),
-	new Quote("Will Rogers","The worst thing that happens to you may be the best thing for you if you don’t let it get the best of you."),
-	new Quote("Unknown","There are 3 choices: you can either give up, give in, or give it your all!"),
-	new Quote("Anonymous","There are many things in life that will catch your eye, but only a few that will catch your heart. Pursue them."),
-	new Quote("Napoleon Hill","There are no limitations to the mind except those we acknowledge; both poverty and riches are the offspring of thought."),
-	new Quote("Colin Powell","There are no secrets to success. It is the result of preparation, hard work, learning from failure."),
-	new Quote("Denis Waitley","There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them."),
-	new Quote("Unknown","There are two ways of being rich. One is to have all you want, and the other is to be satisfied with what you have."),
-	new Quote("Henry Kissinger","There cannot be a crisis next week. My schedule is already full."),
-	new Quote("Peyton Conway March","There is a wonderful mythical law of nature that the three things we crave most in life -- happiness, freedom, and peace of mind -- are always attained by giving them to someone else."),
-	new Quote("Author Unknown","There is always, always, always something to be thankful for."),
-	new Quote("Mohandas K Gandhi","There is more to life than increasing its speed."),
-	new Quote("Unknown","There is no failure. Only feedback."),
-	new Quote("The Christian Athlete","There is nothing wrong with making mistakes - just don't respond with encores."),
-	new Quote("Sylvia Plath","There must be quite a few things that a hot bath won't cure, but I don't know many of them."),
-	new Quote("Bob Parsons","There's always a reason to smile. Find it."),
-	new Quote("Mahatma Gandhi","They cannot take away our self respect if we do not give it to them."),
-	new Quote("Andy Warhol","They say that time changes things, but you actually have to change them yourself."),
-	new Quote("John Wooden","Things turn out best for people who make the best of the way things turn out."),
-	new Quote("Anne Frank","Think of all the beauty still left around you and be happy."),
-	new Quote("Shakespeare","This above all: to thine own self be true."),
-	new Quote("Susan Polis Schutz","This life is yours. Take the power to choose what you want to do and do it well. Take the power to control your own life. No one else can do it for you."),
-	new Quote("Unknown","Those on top of the mountain did not fall there."),
-	new Quote("Benjamin Franklin","Those who desire to give up freedom in order to gain security will not have, nor do they deserve, either one."),
-	new Quote("Robert Orben","Time flies. It's up to you to be the navigator."),
-	new Quote("Jim Rohn","Time is more value than money. You can get more money, but you cannot get more time."),
-	new Quote("Carl Sandburg","Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent. Be careful lest you let other people spend it for you."),
-	new Quote("Anatole France","To accomplish great things, we must not only act, but also dream; not only plan, but also believe."),
-	new Quote("",""),
+	new Quote("Jonathan Winters", "If your ship doesn't come in, swim out to it!"),
+	new Quote(
+		"Joyce Chapman",
+		"If you're still hanging onto a dead dream of yesterday, laying flowers on its grave by the hour, you cannot be planting the seeds for a new dream to grow today."
+	),
+	new Quote(
+		"Unknown",
+		"I'm a good enough person to forgive you, but not stupid enough to trust you."
+	),
+	new Quote(
+		"Friedrich Nietzsche",
+		"I'm not upset that you lied to me; I'm upset that from now on I can't believe you."
+	),
+	new Quote(
+		"Livy",
+		"In difficult situations when hope seems feeble, the boldest plans are safest."
+	),
+	new Quote(
+		"Flora Edwards",
+		"In helping others, we shall help ourselves, for whatever good we give out completes the circle and comes back to us."
+	),
+	new Quote(
+		"Ralph Marston",
+		"In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have."
+	),
+	new Quote(
+		"Mary Manin Morrissey",
+		"In order to be free, we must learn how to let go. Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."
+	),
+	new Quote("Einstein", "In the middle of difficulty lies opportunity."),
+	new Quote(
+		"John Erskine",
+		"In the simplest terms, a leader is one who knows where she wants to go, and gets up and goes."
+	),
+	new Quote(
+		"Lee Iacoca",
+		"In times of great stress or adversity, it’s always best to keep busy, to plow your anger and your energy into something positive."
+	),
+	new Quote(
+		"Anonymous",
+		"Instead of giving myself reasons why I can’t, I give myself reasons why I can."
+	),
+	new Quote(
+		"Jim Rohn",
+		"It doesn't matter which side of the fence you get off on sometimes. What matters most is getting off. You cannot make progress without making decisions."
+	),
+	new Quote(
+		"Herman Melville",
+		"It is better to fail in originality than to succeed in imitation."
+	),
+	new Quote(
+		"Socrates",
+		"It is better to remain silent and be thought a fool than to speak and remove all doubt."
+	),
+	new Quote("Unknown", "It is difficult to see the picture when you are inside of the frame."),
+	new Quote(
+		"Naomi Williams",
+		"It is impossible to feel grateful and depressed in the same moment."
+	),
+	new Quote(
+		"Ann Landers",
+		"It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings."
+	),
+	new Quote(
+		"Chas. Austin Bates",
+		"It is the trouble that never comes that causes the loss of sleep."
+	),
+	new Quote(
+		"Unknown",
+		"It isn't the great big pleasures that count the most; it's making a big deal out of the little ones."
+	),
+	new Quote(
+		"Dale Carnegie",
+		"It isn't what you have, or who you are, or where you are, or what you are doing that makes you happy or unhappy. It is what you think about."
+	),
+	new Quote(
+		"Robert H. Schuller",
+		"It takes but one positive thought when given a chance to survive and thrive to overpower an entire army of negative thoughts."
+	),
+	new Quote("Martin Van Buren", "It’s easier to do a job than to explain why you didn’t."),
+	new Quote(
+		"Barbara Sher",
+		"It’s essential to distinguish between events that are really beyond your control and events you caused yourself."
+	),
+	new Quote("Hans Selye", "It’s not stress that kills us, it is our reaction to it."),
+	new Quote("Babe Ruth", "It's hard to beat a person who never gives up."),
+	new Quote("Leana Horne", "It's not the load that breaks you down, it's the way you carry it."),
+	new Quote("African proverb", "It's not what you call me, but what I answer to."),
+	new Quote(
+		"Jenny Craig",
+		"It's not what you do once in a while, it's what you do day in and day out that makes a difference."
+	),
+	new Quote("John Wooden", "It's what you learn after you know it all that counts."),
+	new Quote(
+		"Michael Jordan",
+		"I've failed over and over and over again in my life and that is why I succeed."
+	),
+	new Quote(
+		"Mike Todd",
+		"I've never been poor, only broke. Being poor is a frame of mind. Being broke is only a temporary situation."
+	),
+	new Quote(
+		"J.B. Handlesman",
+		"Just another of our many disagreements. He wants a no-fault divorce, whereas I would prefer to have the bastard crucified."
+	),
+	new Quote("Helen Keller", "Keep your face to the Sunshine and you will not see the Shadows."),
+	new Quote("William Randolph Hearst", "Keep your mind on the objective, not the obstacle."),
+	new Quote(
+		"Mother Theresa",
+		"Kind words can be short and easy to speak, but their echoes are truly endless."
+	),
+	new Quote(
+		"Blaise Pascal",
+		"Kind words do not cost much. They never blister the tongue or lips. They make other people good-natured."
+	),
+	new Quote(
+		"Kurt Vonnegut",
+		"Laughter and tears are both responses to frustration and exhaustion. I myself prefer to laugh, since there is less cleaning up to do afterward."
+	),
+	new Quote(
+		"Henri Bergson",
+		"Laughter is the corrective force which prevents us from becoming cranks."
+	),
+	new Quote("Unknown", "Laughter is the shock absorber that eases the blows of life."),
+	new Quote(
+		"Eleanor Roosevelt",
+		"Learn from the mistakes of others. You can’t live long enough to make them all yourself."
+	),
+	new Quote("Albert Einstein", "Learn from yesterday, live for today, hope for tomorrow."),
+	new Quote(
+		"Leo Buscaglia",
+		"Let go. Why do you cling to pain? There is nothing you can do about the wrongs of yesterday. It is not yours to judge. Why hold on to the very thing which keeps you from hope and love?"
+	),
+	new Quote(
+		"Mark Twain",
+		"Let us so live that when we come to die even the undertaker will be sorry."
+	),
+	new Quote(
+		"Unknown",
+		"Letting go doesn’t mean giving up, but rather accepting that there are things that cannot be."
+	),
+	new Quote(
+		"Steve Maraboli",
+		"Letting go means to come to the realization that some people are a part of your history, but not a part of your destiny."
+	),
+	new Quote(
+		"Mary MacCracken",
+		"Level with your child by being honest. Nobody spots a phony quicker than a child."
+	),
+	new Quote(
+		"Josh Billings",
+		"Life consists not in holding good cards, but in playing well those you hold."
+	),
+	new Quote("Annette Funicello", "Life does not have to be perfect to be wonderful."),
+	new Quote("Danny Kaye", "Life is a big canvas, throw all the paint on it you can."),
+	new Quote(
+		"Charles Schultz",
+		"Life is like a ten-speed bike.  Most of us have gears we never use."
+	),
+	new Quote("Unknown", "Life is like monkey bars. You have to let go to move forward."),
+	new Quote("Unknown", "Life is like photography. You need the negatives to develop."),
+	new Quote("Sadie Delaney", "Life is short, and it's up to you to make it sweet."),
+	new Quote(
+		"Drew Barrymore",
+		"Life is very interesting... in the end, some of your greatest pains, become your greatest strengths."
+	),
+	new Quote("Alfred Marshall", "Life is what happens to you while you are making other plans."),
+	new Quote("Grandma Moses", "Life is what we make it, always has been, always will be."),
+	new Quote(
+		"George Bernard Shaw",
+		"Life isn't about finding yourself. Life is about creating yourself."
+	),
+	new Quote(
+		"Unknown",
+		"Life may not be the party we hoped for, but while we're here we should dance."
+	),
+	new Quote("Maya Angelou", "Life's a bitch. You've got to go out and kick ass."),
+	new Quote(
+		"Will Rogers",
+		"Live so you wouldn't be ashamed to sell the family parrot to the town gossip."
+	),
+	new Quote("Raymond Burr", "Live your life the way you wish other people would live theirs."),
+	new Quote(
+		"Betty Smith",
+		"Look at everything as though you were seeing it either for the first or last time."
+	),
+	new Quote(
+		"Rosetta Smith",
+		"Look at life as though all your geese were swans and every swan a princess."
+	),
+	new Quote(
+		"Alice Walker",
+		"Look closely at the present you are constructing: it should look like the future you are dreaming."
+	),
+	new Quote(
+		"Unknown",
+		"Love is like playing the piano. First you must learn to play by the rules, then you must forget the rules and play from your heart."
+	),
+	new Quote(
+		"Steve Maraboli",
+		"Love yourself. Forgive yourself. Be true to yourself. How you treat yourself sets the standard for how others will treat you."
+	),
+	new Quote(
+		"Katherine Mansfield",
+		"Make it a rule of life never to regret and never to look back. Regret is an appalling waste of energy; you can't build on it, it's only good for wallowing in."
+	),
+	new Quote("Unknown", "Make the most of every failure. Fall forward."),
+	new Quote(
+		"Karen A. Baquiran",
+		"Make yourself a priority once in a while. It's not selfish, it's necessary."
+	),
+	new Quote(
+		"Vic Johnson",
+		"Many people can’t achieve the success of their dreams because they won’t leave their past behind. They won’t tear down the monuments they’ve built to their old hurts and problems."
+	),
+	new Quote(
+		"Joshua L. Liebman",
+		"Maturity is achieved when a person accepts life is full of tension."
+	),
+	new Quote("Unknown", "May the hinges of friendship never grow rusty."),
+	new Quote("Sophia Loren", "Mistakes are part of the dues that one pays for a full life."),
+	new Quote(
+		"Abraham Lincoln",
+		"Most folks are about as happy as they make up their minds to be."
+	),
+	new Quote("Bob Moawad", "Most people don't aim too high and miss. They aim too low and hit."),
+	new Quote(
+		"Stephen Covey",
+		"Most people struggle with life balance simply because they haven't paid the price to decide what is really important to them."
+	),
+	new Quote(
+		"Unknown",
+		"Mother Nature is wonderful. She gives us twelve years to develop a love for our children before turning them into teenagers."
+	),
+	new Quote(
+		"Danielle Steel",
+		"Motherhood is not for the faint-hearted. Frogs, skinned knees, and the insults of teenage girls are not meant for the wimpy."
+	),
+	new Quote(
+		"Helen Gurley Brown",
+		"My success was not based so much on any great intelligence but on great common sense."
+	),
+	new Quote(
+		"Jessica Alba",
+		"My theory is that if you look confident you can pull off anything - even if you have no clue what you're doing."
+	),
+	new Quote(
+		"Erma Bombeck",
+		"My theory on housework is, if the item does not multiply, smell, catch on fire or block the refrigerator door, let it be. No one cares. Why should you?"
+	),
+	new Quote(
+		"Robert Albert Bloch",
+		"Nature gave us two ends: one to sit on and one to think with.? Ever since then, man's success or failure has been dependent on the one he used most."
+	),
+	new Quote(
+		"Mark Twain",
+		"Never allow someone to be your priority while allowing yourself to be their option."
+	),
+	new Quote(
+		"Unknown",
+		"Never be afraid to try something new. Remember, amateurs built the ark, professionals built the Titanic."
+	),
+	new Quote(
+		"Helen Keller",
+		"Never bend your head. Hold it high. Look the world straight in the eye."
+	),
+	new Quote(
+		"Unknown",
+		"Never chase love, affection, or attention. If it isn't given freely by another person, it isn't worth having."
+	),
+	new Quote(
+		"Harriet Beecher Stowe",
+		"Never give up, for that is just the place and time that the tide will turn."
+	),
+	new Quote(
+		"H. Jackson Brown, JR.",
+		"Never let the odds keep you from doing what you know in your heart you were meant to do."
+	),
+	new Quote("J Jenkins", "Never let yesterday use up too much of today."),
+	new Quote(
+		"Unknown",
+		"Never mistake a woman's silence for her ignorance, her calmness for her acceptance, and her kindness for her weakness…"
+	),
+	new Quote(
+		"Sandra Carey",
+		"Never mistake knowledge for wisdom. One helps you make a living, the other helps you make a life."
+	),
+	new Quote(
+		"Unknown",
+		"No man is worth your tears, but once you find one that is, he won't make you cry."
+	),
+	new Quote("Les Brown", "No matter how hard it is, or how hard it gets, I'm going to make it."),
+	new Quote("Buddha", "No matter how hard the past, you can always begin again today."),
+	new Quote("Harry Emerson Fosdick", "No one can get inner peace by poucing on it."),
+	new Quote("Eleanor Roosevelt", "No one can make you feel inferior without your consent."),
+	new Quote(
+		"Cynthia Nelms",
+		"Nobody really cares if you're miserable, so you might as well be happy."
+	),
+	new Quote("Ralph Waldo Emerson", "Nothing can bring you peace but yourself."),
+	new Quote("Anonymous", "Nothing is as real as a dream. Have the courage to reach for it."),
+	new Quote("Thomas Heywood", "Nothing is impossible to the willing heart."),
+	new Quote("Anonymous", "Nothing is particularly hard if you divide it into small jobs."),
+	new Quote(
+		"Sophia Loren",
+		"Nothing makes a woman more beautiful than the belief that she is beautiful."
+	),
+	new Quote("John Wooden", "Nothing will work unless you do."),
+	new Quote("Unknown", "Nurture the dreams that inspire you to go beyond your limits."),
+	new Quote(
+		"Anonymous",
+		"Of all the judgment you pass, none is as important as how you see yourself."
+	),
+	new Quote(
+		"Aldous Huxley",
+		"On no account brood over your wrongdoing. Rolling in the muck is not the best way of getting clean."
+	),
+	new Quote(
+		"Col. Harland Sanders",
+		"One has to remember that every failure can be a stepping stone to something better."
+	),
+	new Quote("Carol Burnett", "Only I can change my life. No one can do it for me."),
+	new Quote(
+		"William Arthur Ward",
+		"Opportunities are like sunrises - if you wait too long, you miss them."
+	),
+	new Quote(
+		"Monta Crane",
+		"Opportunity may be hard to recognize if you are only looking for a lucky break."
+	),
+	new Quote(
+		"Confucius",
+		"Our greatest glory is not in never falling, but in rising every time we fall."
+	),
+	new Quote(
+		"Dr. Maxwell Maltz",
+		"Our self-image and our habits tend to go together. Change one and you will automatically change the other."
+	),
+	new Quote(
+		"Stephen Covey",
+		"Our ultimate freedom is the right and power to decide how anybody or anything outside ourselves will affect us."
+	),
+	new Quote("Anonymous", "Pain is inevitable, but misery is optional."),
+	new Quote(
+		"Marcelene Cox",
+		"Parenthood: The state of being better chaperoned than you were before Marrriage."
+	),
+	new Quote(
+		"Zig Ziglar",
+		"People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily."
+	),
+	new Quote(
+		"Stedman Graham",
+		"People who consider themselves victims of their circumstances will always remain victims unless they develop a greater vision for their lives."
+	),
+	new Quote("Abigail Van Buren", "People who fight fire with fire usually end up with ashes."),
+	new Quote(
+		"Unknown",
+		"People who soar are those who refuse to sit back, sigh and wish things would change."
+	),
+	new Quote(
+		"Harry Emerson Fosdick",
+		"Picture yourself vividly as winning, and that alone will contribute immeasurably to your success."
+	),
+	new Quote("General Features Corp.", "Plan ahead - it wasn't raining when Noah built the Ark."),
+	new Quote(
+		"William Feather",
+		"Plenty of people miss their share of happiness, not because they never found it, but because they didn't stop to enjoy it."
+	),
+	new Quote("Andrew Denton", "Pressure and stress is the common cold of the psyche."),
+	new Quote("Robert Schuller", "Problems are not stop signs, they are guidelines."),
+	new Quote("Henry J. Kaiser", "Problems are opportunities in work clothes."),
+	new Quote(
+		"Christopher Parker",
+		"Procrastination is like a credit card: it's a lot of fun until you get the bill."
+	),
+	new Quote("Korean proverb", "Put off for one day, and ten days will pass."),
+	new Quote("Old Postcard", "Put your troubles in a pocket with a hole in it."),
+	new Quote(
+		"Charles Dickens",
+		"Reflect upon your blessings, of which every man has plenty, not on your past misfortunes, of which all men have some."
+	),
+	new Quote(
+		"Mary Manin Morrissey",
+		"Release the hurt. Release the fear. Refuse to entertain your old pain. The energy it takes to hang onto the past is holding you back from a new life."
+	),
+	new Quote(
+		"Jeb Dickerson",
+		"Releasing the pressure - it's good for the teapot and the water. Try it sometime."
+	),
+	new Quote(
+		"Benjamin Franklin",
+		"Remember not only to say the right thing in the right place, but far more difficult still, to leave unsaid the wrong thing at the tempting moment."
+	),
+	new Quote(
+		"Andrew Bernstein",
+		"Remember that stress doesn't come from what's going on in your life. It comes from your thoughts about what's going on in your life."
+	),
+	new Quote(
+		"Dale Carnegie",
+		"Remember, happiness doesn't depend on who you are or what you have; it depends solely on what you think."
+	),
+	new Quote("Unknown", "Remind me again why I need a man"),
+	new Quote(
+		"Susan Jeffers",
+		"Remove those 'I want you to like me' stickers from your forehead, and instead, place them where they truly will do the most good -- on your mirror!"
+	),
+	new Quote("Frankie Byrne", "Respect is love in plain clothes."),
+	new Quote(
+		"J.K. Rowling",
+		"Rock bottom became the solid foundation on which I rebuilt my life."
+	),
+	new Quote(
+		"Robert Eliot",
+		"Rule number one is, don't sweat the small stuff. Rule number two is, it's all small stuff."
+	),
+	new Quote(
+		"Robert A. Cook",
+		"Say and do something positive that will help the situation; it doesn't take any brains to complain."
+	),
+	new Quote(
+		"W.K. Hope",
+		"Self-discipline is when your conscience tells you to do someting and you don't talk back."
+	),
+	new Quote(
+		"Adrienne Gusoff",
+		"Shopping is better than sex. At least if you’re not satisfied, you can exchange it for something you really like."
+	),
+	new Quote("Peter Marshall", "Small deeds done are better than great deeds planned."),
+	new Quote("Emory Austin", "Some days there won't be a song in your heart. Sing anyway."),
+	new Quote(
+		"Erma Bombeck",
+		"Sometimes I can't figure designers out. It's as if they flunked human anatomy."
+	),
+	new Quote("Unknown", "Sometimes your best friend is actually a guardian angel in disguise."),
+	new Quote(
+		"Ambrose Bierce",
+		"Speak when you are angry and you will make the best speech you will ever regret."
+	),
+	new Quote("Mother Theresa", "Spread love everywhere you go."),
+	new Quote("Roy T. Bennett", "Start each day with a positive thought and a grateful heart."),
+	new Quote(
+		"Issa Rae",
+		"Stop finding all the ways that you can’t do something and find all the ways that you can."
+	),
+	new Quote(
+		"Arnold Schwarzenegger",
+		"Strength does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."
+	),
+	new Quote(
+		"Marilu Henner",
+		"Stress is an important dragon to slay - or at least tame - in your life."
+	),
+	new Quote("Bill Phillips", "Stress should be a powerful driving force, not an obstacle."),
+	new Quote(
+		"Sir Winston Churchill",
+		"Success consists of going from failure to failure without loss of enthusiasm."
+	),
+	new Quote("George Patton", "Success is how high you bounce after you hit bottom."),
+	new Quote(
+		"Winston Churchill",
+		"Success is not final. Failure is not fatal: It is the courage to continue that counts."
+	),
+	new Quote(
+		"Conrad Hilton",
+		"Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don’t quit."
+	),
+	new Quote(
+		"William Feather",
+		"Success seems to be largely a matter of hanging on after others have let go."
+	),
+	new Quote(
+		`Brian Tracy","Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’`
+	),
+	new Quote(
+		"Unknown",
+		"Successful people aren't those without problems, they’re those who've learned to solve their problems."
+	),
+	new Quote(
+		"Debasish Mridha",
+		"The best friend you will ever find is you. Love yourself with joy and fill your heart with bliss and happiness."
+	),
+	new Quote(
+		"Abigail Van Buren",
+		"The best index to a person's character is how he treats people who can't do him any good and how he treats people who can't fight back."
+	),
+	new Quote(
+		"Swedish Proverb",
+		"The best place to find a helping hand is at the end of your arm."
+	),
+	new Quote(
+		"Steve Chandler",
+		"The best way for a person to have happy thoughts is to count his blessings and not his cash."
+	),
+	new Quote(
+		"The Miles Glassette",
+		"The best way to appreciate your job is to imagine yourself without it."
+	),
+	new Quote("Mark Twain", "The best way to cheer yourself is to try to cheer someone else up."),
+	new Quote("Abraham Lincoln", "The best way to destroy your enemy is to make him your friend."),
+	new Quote(
+		"Clarence Clemons",
+		"The calm mind allows one to connect with the inner self, the Soul, the very source of our being. That's where the music lives."
+	),
+	new Quote(
+		"Johnny Carson",
+		"The difference between divorce and legal separation is that a legal separation gives a husband time to hide his money."
+	),
+	new Quote(
+		"Issac Asimov",
+		"The first law of dietetics seems to be: if it tastes good, it's bad for you."
+	),
+	new Quote(
+		"Andre Maurois",
+		"The first recipe for happiness is: Avoid too lengthy meditations on the past."
+	),
+	new Quote(
+		"Mark Caine",
+		"The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."
+	),
+	new Quote(
+		"Walter Bagehot",
+		"The great pleasure in life is doing what people say you cannot do."
+	),
+	new Quote("Moliere", "The greater the obstacle, the more glory in overcoming it."),
+	new Quote(
+		"William James",
+		"The greatest discovery is that a human being can alter his life by altering his attitudes of mind."
+	),
+	new Quote(
+		"Unknown",
+		"The greatest hurdle is convincing yourself that what you want is possible."
+	),
+	new Quote(
+		"William James",
+		"The greatest weapon against stress is our ability to choose one thought over another."
+	),
+	new Quote(
+		"Murphy's Law of Computers",
+		"The hard drive on your computer will only crash when it contains vital information that has not been backed up."
+	),
+	new Quote(
+		"Rita Mero",
+		"The hard times that you go through build character, making you a much stronger person."
+	),
+	new Quote(
+		"David Russell",
+		"The hardest thing to learn in life is which bridge to cross and which to burn."
+	),
+	new Quote(
+		"Jennifer Garner",
+		"The life you're living while you wait for the grade, the college, the job, the man, is your actual life. Decide to enjoy it..."
+	),
+	new Quote(
+		"Voltaire",
+		"The longer we dwell on our misfortunes, the greater is their power to harm us."
+	),
+	new Quote(
+		"Chines Proverb",
+		"The man who moved a mountain was the one who began carrying away small stones."
+	),
+	new Quote(
+		"John Foster Dulles",
+		"The measure of success is not whether you have a tough problem to deal with, but whether it's the same problem you had last year."
+	),
+	new Quote(
+		"Oprah Winfrey",
+		"The more you praise and celebrate your life, the more there is in life to celebrate."
+	),
+	new Quote(
+		"Alice Walker",
+		"The most common way people give up their power is by thinking they don't have any."
+	),
+	new Quote("Coco Chanel", "The most courageous act is still to think for yourself. Aloud."),
+	new Quote(
+		"David Copperfield",
+		`The most important think in ife is to stop saying "I wish" and start saying "I will." Consider nothing impossible, then treat possibilites as probabilites.`
+	),
+	new Quote(
+		"Cher",
+		"The only thing in the world you can change is yourself, and that makes all the difference in the world."
+	),
+	new Quote("Ralph Waldo Emerson", "The only way to have a friend is to be one."),
+	new Quote("Thomas Holcroft", "The past is a guidepost, not a hitching post."),
+	new Quote(
+		"Unknown",
+		"The PAST is where you learned the Lesson. The FUTURE is where you apply the Lesson."
+	),
+	new Quote(
+		"Anonymous",
+		"The person who removes a mountain begins by carrying away small stones."
+	),
+	new Quote(
+		"Robert H. Schuller",
+		"The picture you persistently hold of yourself will gradually mold and shape you into that person! Picture yourself as a cheerful person - you'll become a cheerful person!"
+	),
+	new Quote(
+		"Ayn Rand",
+		"The question isn't who is going to let me; it's who is going to stop me."
+	),
+	new Quote(
+		"Barbara Pletcher",
+		"The real winners in life are the people who look at every situation with an expectation that they can make it work or make it better."
+	),
+	new Quote(
+		"Robert Kiyosaki",
+		"The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way."
+	),
+	new Quote("Molly Shannon", "The three words every woman really longs to hear; I'll clean up."),
+	new Quote("Sydney J. Harris", "The time to relax is when you don't have time for it."),
+	new Quote("Barbara Kingsolver", "The truth needs so little rehearsal."),
+	new Quote(
+		"Norman Schwarzkopf",
+		"The truth of the matter is that you always know the right thing to do. The hard part is doing it."
+	),
+	new Quote("Gloria Steinem", "The truth will set you free. But first, it will piss you off."),
+	new Quote(
+		"Unknown",
+		"The way a man plays a game shows some of his character. The way he loses shows all of it."
+	),
+	new Quote("Walt Disney", "The way to get started is to quit talking and begin doing."),
+	new Quote(
+		"Blood of the Martyr",
+		"The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it."
+	),
+	new Quote(
+		"Will Rogers",
+		"The worst thing that happens to you may be the best thing for you if you don’t let it get the best of you."
+	),
+	new Quote(
+		"Unknown",
+		"There are 3 choices: you can either give up, give in, or give it your all!"
+	),
+	new Quote(
+		"Anonymous",
+		"There are many things in life that will catch your eye, but only a few that will catch your heart. Pursue them."
+	),
+	new Quote(
+		"Napoleon Hill",
+		"There are no limitations to the mind except those we acknowledge; both poverty and riches are the offspring of thought."
+	),
+	new Quote(
+		"Colin Powell",
+		"There are no secrets to success. It is the result of preparation, hard work, learning from failure."
+	),
+	new Quote(
+		"Denis Waitley",
+		"There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them."
+	),
+	new Quote(
+		"Unknown",
+		"There are two ways of being rich. One is to have all you want, and the other is to be satisfied with what you have."
+	),
+	new Quote(
+		"Henry Kissinger",
+		"There cannot be a crisis next week. My schedule is already full."
+	),
+	new Quote(
+		"Peyton Conway March",
+		"There is a wonderful mythical law of nature that the three things we crave most in life -- happiness, freedom, and peace of mind -- are always attained by giving them to someone else."
+	),
+	new Quote("Author Unknown", "There is always, always, always something to be thankful for."),
+	new Quote("Mohandas K Gandhi", "There is more to life than increasing its speed."),
+	new Quote("Unknown", "There is no failure. Only feedback."),
+	new Quote(
+		"The Christian Athlete",
+		"There is nothing wrong with making mistakes - just don't respond with encores."
+	),
+	new Quote(
+		"Sylvia Plath",
+		"There must be quite a few things that a hot bath won't cure, but I don't know many of them."
+	),
+	new Quote("Bob Parsons", "There's always a reason to smile. Find it."),
+	new Quote(
+		"Mahatma Gandhi",
+		"They cannot take away our self respect if we do not give it to them."
+	),
+	new Quote(
+		"Andy Warhol",
+		"They say that time changes things, but you actually have to change them yourself."
+	),
+	new Quote(
+		"John Wooden",
+		"Things turn out best for people who make the best of the way things turn out."
+	),
+	new Quote("Anne Frank", "Think of all the beauty still left around you and be happy."),
+	new Quote("Shakespeare", "This above all: to thine own self be true."),
+	new Quote(
+		"Susan Polis Schutz",
+		"This life is yours. Take the power to choose what you want to do and do it well. Take the power to control your own life. No one else can do it for you."
+	),
+	new Quote("Unknown", "Those on top of the mountain did not fall there."),
+	new Quote(
+		"Benjamin Franklin",
+		"Those who desire to give up freedom in order to gain security will not have, nor do they deserve, either one."
+	),
+	new Quote("Robert Orben", "Time flies. It's up to you to be the navigator."),
+	new Quote(
+		"Jim Rohn",
+		"Time is more value than money. You can get more money, but you cannot get more time."
+	),
+	new Quote(
+		"Carl Sandburg",
+		"Time is the coin of your life. It is the only coin you have, and only you can determine how it will be spent. Be careful lest you let other people spend it for you."
+	),
+	new Quote(
+		"Anatole France",
+		"To accomplish great things, we must not only act, but also dream; not only plan, but also believe."
+	),
+	new Quote("", ""),
 	// (copy line up/down) CTRL + Shift + Alt + Up/Down
 ];
 
