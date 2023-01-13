@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
 	},
 	rootContainer: {
 		flex: 1,
-		justifyContent: "center",
 		alignItems: "center",
 		backgroundColor: Colors.primary500,
-		margin: 4,
+		padding: 24,
+		// margin: 4,
 	},
 });

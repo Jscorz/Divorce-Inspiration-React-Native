@@ -4,9 +4,9 @@ import Colors from "../constants/colors";
 function WelcomeScreen() {
 	return (
 		<View style={styles.rootContainer}>
-			<Text>Welcome back!</Text>
+			<Text style={styles.welcomeText}>Welcome back!</Text>
 			<View>
-				<Text>Daily Quote Coming Shortly</Text>
+				<Text style={styles.subheaderText}>Daily Quote Coming Shortly</Text>
 			</View>
 		</View>
 	);
@@ -15,14 +15,19 @@ function WelcomeScreen() {
 export default WelcomeScreen;
 
 const styles = StyleSheet.create({
-	screen: {
-		flex: 1,
-	},
 	rootContainer: {
 		flex: 1,
 		justifyContent: "center",
 		alignItems: "center",
 		backgroundColor: Colors.primary500,
 		margin: 4,
+	},
+	welcomeText: {
+		fontSize: 48,
+		color: Colors.accent500,
+	},
+	subheaderText: {
+		fontSize: 24,
+		color: "white",
 	},
 });
