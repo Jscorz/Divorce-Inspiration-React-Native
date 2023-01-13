@@ -1,5 +1,5 @@
-import { useRef, useEffect } from "react";
 import { StyleSheet, View, Text } from "react-native";
+import AnimatedSquare from "../components/AnimatedSquare";
 import Colors from "../constants/colors";
 
 function WelcomeScreen() {
@@ -9,6 +9,7 @@ function WelcomeScreen() {
 			<View>
 				<Text style={styles.subheaderText}>Daily Quote Coming Shortly</Text>
 			</View>
+			<AnimatedSquare />
 		</View>
 	);
 }
