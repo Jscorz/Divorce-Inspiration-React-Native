@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
 	square: {
 		width: 100,
 		height: 100,
-		backgroundColor: Colors.accent500LowOpacity,
+		// backgroundColor: Colors.accent500LowOpacity,
+		backgroundColor: "#ff002f80",
 		marginTop: 120,
 	},
 });

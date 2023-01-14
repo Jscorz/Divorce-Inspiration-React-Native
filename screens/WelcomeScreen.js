@@ -6,8 +6,9 @@ function WelcomeScreen() {
 	return (
 		<View style={styles.rootContainer}>
 			<Text style={styles.welcomeText}>Welcome back!</Text>
-			<View>
-				<Text style={styles.subheaderText}>Daily Quote Coming Shortly</Text>
+			<View style={styles.subheaderTextContainer}>
+				<Text style={styles.subheaderText}>Get Ready For</Text>
+				<Text style={styles.subheaderText}>Your Daily Inspiration</Text>
 			</View>
 			<AnimatedSquare />
 		</View>
@@ -31,5 +32,8 @@ const styles = StyleSheet.create({
 	subheaderText: {
 		fontSize: 24,
 		color: "white",
+	},
+	subheaderTextContainer: {
+		alignItems: "center",
 	},
 });
