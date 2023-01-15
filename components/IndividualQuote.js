@@ -19,9 +19,12 @@ function IndividualQuote() {
 
 	return (
 		<View style={styles.rootContainer}>
-			<Text onPress={consoleLogger}>click here</Text>
-			<Text>{quoteOfTheDay}</Text>
-			<Text>{authorOfTheDay}</Text>
+			<View style={styles.quoteContainer}>
+				{/* <Text onPress={consoleLogger}>click here</Text> */}
+				<Text>{quoteOfTheDay}</Text>
+				<Text>- {authorOfTheDay}</Text>
+			</View>
+			<View style={styles.bottomOfQuoteContainer}></View>
 		</View>
 	);
 }
@@ -33,10 +36,32 @@ const styles = StyleSheet.create({
 		flex: 1,
 	},
 	rootContainer: {
-		flex: 1,
+		backgroundColor: "white",
+		borderRadius: 8,
+		padding: 48,
+		margin: 4,
+	},
+	quoteContainer: {
 		alignItems: "center",
-		backgroundColor: Colors.primary500,
-		padding: 24,
-		// margin: 4,
+	},
+	bottomOfQuoteContainer: {
+		width: 0,
+		height: 0,
+		backgroundColor: "transparent",
+		borderStyle: "solid",
+		borderTopWidth: 0,
+		borderRightWidth: 45,
+		borderBottomWidth: 90,
+		borderLeftWidth: 45,
+		borderTopColor: "transparent",
+		borderRightColor: "transparent",
+		borderBottomColor: "white",
+		// borderBottomColor: "red",
+		borderLeftColor: "transparent",
+		position: "absolute",
+		bottom: 0,
+		right: 0,
+		top: 118,
+		transform: [{ rotate: "150deg" }],
 	},
 });
