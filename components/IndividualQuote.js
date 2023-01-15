@@ -22,7 +22,7 @@ function IndividualQuote() {
 		<View style={styles.rootContainer}>
 			<View style={styles.quoteContainer}>
 				<View style={styles.iconContainer}>
-					<FontAwesome name='quote-right' size={48} color={Colors.primary800} />
+					<FontAwesome name='quote-right' size={48} color={Colors.primary600} />
 				</View>
 				{/* <Text onPress={consoleLogger}>click here</Text> */}
 				<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
@@ -76,8 +76,8 @@ const styles = StyleSheet.create({
 		padding: 8,
 	},
 	authorText: {
-		fontSize: 16,
+		fontSize: 20,
 		alignSelf: "flex-end",
-		color: Colors.secondary700,
+		color: Colors.accent600,
 	},
 });

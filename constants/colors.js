@@ -8,6 +8,7 @@ const Colors = {
 	secondary700: "#9c0420ff",
 	secondaryLowOpacity: "#ff002f80",
 	accent500: "#ddb52f",
+	accent600: "#ae8e25",
 	accent500LowOpacity: "#ddb42f82",
 };
 
