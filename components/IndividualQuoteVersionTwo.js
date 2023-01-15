@@ -5,7 +5,7 @@ import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 
 function IndividualQuoteTwo() {
-	const randomNumber = Math.floor(Math.random() * 454 + 1);
+	const randomNumber = Math.floor(Math.random() * 453 + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 
@@ -22,7 +22,7 @@ function IndividualQuoteTwo() {
 		<View style={styles.rootContainer}>
 			<View style={styles.quoteContainer}>
 				<View style={styles.iconContainer}>
-					<FontAwesome name='quote-right' size={48} color={Colors.primary800} />
+					<FontAwesome name='quote-right' size={56} color={Colors.primary600} />
 				</View>
 				{/* <Text onPress={consoleLogger}>click here</Text> */}
 				<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
@@ -41,9 +41,11 @@ const styles = StyleSheet.create({
 	},
 	rootContainer: {
 		backgroundColor: "white",
-		borderRadius: 16,
+		borderRadius: 96,
+		minHeight: 400,
 		padding: 30,
-		margin: 10,
+		paddingTop: 300,
+		marginTop: -500,
 	},
 	quoteContainer: {
 		alignItems: "center",
@@ -64,20 +66,23 @@ const styles = StyleSheet.create({
 		borderLeftColor: "transparent",
 		alignSelf: "flex-end",
 		marginBottom: -80,
-		marginRight: -30,
-		transform: [{ rotate: "150deg" }],
+		marginRight: 40,
+		transform: [{ rotate: "280deg" }],
 		zIndex: -10,
 	},
 	iconContainer: {
-		alignSelf: "flex-start",
+		alignSelf: "center",
 	},
 	quoteText: {
 		fontSize: 32,
-		padding: 8,
+		padding: 24,
 	},
 	authorText: {
-		fontSize: 16,
-		alignSelf: "flex-end",
-		color: Colors.secondary700,
+		fontSize: 24,
+		fontWeight: "bold",
+		alignSelf: "flex-start",
+		color: Colors.accent500,
+		position: "absolute",
+		top: "150%",
 	},
 });
