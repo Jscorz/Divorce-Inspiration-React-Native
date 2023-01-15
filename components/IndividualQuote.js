@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { QUOTES } from "../data/QuoteData";
+import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 
 function IndividualQuote() {
@@ -20,9 +21,12 @@ function IndividualQuote() {
 	return (
 		<View style={styles.rootContainer}>
 			<View style={styles.quoteContainer}>
+				<View style={styles.iconContainer}>
+					<FontAwesome name='quote-right' size={48} color={Colors.primary800} />
+				</View>
 				{/* <Text onPress={consoleLogger}>click here</Text> */}
-				<Text>{quoteOfTheDay}</Text>
-				<Text>- {authorOfTheDay}</Text>
+				<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
+				<Text style={styles.authorText}>- {authorOfTheDay}</Text>
 			</View>
 			<View style={styles.bottomOfQuoteContainer}></View>
 		</View>
@@ -37,12 +41,13 @@ const styles = StyleSheet.create({
 	},
 	rootContainer: {
 		backgroundColor: "white",
-		borderRadius: 8,
-		padding: 48,
-		margin: 4,
+		borderRadius: 16,
+		padding: 30,
+		margin: 10,
 	},
 	quoteContainer: {
 		alignItems: "center",
+		justifyContent: "space-between",
 	},
 	bottomOfQuoteContainer: {
 		width: 0,
@@ -56,12 +61,23 @@ const styles = StyleSheet.create({
 		borderTopColor: "transparent",
 		borderRightColor: "transparent",
 		borderBottomColor: "white",
-		// borderBottomColor: "red",
 		borderLeftColor: "transparent",
-		position: "absolute",
-		bottom: 0,
-		right: 0,
-		top: 118,
+		alignSelf: "flex-end",
+		marginBottom: -80,
+		marginRight: -30,
 		transform: [{ rotate: "150deg" }],
+		zIndex: -10,
+	},
+	iconContainer: {
+		alignSelf: "flex-start",
+	},
+	quoteText: {
+		fontSize: 32,
+		padding: 8,
+	},
+	authorText: {
+		fontSize: 16,
+		alignSelf: "flex-end",
+		color: Colors.secondary500,
 	},
 });
