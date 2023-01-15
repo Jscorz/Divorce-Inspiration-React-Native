@@ -22,7 +22,7 @@ function IndividualQuoteTwo() {
 		<View style={styles.rootContainer}>
 			<View style={styles.quoteContainer}>
 				<View style={styles.iconContainer}>
-					<FontAwesome name='quote-right' size={56} color={Colors.primary600} />
+					<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
 				</View>
 				{/* <Text onPress={consoleLogger}>click here</Text> */}
 				<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
