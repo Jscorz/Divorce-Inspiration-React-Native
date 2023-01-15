@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 	},
 	rootContainer: {
+		minWidth: "100%",
 		backgroundColor: "white",
 		borderRadius: 96,
 		minHeight: 400,
