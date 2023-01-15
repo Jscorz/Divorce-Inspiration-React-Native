@@ -22,8 +22,8 @@ export default function App() {
 
 	return (
 		<SafeAreaView style={styles.container}>
-			{/* <View>{screen}</View> */}
-			<WelcomeScreen />
+			<View>{screen}</View>
+			{/* <WelcomeScreen /> */}
 			<StatusBar style='auto' />
 		</SafeAreaView>
 	);
