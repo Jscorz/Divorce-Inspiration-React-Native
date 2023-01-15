@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 	square: {
 		width: 100,
 		height: 100,
-		backgroundColor: Colors.secondary500,
+		backgroundColor: Colors.secondaryLowOpacity,
 		marginTop: 120,
 	},
 });
