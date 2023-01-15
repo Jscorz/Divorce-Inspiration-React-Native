@@ -78,6 +78,6 @@ const styles = StyleSheet.create({
 	authorText: {
 		fontSize: 16,
 		alignSelf: "flex-end",
-		color: Colors.secondary500,
+		color: Colors.secondary700,
 	},
 });
