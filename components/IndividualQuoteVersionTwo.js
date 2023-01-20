@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { QUOTES } from "../data/QuoteData";
 import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
+import PrimaryButton from "./PrimaryButton";
 
 function IndividualQuoteTwo() {
 	const randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
@@ -19,16 +20,23 @@ function IndividualQuoteTwo() {
 	}
 
 	return (
-		<View style={styles.rootContainer}>
-			<View style={styles.quoteContainer}>
-				<View style={styles.iconContainer}>
-					<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
+		<View>
+			<View style={styles.rootContainer}>
+				<View style={styles.quoteContainer}>
+					<View style={styles.iconContainer}>
+						<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
+					</View>
+					{/* <Text onPress={consoleLogger}>click here</Text> */}
+					<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
 				</View>
-				{/* <Text onPress={consoleLogger}>click here</Text> */}
-				<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
+				<View style={styles.bottomOfQuoteContainer}></View>
+			</View>
+			<View>
 				<Text style={styles.authorText}>- {authorOfTheDay}</Text>
 			</View>
-			<View style={styles.bottomOfQuoteContainer}></View>
+			<View style={styles.anotherQuoteButtonContainer}>
+				<PrimaryButton>Get Another Dose of Inspiration</PrimaryButton>
+			</View>
 		</View>
 	);
 }
@@ -83,7 +91,10 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		alignSelf: "flex-start",
 		color: Colors.accent500,
-		position: "absolute",
-		top: "150%",
+		marginTop: 50,
+		marginLeft: 50,
+	},
+	anotherQuoteButtonContainer: {
+		marginTop: 44,
 	},
 });
