@@ -1351,44 +1351,112 @@ export const QUOTES = [
 		"Anatole France",
 		"To accomplish great things, we must not only act, but also dream; not only plan, but also believe."
 	),
+	new Quote(
+		"Unknown",
+		"To achieve, you must believe something and want something with all your might. Then, you must be willing to commit yourself to a course."
+	),
+	new Quote("Unknown", "To admit you were wrong is to declare you are wiser now than before."),
+	new Quote(
+		"Muhammad Ali",
+		"To be a great champion you must believe you are the best. If you’re not, pretend you are."
+	),
+	new Quote("Paul Ehrlich", "To err is human, but to really foul things up you need a computer."),
+	new Quote("Charles Dederich", "Today is the first day of the rest of your life."),
+	new Quote(
+		"Maurice Setter",
+		"Too many people miss the silver lining because they're expecting gold."
+	),
+	new Quote(
+		"Author Unknown",
+		"Troubles are a lot like people - they grow bigger if you nurse them."
+	),
+	new Quote("Edna Buchanan", "True friends are those that know you but love you anyway."),
+	new Quote(
+		"Elvis Presley",
+		"Truth is like the sun. You can shut it out for a time, but it ain’t goin’ away."
+	),
+	new Quote("Ray Owen", "Trying times are not the times to stop trying."),
+	new Quote("Oprah Winfrey", "Turn your wounds into wisdom."),
+	new Quote(
+		"AmandaGore.com",
+		"Unforgiveness is like drinking the poison and waiting for the other person to die!"
+	),
+	new Quote(
+		"Doris Mortman",
+		"Until you make peace with who your are ... you'll never be content with what you have."
+	),
+	new Quote("Helen Keller", "We can do anything we want if we stick to it long enough."),
+	new Quote(
+		"George Bernard Shaw",
+		"We don't stop playing because we grow old; We grow old because we stop playing."
+	),
+	new Quote(
+		"Carlos Castaneda",
+		"We either make ourselves miserable, or we make ourselves strong. The amount of work is the same."
+	),
+	new Quote(
+		"Eleanor Roosevelt",
+		"We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot."
+	),
+	new Quote(
+		"Henry Ward Beecher",
+		"We never know the love of our parents for us until we have become parents."
+	),
+	new Quote("George Eliot", "Wear a smile and have friends; wear a scowl and have wrinkles."),
+	new Quote(
+		"Dwight D. Eisenhower",
+		"What counts is not necessarily the size of the dog in the fight - it's the size of the fight in the dog."
+	),
+	new Quote("Albert Camus", "What doesn't kill me makes me stronger."),
+	new Quote("John Lubbock", "What we see depends mainly on what we look for."),
+	new Quote("Sheryl Sandberg", "What would you do if you weren't afraid?"),
+	new Quote(
+		"Seneca",
+		"What you think of yourself is much more important than what others think of you."
+	),
+	new Quote("Anonymous", "Whatever you attempt, go at it with spirit."),
+	new Quote(
+		"LL Cool J",
+		"When adversity strikes, that's when you have to be the most calm. Take a step back, stay strong, stay grounded and press on."
+	),
+	new Quote(
+		"Laurence J. Peter",
+		"When dieting, the best way to watch calories is from a distance."
+	),
+	new Quote(
+		"Willie Nelson",
+		"When I started counting my blessings, my whole life turned around."
+	),
+	new Quote(
+		"Estee Lauder",
+		"When I thought I couldn't go on, I forced myself to keep going. My success is based on persistence, not luck."
+	),
+	new Quote(
+		"Helen Keller",
+		"When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us."
+	),
+	new Quote(
+		"Unknown",
+		"When people walk away from you, let them go. Your destiny is never tied to anybody who leaves you."
+	),
+	new Quote("Oprah Winfrey", "When someone shows you who they are, believe them the first time."),
+	new Quote(
+		"Unknown",
+		"When something bad happens you have three choices. You can let it define you, let it destroy you, or you can let it strengthen you."
+	),
+	new Quote(
+		"Unknown",
+		"When the task before you seems overwhelming, remember that the best way to eat an elephant is one bite at a time."
+	),
+	new Quote("", ""),
+	new Quote("", ""),
+	new Quote("", ""),
 	new Quote("", ""),
 	// (copy line up/down) CTRL + Shift + Alt + Up/Down
 ];
 
-// Unknown	To achieve, you must believe something and want something with all your might. Then, you must be willing to commit yourself to a course.
-// Unknown	To admit you were wrong is to declare you are wiser now than before.
-// Muhammad Ali	To be a great champion you must believe you are the best. If you’re not, pretend you are.
-// Paul Ehrlich	To err is human, but to really foul things up you need a computer.
-// Charles Dederich	Today is the first day of the rest of your life.
-// Maurice Setter	Too many people miss the silver lining because they're expecting gold.
-// Author Unknown	Troubles are a lot like people - they grow bigger if you nurse them.
-// Edna Buchanan	True friends are those that know you but love you anyway.
-// Elvis Presley	Truth is like the sun. You can shut it out for a time, but it ain’t goin’ away.
-// Ray Owen	Trying times are not the times to stop trying.
-// Oprah Winfrey	Turn your wounds into wisdom.
-// AmandaGore.com	Unforgiveness is like drinking the poison and waiting for the other person to die!
-// Doris Mortman	Until you make peace with who your are ... you'll never be content with what you have.
-// Helen Keller	We can do anything we want if we stick to it long enough.
-// George Bernard Shaw	We don't stop playing because we grow old; We grow old because we stop playing.
-// Carlos Castaneda	We either make ourselves miserable, or we make ourselves strong. The amount of work is the same.
-// Eleanor Roosevelt	We gain strength, and courage, and confidence by each experience in which we really stop to look fear in the face... we must do that which we think we cannot.
-// Henry Ward Beecher	We never know the love of our parents for us until we have become parents.
-// George Eliot	Wear a smile and have friends; wear a scowl and have wrinkles.
-// Dwight D. Eisenhower	What counts is not necessarily the size of the dog in the fight - it's the size of the fight in the dog.
-// Albert Camus	What doesn't kill me makes me stronger.
-// John Lubbock	What we see depends mainly on what we look for.
-// Sheryl Sandberg	What would you do if you weren't afraid?
-// Seneca	What you think of yourself is much more important than what others think of you.
-// Anonymous	Whatever you attempt, go at it with spirit.
-// LL Cool J	When adversity strikes, that's when you have to be the most calm. Take a step back, stay strong, stay grounded and press on.
-// Laurence J. Peter	When dieting, the best way to watch calories is from a distance.
-// Willie Nelson	When I started counting my blessings, my whole life turned around.
-// Estee Lauder	When I thought I couldn't go on, I forced myself to keep going. My success is based on persistence, not luck.
-// Helen Keller	When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.
-// Unknown	When people walk away from you, let them go. Your destiny is never tied to anybody who leaves you.
-// Oprah Winfrey	When someone shows you who they are, believe them the first time.
-// Unknown	When something bad happens you have three choices. You can let it define you, let it destroy you, or you can let it strengthen you.
-// Unknown	When the task before you seems overwhelming, remember that the best way to eat an elephant is one bite at a time.
+//
+//
 // Author Unknown	When the world says, “Give up”, Hope whispers, “Try it one more time”.
 // Unknown	When things are bad, we take comfort in the thought that they could always be worse. And when they are, we find hope in the thought that things are so bad they have to get better.
 // Greg Anderson	When we blame, we give away our power.
