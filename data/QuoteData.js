@@ -1448,77 +1448,204 @@ export const QUOTES = [
 		"Unknown",
 		"When the task before you seems overwhelming, remember that the best way to eat an elephant is one bite at a time."
 	),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	new Quote("", ""),
-	// (copy line up/down) CTRL + Shift + Alt + Up/Down
+	new Quote(
+		"Author Unknown",
+		"When the world says, “Give up”, Hope whispers, “Try it one more time”."
+	),
+	new Quote(
+		"Unknown",
+		"When things are bad, we take comfort in the thought that they could always be worse. And when they are, we find hope in the thought that things are so bad they have to get better."
+	),
+	new Quote("Greg Anderson", "When we blame, we give away our power."),
+	new Quote(
+		"Harley Davidson",
+		"When writing the story of your life, don’t let anyone else hold the pen."
+	),
+	new Quote(
+		"Dakota proverb",
+		"When you discover you are riding a dead horse, the best strategy is to dismount."
+	),
+	new Quote(
+		"F. W. Nichol",
+		`When you get right down to the root of the meaning of the word "succeed," you find that it simply means to follow through.`
+	),
+	new Quote("Thomas Jefferson", "When you reach the end of your rope, tie a knot and hand on."),
+	new Quote(
+		"Erma Bombeck",
+		"Who, in their infinite wisdom, decreed that Little League uniforms be white? Certainly not a mother."
+	),
+	new Quote("Unknown", "Why do people say “no offense” when they're about to offend someone?"),
+	new Quote(
+		"Eric Golnik",
+		"Win as if you were used to it, lose as if you enjoyed it for a change."
+	),
+	new Quote("Dennis DeYoung", "Winners are losers who got up and gave it one more try."),
+	new Quote(
+		"Albert Gray",
+		"Winners have simply formed the habit of doing things losers don't like to do."
+	),
+	new Quote("Anonymous", "Winners make goals; others make excuses."),
+	new Quote(
+		"William Arthur Ward",
+		"Wise are those who learn that the bottom line doesn't always have to be their top priority."
+	),
+	new Quote(
+		"Eleanor Roosevelt",
+		"Women are like teabags. We don't know our true strength until we are in hot water!"
+	),
+	new Quote(
+		"Satchel Paige",
+		"Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching."
+	),
+	new Quote(
+		"Leo Buscaglia",
+		"Worry never robs tomorrow of its sorrow, it only saps today of its joy."
+	),
+	new Quote(
+		"Unknown",
+		"Worrying does not empty tomorrow of its troubles; it empties today of it's strength."
+	),
+	new Quote(
+		"Unknown",
+		"Worrying is like a rocking chair, it gives you something to do, but it doesn't get you anywhere."
+	),
+	new Quote(
+		"Glenn Turner",
+		"Worrying is like a rocking chair, it gives you something to do, but it gets you nowhere."
+	),
+	new Quote("Mark Twain", "Wrinkles should merely indicate where smiles have been."),
+	new Quote(
+		"Raymond Aaron",
+		"Write a goal every single month to eliminate a mess from your life, and when you do - abundance will come in."
+	),
+	new Quote("Bernadette Devlin", "Yesterday I dared to struggle. Today I dare to win."),
+	new Quote(
+		"Groucho Marx",
+		"Yesterday is dead, tomorrow hasn't arrived yet. I have just one day, today, and I'm going to be happy in it."
+	),
+	new Quote(
+		"Bill Keane",
+		"Yesterday is history. Tomorrow is a mystery. Today is a gift. That's why we call it the present"
+	),
+	new Quote(
+		"Lyndon B. Johnson",
+		"Yesterday is not ours to recover, but tomorrow is ours to win or to lose."
+	),
+	new Quote("Ruth Fishel", "You act out who you think you are."),
+	new Quote(
+		"Dr. Phil",
+		"You are burning daylight if you're letting you life slip by when you know full well that things just aren't right."
+	),
+	new Quote("C.S. Lewis", "You are never too old to set another goal or to dream a new dream."),
+	new Quote(
+		"Unknown",
+		"You are the artist of your own life. Don't hand the paintbrush to anyone else."
+	),
+	new Quote(
+		"James Allen",
+		"You are today where your thoughts have brought you; You will be tomorrow where your thoughts take you."
+	),
+	new Quote(
+		"Ray Charles",
+		"You better live every day like it is your last day, because one day you are going to be right."
+	),
+	new Quote("Publilius Syrus", "You can accomplish by kindness what you cannot by force."),
+	new Quote("Norman Vincent Peale", "You can be greater than anything that can happen to you."),
+	new Quote(
+		"Ziggy",
+		"You can complain because roses have thorns, or you can rejoice because thorns have roses."
+	),
+	new Quote("Bob Parsons", "You can get through anything one day at a time."),
+	new Quote(
+		"Louise Smith",
+		"You can’t reach for anything new if your hands are still full of yesterday’s junk."
+	),
+	new Quote(
+		"Wayne Dyer",
+		"You cannot always control what goes on outside. But you can always control what goes on inside."
+	),
+	new Quote(
+		"Charles F. Kettering",
+		"You can't have a better tomorrow if you are thinking about yesterday all the time."
+	),
+	new Quote(
+		"Unknown",
+		"You can't start the next chapter of your life if you keep re-reading the last one."
+	),
+	new Quote("Dr. Jon Kabat-zinn", "You can't stop the waves, but you can learn to surf."),
+	new Quote("Camilla Eyring Kimball", "You do not find the happy life. You make it."),
+	new Quote(
+		"Dan Millman",
+		"You don’t have to control your thoughts. You just have to stop letting them control you."
+	),
+	new Quote(
+		"Joan Baez",
+		"You don't get to choose how you're going to die. Or when. But you can decide how you're going to live now."
+	),
+	new Quote(
+		"Barbara Bush",
+		"You don't just luck into things... You build step by step, whether it's friendships or opportunities."
+	),
+	new Quote(
+		"Eleanor Roosevelt",
+		"You gain strength, courage, and confidence by every experience in which you stop to look fear in the face."
+	),
+	new Quote(
+		"Louise L. Hay",
+		"You have been criticizing yourself for years, and it hasn't worked. Try approving of yourself and see what happens."
+	),
+	new Quote(
+		"Rosalynn Carter",
+		"You have to have confidence in your ability and then be tough enough to follow through."
+	),
+	new Quote("Donald Trump", "You have to think anyway, so why not think big?"),
+	new Quote(
+		"Brian Tracy",
+		"You have within you, right now, everything you need to deal with whatever the world can throw at you."
+	),
+	new Quote(
+		"Dr. Seuss",
+		"You know you're in love when you can't fall asleep because reality is finally better than your dreams."
+	),
+	new Quote(
+		"Mary Pickford",
+		"You may have a fresh start any moment you choose, for this thing we call “failure” is not the falling down, but the staying down."
+	),
+	new Quote("Wayne Gretzky", "You miss 100 percent of the shots you never take."),
+	new Quote("Ashanti Proverb", "You must act as if it is impossible to fail."),
+	new Quote(
+		"Charles Noble",
+		"You must have long range goals to keep you from being frustrated by short range failures."
+	),
+	new Quote("Zsa Zsa Gabor", "You never really know a man until you have divorced him."),
+	new Quote("Joe E. Lewis", "You only live once - but if you work it right, once is enough."),
+	new Quote("John Mason", "You were born an original. Don't die a copy."),
+	new Quote(
+		"Abraham Maslow",
+		"You will either step forward into growth or you will step back into safety."
+	),
+	new Quote(
+		"Maya Angelou",
+		"You will face many defeats in your life, but never let yourself be defeated."
+	),
+	new Quote(
+		"Unknown",
+		"Your first mistake was leaving me, your second mistake was letting me realize that I can live without you."
+	),
+	new Quote(
+		"Og Mandino",
+		"Your only limitations are those you set up in your mind, or permit others to set up for you."
+	),
+	new Quote(
+		"Abraham Lincoln",
+		"Your own resolution to success is more important than any other one thing."
+	),
+	new Quote(
+		"Nido Qubein",
+		"Your present circumstances don't determine where you can go; they merely determine where you start."
+	),
+	new Quote(
+		"Brian Tracy",
+		"Your success in life will be in direct proportion to what you do after you do what you are expected to do."
+	),
 ];
-
-//
-//
-// Author Unknown	When the world says, “Give up”, Hope whispers, “Try it one more time”.
-// Unknown	When things are bad, we take comfort in the thought that they could always be worse. And when they are, we find hope in the thought that things are so bad they have to get better.
-// Greg Anderson	When we blame, we give away our power.
-// Harley Davidson	When writing the story of your life, don’t let anyone else hold the pen.
-// Dakota proverb	When you discover you are riding a dead horse, the best strategy is to dismount.
-// F. W. Nichol	When you get right down to the root of the meaning of the word "succeed," you find that it simply means to follow through.
-// Thomas Jefferson	When you reach the end of your rope, tie a knot and hand on.
-// Erma Bombeck	Who, in their infinite wisdom, decreed that Little League uniforms be white? Certainly not a mother.
-// Unknown	Why do people say “no offense” when they're about to offend someone?
-// Eric Golnik	Win as if you were used to it, lose as if you enjoyed it for a change.
-// Dennis DeYoung	Winners are losers who got up and gave it one more try.
-// Albert Gray	Winners have simply formed the habit of doing things losers don't like to do.
-// Anonymous	Winners make goals; others make excuses.
-// William Arthur Ward	Wise are those who learn that the bottom line doesn't always have to be their top priority.
-// Eleanor Roosevelt	Women are like teabags. We don't know our true strength until we are in hot water!
-// Satchel Paige	Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching.
-// Leo Buscaglia	Worry never robs tomorrow of its sorrow, it only saps today of its joy.
-// Unknown	Worrying does not empty tomorrow of its troubles; it empties today of it's strength.
-// Unknown	Worrying is like a rocking chair, it gives you something to do, but it doesn't get you anywhere.
-// Glenn Turner	Worrying is like a rocking chair, it gives you something to do, but it gets you nowhere.
-// Mark Twain	Wrinkles should merely indicate where smiles have been.
-// Raymond Aaron	Write a goal every single month to eliminate a mess from your life, and when you do - abundance will come in.
-// Bernadette Devlin	Yesterday I dared to struggle. Today I dare to win.
-// Groucho Marx	Yesterday is dead, tomorrow hasn't arrived yet. I have just one day, today, and I'm going to be happy in it.
-// Bill Keane	Yesterday is history. Tomorrow is a mystery. Today is a gift. That's why we call it the present
-// Lyndon B. Johnson	Yesterday is not ours to recover, but tomorrow is ours to win or to lose.
-// Ruth Fishel	You act out who you think you are.
-// Dr. Phil	You are burning daylight if you're letting you life slip by when you know full well that things just aren't right.
-// C.S. Lewis	You are never too old to set another goal or to dream a new dream.
-// Unknown	You are the artist of your own life. Don't hand the paintbrush to anyone else.
-// James Allen	You are today where your thoughts have brought you; You will be tomorrow where your thoughts take you.
-// Ray Charles	You better live every day like it is your last day, because one day you are going to be right.
-// Publilius Syrus	You can accomplish by kindness what you cannot by force.
-// Norman Vincent Peale	You can be greater than anything that can happen to you.
-// Ziggy	You can complain because roses have thorns, or you can rejoice because thorns have roses.
-// Bob Parsons	You can get through anything one day at a time.
-// Louise Smith	You can’t reach for anything new if your hands are still full of yesterday’s junk.
-// Wayne Dyer	You cannot always control what goes on outside. But you can always control what goes on inside.
-// Charles F. Kettering	You can't have a better tomorrow if you are thinking about yesterday all the time.
-// Unknown	You can't start the next chapter of your life if you keep re-reading the last one.
-// Dr. Jon Kabat-zinn	You can't stop the waves, but you can learn to surf.
-// Camilla Eyring Kimball	You do not find the happy life. You make it.
-// Dan Millman	You don’t have to control your thoughts. You just have to stop letting them control you.
-// Joan Baez	You don't get to choose how you're going to die. Or when. But you can decide how you're going to live now.
-// Barbara Bush	You don't just luck into things... You build step by step, whether it's friendships or opportunities.
-// Eleanor Roosevelt	You gain strength, courage, and confidence by every experience in which you stop to look fear in the face.
-// Louise L. Hay	You have been criticizing yourself for years, and it hasn't worked. Try approving of yourself and see what happens.
-// Rosalynn Carter	You have to have confidence in your ability and then be tough enough to follow through.
-// Donald Trump	You have to think anyway, so why not think big?
-// Brian Tracy	You have within you, right now, everything you need to deal with whatever the world can throw at you.
-// Dr. Seuss	You know you're in love when you can't fall asleep because reality is finally better than your dreams.
-// Mary Pickford	You may have a fresh start any moment you choose, for this thing we call “failure” is not the falling down, but the staying down.
-// Wayne Gretzky	You miss 100 percent of the shots you never take.
-// Ashanti Proverb	You must act as if it is impossible to fail.
-// Charles Noble	You must have long range goals to keep you from being frustrated by short range failures.
-//  Zsa Zsa Gabor	You never really know a man until you have divorced him.
-// Joe E. Lewis	You only live once - but if you work it right, once is enough.
-// John Mason	You were born an original. Don't die a copy.
-// Abraham Maslow	You will either step forward into growth or you will step back into safety.
-// Maya Angelou	You will face many defeats in your life, but never let yourself be defeated.
-// Unknown	Your first mistake was leaving me, your second mistake was letting me realize that I can live without you.
-// Og Mandino	Your only limitations are those you set up in your mind, or permit others to set up for you.
-// Abraham Lincoln	Your own resolution to success is more important than any other one thing.
-// Nido Qubein	Your present circumstances don't determine where you can go; they merely determine where you start.
-// Brian Tracy	Your success in life will be in direct proportion to what you do after you do what you are expected to do.
