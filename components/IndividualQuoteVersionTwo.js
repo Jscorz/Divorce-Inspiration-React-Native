@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		alignSelf: "flex-start",
 		color: Colors.accent500,
-		marginTop: 50,
+		marginTop: 70,
 		marginLeft: 50,
 	},
 	anotherQuoteButtonContainer: {
