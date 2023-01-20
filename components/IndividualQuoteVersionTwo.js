@@ -6,7 +6,7 @@ import Colors from "../constants/colors";
 import PrimaryButton from "./PrimaryButton";
 
 function IndividualQuoteTwo() {
-	const randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
+	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 
@@ -14,6 +14,12 @@ function IndividualQuoteTwo() {
 		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
 		setAuthorOfTheDay(QUOTES[randomNumber].author);
 	}, []);
+
+	function getAnotherQuote() {
+		randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
+		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
+		setAuthorOfTheDay(QUOTES[randomNumber].author);
+	}
 
 	function consoleLogger() {
 		console.log(QUOTES.length, randomNumber);
@@ -35,7 +41,9 @@ function IndividualQuoteTwo() {
 				<Text style={styles.authorText}>- {authorOfTheDay}</Text>
 			</View>
 			<View style={styles.anotherQuoteButtonContainer}>
-				<PrimaryButton>Get Another Dose of Inspiration</PrimaryButton>
+				<PrimaryButton onPress={getAnotherQuote}>
+					Get Another Dose of Inspiration
+				</PrimaryButton>
 			</View>
 		</View>
 	);
