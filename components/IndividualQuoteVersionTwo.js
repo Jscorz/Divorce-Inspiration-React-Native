@@ -9,6 +9,7 @@ function IndividualQuoteTwo() {
 	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
+	const [numberOfQuotesViewed, setNumberOfQuotesViewed] = useState(1);
 
 	useEffect(() => {
 		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
@@ -16,9 +17,12 @@ function IndividualQuoteTwo() {
 	}, []);
 
 	function getAnotherQuote() {
-		randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
-		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
-		setAuthorOfTheDay(QUOTES[randomNumber].author);
+		if (numberOfQuotesViewed < 3) {
+			randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
+			setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
+			setAuthorOfTheDay(QUOTES[randomNumber].author);
+			setNumberOfQuotesViewed(numberOfQuotesViewed + 1);
+		}
 	}
 
 	function consoleLogger() {
