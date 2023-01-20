@@ -5,7 +5,7 @@ import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 
 function IndividualQuote() {
-	const randomNumber = Math.floor(Math.random() * 454 + 1);
+	const randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 
