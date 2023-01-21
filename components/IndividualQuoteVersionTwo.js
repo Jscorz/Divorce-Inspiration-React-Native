@@ -12,6 +12,7 @@ function IndividualQuoteTwo() {
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 	const [numberOfQuotesViewed, setNumberOfQuotesViewed] = useState(1);
+	const [noMoreQuotesToBeViewable, setNoMoreQuotesToBeViewable] = useState(false);
 
 	const progress = useRef(new Animated.Value(0));
 
@@ -49,6 +50,7 @@ function IndividualQuoteTwo() {
 
 	function resetNumberOfQuotesViewed() {
 		setNumberOfQuotesViewed(1);
+		setNoMoreQuotesToBeViewable(true);
 	}
 
 	return (
@@ -75,7 +77,7 @@ function IndividualQuoteTwo() {
 					Get Another Dose of Inspiration
 				</PrimaryButton>
 			</View>
-			{numberOfQuotesViewed === 3 && (
+			{numberOfQuotesViewed === 3 && noMoreQuotesToBeViewable === false && (
 				<View style={styles.IndividualArticleButtonContainer}>
 					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
 				</View>
