@@ -16,9 +16,16 @@ function IndividualArticleButton() {
 	}
 
 	return (
-		<View>
-			<Pressable>
-				<Text onPress={consoleLogger}>
+		<View style={styles.buttonOuterContainer}>
+			<Pressable
+				style={({ pressed }) =>
+					pressed
+						? [styles.buttonInnerContainer, styles.pressed]
+						: styles.buttonInnerContainer
+				}
+				android_ripple={{ color: Colors.primary700 }}
+			>
+				<Text style={styles.buttonText} onPress={consoleLogger}>
 					View an article that may help you to unlock more quotes
 				</Text>
 			</Pressable>
@@ -28,4 +35,23 @@ function IndividualArticleButton() {
 
 export default IndividualArticleButton;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+	buttonOuterContainer: {
+		borderRadius: 28,
+		marginHorizontal: 36,
+		overflow: "hidden",
+	},
+	buttonInnerContainer: {
+		backgroundColor: Colors.accent500,
+		paddingVertical: 8,
+		paddingHorizontal: 16,
+		elevation: 2,
+	},
+	buttonText: {
+		color: Colors.primary800,
+		textAlign: "center",
+	},
+	pressed: {
+		opacity: 0.75,
+	},
+});

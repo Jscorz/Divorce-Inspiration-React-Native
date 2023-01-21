@@ -4,6 +4,7 @@ import { QUOTES } from "../data/QuoteData";
 import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 import PrimaryButton from "./PrimaryButton";
+import IndividualArticleButton from "./IndividualArticleButton";
 
 function IndividualQuoteTwo() {
 	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
@@ -49,6 +50,11 @@ function IndividualQuoteTwo() {
 					Get Another Dose of Inspiration
 				</PrimaryButton>
 			</View>
+			{numberOfQuotesViewed === 3 && (
+				<View style={styles.IndividualArticleButtonContainer}>
+					<IndividualArticleButton />
+				</View>
+			)}
 		</View>
 	);
 }
@@ -107,6 +113,9 @@ const styles = StyleSheet.create({
 		marginLeft: 50,
 	},
 	anotherQuoteButtonContainer: {
+		marginTop: 44,
+	},
+	IndividualArticleButtonContainer: {
 		marginTop: 44,
 	},
 });
