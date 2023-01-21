@@ -67,4 +67,46 @@ export const ARTICLES = [
 		"6/9/2008",
 		"Making Ends Meet after Divorce"
 	),
+	new Article(
+		"https://www.womansdivorce.com/buying-a-house-after-divorce.html",
+		"Buying a House After Divorce",
+		"9/9/2020",
+		"Tips for Buying a House after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/can-i-file-a-joint-tax-return.html",
+		"Can I File A Joint Tax Return",
+		"3/15/2007",
+		"Can I File a Joint Tax Return?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cell-phone-voice-messages.html",
+		"Cell Phone Voice Messages",
+		"12/19/2007",
+		"Cell Phone Voice Messages and Custody Disputes"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cheap-divorce.html",
+		"Cheap Divorce",
+		"10/30/2014",
+		"When a Cheap Divorce Backfires"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cheating-husband.html",
+		"Cheating Husband",
+		"12/11/2007",
+		"Infidelity: What to Look For, What to Do"
+	),
+	new Article(
+		"https://www.womansdivorce.com/childcare-after-divorce.html",
+		"Childcare after Divorce",
+		"9/3/2022",
+		"How are Child Care Expenses Divided After Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/child-chooses-to-change-custody.html",
+		"Child Chooses To Change Custody",
+		"6/2/2006",
+		"How do you cope when your child chooses to change custody? "
+	),
 ];

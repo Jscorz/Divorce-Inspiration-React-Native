@@ -1,7 +1,7 @@
 class Article {
-	constructor(url, page, dateBuilt, linkText) {
+	constructor(url, articleTitle, dateBuilt, linkText) {
 		this.url = url;
-		this.page = page;
+		this.articleTitle = articleTitle;
 		this.dateBuilt = dateBuilt;
 		this.linkText = linkText;
 	}
