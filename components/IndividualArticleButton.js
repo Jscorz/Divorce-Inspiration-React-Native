@@ -1,11 +1,31 @@
-import { useState, useEffect } from "react";
-import { View, Pressable, Text, StyleSheet } from "react-native";
+import { useState, useEffect, useRef, useCallback } from "react";
+import { View, Pressable, Text, StyleSheet, Animated } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 function IndividualArticleButton({ onPress }) {
 	const randomNumber = Math.floor(Math.random() * (5 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
+
+	const anim = useRef(new Animated.Value(0));
+
+	useEffect(() => {
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(anim.current, {
+					toValue: 1.2,
+					duration: 1000,
+					useNativeDriver: true,
+				}),
+				Animated.timing(anim.current, {
+					toValue: 1,
+					duration: 1000,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
 
 	useEffect(() => {
 		setSuggestedArticle(ARTICLES[randomNumber]);
@@ -16,7 +36,9 @@ function IndividualArticleButton({ onPress }) {
 	}
 
 	return (
-		<View style={styles.buttonOuterContainer}>
+		<Animated.View
+			style={[styles.buttonOuterContainer, { transform: [{ scale: anim.current }] }]}
+		>
 			<Pressable
 				style={({ pressed }) =>
 					pressed
@@ -27,10 +49,10 @@ function IndividualArticleButton({ onPress }) {
 				android_ripple={{ color: Colors.primary700 }}
 			>
 				<Text style={styles.buttonText}>
-					View an article that may help you to unlock another quote
+					View an article that may help you to unlock more quotes
 				</Text>
 			</Pressable>
-		</View>
+		</Animated.View>
 	);
 }
 
