@@ -7,17 +7,17 @@ function IndividualArticleButton({ onPress }) {
 	const randomNumber = Math.floor(Math.random() * (5 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
 
-	const anim = useRef(new Animated.Value(0));
+	const progress = useRef(new Animated.Value(0));
 
 	useEffect(() => {
 		Animated.loop(
 			Animated.sequence([
-				Animated.timing(anim.current, {
+				Animated.timing(progress.current, {
 					toValue: 1.2,
 					duration: 1000,
 					useNativeDriver: true,
 				}),
-				Animated.timing(anim.current, {
+				Animated.timing(progress.current, {
 					toValue: 1,
 					duration: 1000,
 					useNativeDriver: true,
@@ -37,7 +37,7 @@ function IndividualArticleButton({ onPress }) {
 
 	return (
 		<Animated.View
-			style={[styles.buttonOuterContainer, { transform: [{ scale: anim.current }] }]}
+			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
 		>
 			<Pressable
 				style={({ pressed }) =>
