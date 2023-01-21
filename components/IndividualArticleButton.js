@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Pressable, Text, StyleSheet, Animated } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
