@@ -27,7 +27,7 @@ function IndividualQuoteTwo() {
 	}
 
 	function resetNumberOfQuotesViewed() {
-		setNumberOfQuotesViewed(0);
+		setNumberOfQuotesViewed(1);
 	}
 
 	return (
