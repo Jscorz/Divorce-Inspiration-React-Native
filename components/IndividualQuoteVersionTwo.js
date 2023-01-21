@@ -46,7 +46,10 @@ function IndividualQuoteTwo() {
 				<Text style={styles.authorText}>- {authorOfTheDay}</Text>
 			</View>
 			<View style={styles.anotherQuoteButtonContainer}>
-				<PrimaryButton onPress={getAnotherQuote}>
+				<PrimaryButton
+					onPress={getAnotherQuote}
+					numberOfQuotesViewed={numberOfQuotesViewed}
+				>
 					Get Another Dose of Inspiration
 				</PrimaryButton>
 			</View>
