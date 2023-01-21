@@ -1,9 +1,15 @@
 import { View, Text, Pressable, StyleSheet } from "react-native";
 import Colors from "../constants/colors";
 
-function PrimaryButton({ children, onPress }) {
+function PrimaryButton({ children, onPress, numberOfQuotesViewed }) {
 	return (
-		<View style={styles.buttonOuterContainer}>
+		<View
+			style={
+				numberOfQuotesViewed === 3
+					? [styles.buttonOuterContainer, styles.quoteLimitReached]
+					: styles.buttonOuterContainer
+			}
+		>
 			<Pressable
 				style={({ pressed }) =>
 					pressed
@@ -39,5 +45,8 @@ const styles = StyleSheet.create({
 	},
 	pressed: {
 		opacity: 0.75,
+	},
+	quoteLimitReached: {
+		opacity: 0.5,
 	},
 });
