@@ -1,16 +1,37 @@
-import { useEffect, useState } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { useEffect, useState, useRef } from "react";
+import { View, Text, StyleSheet, Animated } from "react-native";
 import { QUOTES } from "../data/QuoteData";
 import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 import PrimaryButton from "./PrimaryButton";
 import IndividualArticleButton from "./IndividualArticleButton";
+import { useFocusEffect } from "@react-navigation/native";
 
 function IndividualQuoteTwo() {
 	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
 	const [authorOfTheDay, setAuthorOfTheDay] = useState();
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 	const [numberOfQuotesViewed, setNumberOfQuotesViewed] = useState(1);
+
+	const progress = useRef(new Animated.Value(0));
+
+	useEffect(() => {
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(progress.current, {
+					toValue: 1.2,
+					duration: 700,
+					useNativeDriver: true,
+				}),
+				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 700,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
 
 	useEffect(() => {
 		setQuoteOfTheDay(QUOTES[randomNumber].actualQuote);
@@ -33,12 +54,14 @@ function IndividualQuoteTwo() {
 	return (
 		<View>
 			<View style={styles.rootContainer}>
-				<View style={styles.quoteContainer}>
+				<Animated.View
+					style={[styles.quoteContainer, { transform: [{ scale: progress.current }] }]}
+				>
 					<View style={styles.iconContainer}>
 						<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
 					</View>
 					<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
-				</View>
+				</Animated.View>
 				<View style={styles.bottomOfQuoteContainer}></View>
 			</View>
 			<View>
