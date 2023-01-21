@@ -3,7 +3,7 @@ import { View, Pressable, Text, StyleSheet } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
-function IndividualArticleButton() {
+function IndividualArticleButton({ onPress }) {
 	const randomNumber = Math.floor(Math.random() * (5 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
 
@@ -23,10 +23,11 @@ function IndividualArticleButton() {
 						? [styles.buttonInnerContainer, styles.pressed]
 						: styles.buttonInnerContainer
 				}
+				onPress={onPress}
 				android_ripple={{ color: Colors.primary700 }}
 			>
-				<Text style={styles.buttonText} onPress={consoleLogger}>
-					View an article that may help you to unlock more quotes
+				<Text style={styles.buttonText}>
+					View an article that may help you to unlock another quote
 				</Text>
 			</Pressable>
 		</View>

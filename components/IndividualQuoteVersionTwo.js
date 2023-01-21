@@ -26,8 +26,8 @@ function IndividualQuoteTwo() {
 		}
 	}
 
-	function consoleLogger() {
-		console.log(QUOTES.length, randomNumber);
+	function resetNumberOfQuotesViewed() {
+		setNumberOfQuotesViewed(0);
 	}
 
 	return (
@@ -37,7 +37,6 @@ function IndividualQuoteTwo() {
 					<View style={styles.iconContainer}>
 						<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
 					</View>
-					{/* <Text onPress={consoleLogger}>click here</Text> */}
 					<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
 				</View>
 				<View style={styles.bottomOfQuoteContainer}></View>
@@ -55,7 +54,7 @@ function IndividualQuoteTwo() {
 			</View>
 			{numberOfQuotesViewed === 3 && (
 				<View style={styles.IndividualArticleButtonContainer}>
-					<IndividualArticleButton />
+					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
 				</View>
 			)}
 		</View>
@@ -104,7 +103,7 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 	},
 	quoteText: {
-		fontSize: 32,
+		fontSize: 24,
 		padding: 24,
 	},
 	authorText: {
