@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-import { View, Pressable, Text, StyleSheet, Animated } from "react-native";
+import { Pressable, Text, StyleSheet, Animated } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
