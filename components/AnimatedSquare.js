@@ -19,7 +19,6 @@ function AnimatedSquare() {
 					Animated.spring(scale, { toValue: 1, useNativeDriver: true }),
 				]),
 			])
-			// {iterations:3}
 		).start();
 	}, []);
 
@@ -38,7 +37,7 @@ function AnimatedSquare() {
 						{
 							rotate: progress.interpolate({
 								inputRange: [0.5, 1],
-								outputRange: [`${Math.PI}(deg)`, `${2 * Math.PI}(deg)`],
+								outputRange: ["180deg", `360deg`],
 							}),
 						},
 					],
