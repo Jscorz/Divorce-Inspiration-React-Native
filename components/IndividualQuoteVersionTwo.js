@@ -20,7 +20,7 @@ function IndividualQuoteTwo() {
 		Animated.loop(
 			Animated.sequence([
 				Animated.timing(progress.current, {
-					toValue: 1.2,
+					toValue: 1.1,
 					duration: 700,
 					useNativeDriver: true,
 				}),
