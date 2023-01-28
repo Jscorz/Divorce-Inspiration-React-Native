@@ -12,8 +12,7 @@ export default function App() {
 	let screen = <WelcomeScreen />;
 
 	if (welcomeBackIsOver) {
-		// screen = <QuoteDisplayScreen />;
-		screen = <WelcomeScreen />;
+		screen = <QuoteDisplayScreen />;
 	}
 
 	useEffect(() => {
