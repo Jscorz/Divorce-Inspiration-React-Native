@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Pressable, Text, StyleSheet, Animated } from "react-native";
+import { Pressable, Text, StyleSheet, Animated, Linking } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
@@ -8,6 +8,10 @@ function IndividualArticleButton({ onPress }) {
 	const [suggestedArticle, setSuggestedArticle] = useState();
 
 	const progress = useRef(new Animated.Value(0));
+
+	function OpenLinkInBrowser() {
+		onPress(), Linking.openURL(`${suggestedArticle.url}`);
+	}
 
 	useEffect(() => {
 		Animated.loop(
@@ -48,7 +52,7 @@ function IndividualArticleButton({ onPress }) {
 				onPress={onPress}
 				android_ripple={{ color: Colors.primary700 }}
 			>
-				<Text style={styles.buttonText}>
+				<Text style={styles.buttonText} onPress={OpenLinkInBrowser}>
 					View an article that may help you to unlock more quotes
 				</Text>
 			</Pressable>
