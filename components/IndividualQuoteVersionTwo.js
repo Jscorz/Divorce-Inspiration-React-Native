@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
 	},
 	rootContainer: {
 		minWidth: "100%",
-		backgroundColor: "white",
+		backgroundColor: Colors.offWhite,
 		borderRadius: 96,
 		minHeight: 400,
 		padding: 30,
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
 		borderLeftWidth: 45,
 		borderTopColor: "transparent",
 		borderRightColor: "transparent",
-		borderBottomColor: "white",
+		borderBottomColor: Colors.offWhite,
 		borderLeftColor: "transparent",
 		alignSelf: "flex-end",
 		marginBottom: -80,

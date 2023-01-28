@@ -11,6 +11,7 @@ const Colors = {
 	accent500: "#ddb52f",
 	accent600: "#ae8e25",
 	accent500LowOpacity: "#ddb42f82",
+	offWhite: "#f1f1f1",
 };
 
 export default Colors;
