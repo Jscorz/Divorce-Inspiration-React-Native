@@ -401,4 +401,154 @@ export const ARTICLES = [
 		"Coping With Divorce",
 		"Tips and Strategies for Coping with Divorce from the Life Coach"
 	),
+	new Article(
+		"https://www.womansdivorce.com/copy-of-tax-return.html",
+		"Copy Of Tax Return",
+		"How to Get a Copy of Tax Return Information for Your Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cost-of-a-divorce.html",
+		"Cost of a Divorce",
+		"How to Keep Attorney Fees to a Minimum"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cost-of-divorce.html",
+		"Cost of Divorce",
+		"What’s the Cheapest Way to Get a Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/coupons.html",
+		"Coupons",
+		"Using Grocery Coupons to Save Money"
+	),
+	new Article(
+		"https://www.womansdivorce.com/court-ordered-life-insurance.html",
+		"Court Ordered Life Insurance",
+		"Court Ordered Life Insurance - What You Need to Know"
+	),
+	new Article(
+		"https://www.womansdivorce.com/court-ordered-medical-insurance.html",
+		"Court Ordered Medical Insurance",
+		"Who Pays For Your Children's Health Insurance After a Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/credit.html",
+		"Credit",
+		"Protecting Your Post Divorce Credit"
+	),
+	new Article(
+		"https://www.womansdivorce.com/credit-after-divorce.html",
+		"Credit After Divorce",
+		"Rebuilding Your Credit after Divorce: Knowing Your Score and Developing a Plan"
+	),
+	new Article(
+		"https://www.womansdivorce.com/credit-card-debt-in-divorce.html",
+		"Credit Card Debt In Divorce",
+		"Dividing Credit Card Debt in Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/credit-during-divorce.html",
+		"Credit During Divorce",
+		"Protecting Your Credit during Divorce – How to Handle Joint Debts and Accounts"
+	),
+	new Article(
+		"https://www.womansdivorce.com/cryptocurrency-in-divorce.html",
+		"Cryptocurrency in Divorce",
+		"Cryptocurrency in Divorce – Tips for Valuing and Dividing Cryptocurrency Assets"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custodial-interference.html",
+		"Custodial Interference",
+		"What is Custodial Interference and What Can You Do About It?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-and-job.html",
+		"Custody And Job",
+		"Child Custody and Job Concerns: Can Your Job Impact Custody or Visitation?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-assessment-issues.html",
+		"Custody Assessment Issues",
+		"Custody Assessment Issues – How Custody Evaluations Work and What to Expect"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-evaluation.html",
+		"Custody Evaluation",
+		"How to prepare for a Custody Evaluation"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-fight.html",
+		"Custody Fight",
+		"Custody Fight? Think Twice About Going to Court"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-jurisdiction.html",
+		"Custody Jurisdiction",
+		"Child Custody Jurisdiction FAQs – Which State has Jurisdiction over Custody and Support?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/custody-vacation-time.html",
+		"Custody Vacation Time",
+		"How to Handle Child Custody Vacation Disputes – Your Questions Answered"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating.html",
+		"Dating",
+		"Dating after Divorce – When to Start and How to Proceed"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-after-divorce-advice.html",
+		"Dating After Divorce Advice",
+		"Dating after Divorce - How to Attract the Man of Your Dreams"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-again.html",
+		"Dating Again",
+		"Dating Again after Divorce - 7 Secrets for Successful Post-Divorce Dating"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-during-divorce.html",
+		"Dating During Divorce",
+		"Why Dating During Divorce Is Unwise"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-profile.html",
+		"Dating Profile",
+		"Writing Your Online Dating Profile - How to Turn a Browse into a Click"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-rules-after-divorce.html",
+		"Dating Rules After Divorce",
+		"Dating after Divorce: 10 Tips for the Newly Uncommitted"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-tips.html",
+		"Dating Tips",
+		"Dating Tips for Single Moms"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dating-tips-for-divorced-moms.html",
+		"Dating Tips For Divorced Moms",
+		"Seven Ways to Ease Your Kids' Anxiety When You Date"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dealing-with-betrayal.html",
+		"Dealing With Betrayal",
+		"Dealing with Betrayal - Coping with the Anger and Grief"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dealing-with-ex-spouses.html",
+		"Dealing With Ex Spouses",
+		"How to handle Some of the Issues that may Arise with Your Ex-husband"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dealing-with-stepchildren.html",
+		"Dealing With Stepchildren",
+		"Dealing with Stepchildren – How to Keep the Kids from Ruining Your Second Marriage"
+	),
+	new Article(
+		"https://www.womansdivorce.com/debt-after-divorce.html",
+		"Debt After Divorce",
+		"Handling Debt after Divorce – What Debt Relief Options are Available?"
+	),
 ];
