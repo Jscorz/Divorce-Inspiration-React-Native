@@ -14,10 +14,34 @@ export const ARTICLES = [
 		"Divorcing an Abusive Husband "
 	),
 	new Article(
+		"https://www.womansdivorce.com/abusive-relationship.html",
+		"Abusive Relationship",
+		"4/6/2009",
+		"Separating From and Divorcing an Abusive Partner"
+	),
+	new Article(
 		"https://www.womansdivorce.com/accepting-divorce.html",
 		"Accepting Divorce",
 		"3/15/2009",
 		"Accepting Divorce and Moving On - Acknowledging Reality and Being Grateful Anyway"
+	),
+	new Article(
+		"https://www.womansdivorce.com/adopted-parents.html",
+		"Adopted Parents",
+		"5/31/2008",
+		"Legal Rights of Adopted Parents - How Adoption Impacts Custody"
+	),
+	new Article(
+		"https://www.womansdivorce.com/adult-children-after-divorce.html",
+		"Adult Children After Divorce",
+		"5/25/2006",
+		"Dealing With Adult Children After Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/adult-children-divorce.html",
+		"Adult Children Divorce",
+		"5/18/2006",
+		"How to Help When Your Adult Children Divorce"
 	),
 	new Article(
 		"https://www.womansdivorce.com/afford-a-divorce.html",
@@ -38,6 +62,18 @@ export const ARTICLES = [
 		"Coming to terms with a Failed Marriage"
 	),
 	new Article(
+		"https://www.womansdivorce.com/after-the-divorce.html",
+		"After The Divorce",
+		"2003",
+		"The Importance of Taking Care of Yourself after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/alienated-parent.html",
+		"Alienated Parent",
+		"6/15/2009",
+		"Learning to Live with Parental Alienation"
+	),
+	new Article(
 		"https://www.womansdivorce.com/alienating-parent.html",
 		"Alienating Parent",
 		"7/25/2005",
@@ -50,6 +86,30 @@ export const ARTICLES = [
 		"Understanding Alimony - How Much to Expect or If You'll Have to Pay"
 	),
 	new Article(
+		"https://www.womansdivorce.com/anger.html",
+		"Anger",
+		"10/31/2001",
+		"Tips for Releasing with the Lingering Divorce Anger"
+	),
+	new Article(
+		"https://www.womansdivorce.com/annulment-vs-divorce.html",
+		"Annulment vs Divorce",
+		"7/31/18",
+		"Is Annulment or Divorce the Best Solution to End Your Marriage"
+	),
+	new Article(
+		"https://www.womansdivorce.com/attorney-meeting-your-expectations.html",
+		"Attorney Meeting Your Expecations",
+		"10/30/2012",
+		"How to Assess if a Divorce Attorney will Meet Your Expectations"
+	),
+	new Article(
+		"https://www.womansdivorce.com/baby-save-a-marriage.html",
+		"Baby Save a Marriage",
+		"7/16/2016",
+		"Can Having a Baby Save Your Struggling Marriage?"
+	),
+	new Article(
 		"https://www.womansdivorce.com/being-strong.html",
 		"Being Strong",
 		"9/1/2009",
@@ -60,6 +120,30 @@ export const ARTICLES = [
 		"Better Divorce",
 		"2/13/2015",
 		"Tips for a Better Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/bifurcated-divorce.html",
+		"Bifurcated Divorce",
+		"8/4/2009",
+		"Why Would Someone Want a Bifurcated Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/birthdays-after-divorce.html",
+		"Birthday After Divorce",
+		"7/4/2008",
+		"Birthdays After Divorce and My Perfect (ex) Husband"
+	),
+	new Article(
+		"https://www.womansdivorce.com/blended-family.html",
+		"Blended Family",
+		"2/7/2005",
+		"Blended Family Problems - Counseling just for the Child is Not Enough"
+	),
+	new Article(
+		"https://www.womansdivorce.com/blending-families.html",
+		"Blending Families",
+		"8/28/2010",
+		"Blending Families - Tips to Help Everyone Adjust when Expecting a New Baby"
 	),
 	new Article(
 		"https://www.womansdivorce.com/budgeting-income.html",
