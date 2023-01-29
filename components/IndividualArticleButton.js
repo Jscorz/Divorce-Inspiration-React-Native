@@ -13,6 +13,11 @@ function IndividualArticleButton({ onPress }) {
 		onPress(), Linking.openURL(`${suggestedArticle.url}`);
 	}
 
+	function consoleLogger() {
+		console.log(suggestedArticle);
+		console.log(ARTICLES.length);
+	}
+
 	useEffect(() => {
 		Animated.loop(
 			Animated.sequence([
@@ -35,11 +40,6 @@ function IndividualArticleButton({ onPress }) {
 		setSuggestedArticle(ARTICLES[randomNumber]);
 	}, []);
 
-	function consoleLogger() {
-		console.log(suggestedArticle);
-		console.log(ARTICLES.length);
-	}
-
 	return (
 		<Animated.View
 			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
@@ -55,8 +55,8 @@ function IndividualArticleButton({ onPress }) {
 			>
 				<Text
 					style={styles.buttonText}
-					//  onPress={OpenLinkInBrowser}
-					onPress={consoleLogger}
+					onPress={OpenLinkInBrowser}
+					// onPress={consoleLogger}
 				>
 					View an article that may help you to unlock more quotes
 				</Text>
