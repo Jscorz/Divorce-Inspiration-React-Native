@@ -4,7 +4,7 @@ import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 function IndividualArticleButton({ onPress }) {
-	const randomNumber = Math.floor(Math.random() * (5 - 1) + 1);
+	const randomNumber = Math.floor(Math.random() * (32 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
 
 	const progress = useRef(new Animated.Value(0));
@@ -37,6 +37,7 @@ function IndividualArticleButton({ onPress }) {
 
 	function consoleLogger() {
 		console.log(suggestedArticle);
+		console.log(ARTICLES.length);
 	}
 
 	return (
@@ -52,7 +53,11 @@ function IndividualArticleButton({ onPress }) {
 				onPress={onPress}
 				android_ripple={{ color: Colors.primary700 }}
 			>
-				<Text style={styles.buttonText} onPress={OpenLinkInBrowser}>
+				<Text
+					style={styles.buttonText}
+					//  onPress={OpenLinkInBrowser}
+					onPress={consoleLogger}
+				>
 					View an article that may help you to unlock more quotes
 				</Text>
 			</Pressable>
