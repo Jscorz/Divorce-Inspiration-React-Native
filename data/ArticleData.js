@@ -1061,23 +1061,91 @@ export const ARTICLES = [
 		"Facing Your Fears",
 		"Divorce Recovery: Are Your Fears Holding You Back?"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/failure.html",
+		"Failure",
+		"Does Divorce Equal Failure?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/fair-divorce-settlement.html",
+		"Fair Divorce Settlement 4/25/2007",
+		"Is it a Fair Divorce Settlement? Looking at the Long-Term Impact Financial Effects"
+	),
+	new Article(
+		"https://www.womansdivorce.com/family-counselor.html",
+		"Family Counselor",
+		"7 Key Reasons to Start Working with a Family Counselor"
+	),
+	new Article(
+		"https://www.womansdivorce.com/family-keepsakes.html",
+		"Family Keepsakes",
+		"Which Family Keepsakes and Marriage Mementos Should You Keep After Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/feelings-about-visitation.html",
+		"Feelings About Visitation",
+		"Taking the Sting out of Visitation"
+	),
+	new Article(
+		"https://www.womansdivorce.com/filing-divorce-papers.html",
+		"Filing Divorce Papers",
+		"How to File Divorce Papers"
+	),
+	new Article(
+		"https://www.womansdivorce.com/final-divorce-decree.html",
+		"Final Divorce Decree",
+		"What is a Final Divorce Decree and When Does It Become Effective?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/finances-after-divorce.html",
+		"Finances After Divorce",
+		"Divorced Doesn't Have to Mean Destitute"
+	),
+	new Article(
+		"https://www.womansdivorce.com/financial-considerations.html",
+		"Financial Considerations",
+		"Financial Considerations before You Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/financial-documents-for-divorce.html",
+		"Financial Documents for Divorce",
+		"How Good Records can Help Secure a Fair Divorce Settlement"
+	),
+	new Article(
+		"https://www.womansdivorce.com/financial-independence.html",
+		"Financial Independence",
+		"Use this 5-step Blueprint to Help You Gain Financial Independence after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/financial-issues-after-divorce.html",
+		"Financial Issues After Divorce",
+		"How to Take Care of Estate Planning and Financial Issues After Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/financial-survival.html",
+		"Financial Survival",
+		"Financial Survival after Divorce –Steps to Help You Take Control of Your Finances"
+	),
+	new Article(
+		"https://www.womansdivorce.com/finding-love-after-divorce.html",
+		"Finding Love After Divorce",
+		"Finding Love after Divorce – Determining if Your New Relationship is a Good Fit"
+	),
+	new Article(
+		"https://www.womansdivorce.com/Finding-Mr-Right.html",
+		"Finding Mr Right",
+		"Tips for finding Mr. Right the second time around"
+	),
+	new Article(
+		"https://www.womansdivorce.com/flirting-tips-for-women.html",
+		"Flirting Tips For Women",
+		"How the Master the Art of Flirting and Catch the Eye of that Cute Guy"
+	),
+	new Article(
+		"https://www.womansdivorce.com/forensic-accountant.html",
+		"Forensic Accountant",
+		"How A Forensic Accountant Can Help In Divorce"
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
