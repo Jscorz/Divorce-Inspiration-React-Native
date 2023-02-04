@@ -551,4 +551,109 @@ export const ARTICLES = [
 		"Debt After Divorce",
 		"Handling Debt after Divorce – What Debt Relief Options are Available?"
 	),
+	new Article(
+		"https://www.womansdivorce.com/debt-and-divorce.html",
+		"Debt And Divorce",
+		"Debt and Divorce – How Joint Debt Liability Depends on Where You Live"
+	),
+	new Article(
+		"https://www.womansdivorce.com/debts-in-divorce.html",
+		"Debts In Divorce",
+		"Addressing Debts in Divorce - Why It Matters Where You Live"
+	),
+	new Article(
+		"https://www.womansdivorce.com/deciding-on-divorce.html",
+		"Deciding on Divorce",
+		"Deciding On Divorce - The Mindset You Need to Make this Difficult Decision"
+	),
+	new Article(
+		"https://www.womansdivorce.com/degree-marital-property.html",
+		"Degree Marital Property",
+		"Is a Degree Marital Property and How is it Split during Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dependent-tax-deduction.html",
+		"Dependent Tax Deduction",
+		"The Dependent Tax Deduction - New Child-related Tax Rules for Divorced Parents"
+	),
+	new Article(
+		"https://www.womansdivorce.com/depression-from-divorce.html",
+		"Depression From Divorce",
+		"Depression from Divorce – What to Expect and How to Deal with the Blues"
+	),
+	new Article(
+		"https://www.womansdivorce.com/difficult-ex.html",
+		"Difficult Ex",
+		"Co-Parenting with a Difficult Ex"
+	),
+	new Article(
+		"https://www.womansdivorce.com/digital-divorce.html",
+		"Digital Divorce",
+		"Digital Divorce: Uncoupling Your Tech Connection"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dirty-divorce-tricks.html",
+		"Dirty Divorce Tricks",
+		"Dirty Divorce Tricks That Can Backfire"
+	),
+	new Article(
+		"https://www.womansdivorce.com/disability-pay.html",
+		"Disability Pay",
+		"How Military Disability Pay is Treated in Divorce and Why It's Important"
+	),
+	new Article(
+		"https://www.womansdivorce.com/disneyland-dad.html",
+		"Disneyland Dad",
+		"How to Cope if Your Ex Becomes a Disneyland Dad after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/dissipated-marital-assets.html",
+		"Dissipated Marital Assets",
+		"Here Today, Gone Tomorrow - What to do if he's taking stuff and selling property."
+	),
+	new Article(
+		"https://www.womansdivorce.com/dividing-debts.html",
+		"Dividing Debts",
+		"Dividing Debts In Divorce - Why It Matters Where You Live"
+	),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
 ];
