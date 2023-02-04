@@ -976,6 +976,113 @@ export const ARTICLES = [
 		"Emotional Abuse",
 		"Recognizing Emotional Abuse: What It Is and Signs to Watch for"
 	),
+	new Article(
+		"https://www.womansdivorce.com/emotional-affair.html",
+		"Emotional Affair",
+		"Dealing with Your Spouse's Emotional Affair"
+	),
+	new Article(
+		"https://www.womansdivorce.com/emotional-divorce.html",
+		"Emotional Divorce",
+		"The Emotional Divorce – Why Couples Stay Together in an Unfulfilling Marriage"
+	),
+	new Article(
+		"https://www.womansdivorce.com/emotionally-abusive-relationships.html",
+		"Emotionally Abusive Relationships",
+		"Emotionally Abusive Relationships - Reclaiming Your Power"
+	),
+	new Article(
+		"https://www.womansdivorce.com/emotional-pain.html",
+		"Emotional Pain",
+		"Dealing with Emotional Pain after Divorce and Allowing Yourself to Heal"
+	),
+	new Article(
+		"https://www.womansdivorce.com/emotional-stages-of-divorce.html",
+		"Emotional Stages Of Divorce",
+		"The Emotional Roller Coaster of Divorce - What to Expect"
+	),
+	new Article(
+		"https://www.womansdivorce.com/emotions-after-divorce.html",
+		"Emotions After Divorce",
+		"Your Emotions after Divorce: What to Expect Your First Year"
+	),
+	new Article(
+		"https://www.womansdivorce.com/ending-a-marriage.html",
+		"Ending a Marriage",
+		"Ending a Marriage - Weighing the costs of staying against the freedom of starting over"
+	),
+	new Article(
+		"https://www.womansdivorce.com/enforcing-divorce-decrees.html",
+		"Enforcing Divorce Decrees",
+		"Enforcing Divorce Decrees: How to Get What You're Owed"
+	),
+	new Article(
+		"https://www.womansdivorce.com/equity-in-divorce.html",
+		"Equity In Divorce",
+		"How is the equity in the marital home split?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/ex-after-divorce.html",
+		"Ex After Divorce",
+		"Why It’s Important to Set Boundaries with Your Ex after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/ex-conversation.html",
+		"Ex Conversation",
+		"Dealing with Your Ex - 10 Tips to Improve Conversations with Your Ex"
+	),
+	new Article(
+		"https://www.womansdivorce.com/ex-gets-a-girlfriend.html",
+		"Ex Gets A Girlfriend",
+		"When Your Ex Gets a Girlfriend"
+	),
+	new Article(
+		"https://www.womansdivorce.com/ex-husbands-new-girlfriend.html",
+		"Ex Husbands New Girlfriend",
+		"Making it Work When Your Ex Gets a Girlfriend"
+	),
+	new Article(
+		"https://www.womansdivorce.com/explaining-divorce-to-children.html",
+		"Explaining Divorce to Children",
+		"5 Must-Tell Messages to Prepare the Kids for Your Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/extraordinary-expenses.html",
+		"Extraordinary Expenses",
+		"Who pays for the extraordinary expenses for the children?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/facebook-and-divorce.html",
+		"Facebook and Divorce",
+		"Facebook and Divorce – Why You Need to Proceed with Caution before You Post"
+	),
+	new Article(
+		"https://www.womansdivorce.com/facing-your-fears.html",
+		"Facing Your Fears",
+		"Divorce Recovery: Are Your Fears Holding You Back?"
+	),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
