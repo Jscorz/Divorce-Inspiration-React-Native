@@ -1146,6 +1146,82 @@ export const ARTICLES = [
 		"Forensic Accountant",
 		"How A Forensic Accountant Can Help In Divorce"
 	),
+	new Article(
+		"https://www.womansdivorce.com/forensic-accountants.html",
+		"Forensic Accountants",
+		"Why Attorneys Suggest Using Forensic Accountants - Cost versus Anticipated Financial Gain"
+	),
+	new Article(
+		"https://www.womansdivorce.com/forgiveness.html",
+		"Forgiveness",
+		"Practicing Forgiveness after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/free-budget-worksheets.html",
+		"Free Budget Worksheets",
+		"Get Your Budget in Shape with these Worksheets"
+	),
+	new Article(
+		"https://www.womansdivorce.com/friends-after-a-divorce.html",
+		"Friends After a Divorce",
+		"Should You Stay Friends with Your Ex After Getting a Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/get-over-your-ex.html",
+		"Get Over Your Ex",
+		"Tips To Help You Get Over Your Ex"
+	),
+	new Article(
+		"https://www.womansdivorce.com/getting-back-into-life-after-divorce.html",
+		"Getting Back Into Life After Divorce",
+		"Getting Back Into Life After Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/getting-child-support.html",
+		"Getting Child Support",
+		"Getting Child Support & How to Enforce It"
+	),
+	new Article(
+		"https://www.womansdivorce.com/getting-through-a-divorce.html",
+		"Getting Through A Divorce",
+		"Getting Through a Divorce Emotionally, Spiritually and Practically."
+	),
+	new Article(
+		"https://www.womansdivorce.com/gift-ideas.html",
+		"Gift Ideas",
+		"Avoid Overspending with these Affordable Gift Ideas for Everyone on Your List"
+	),
+	new Article(
+		"https://www.womansdivorce.com/grandparents-visitation-rights.html",
+		"Grandparents Visitation Rights",
+		"Working Through Grandparents Visitation Rights if Your Child Gets a Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/green-parenting.html",
+		"Green Parenting",
+		"Green Parenting Tips to Help You Reduce Waste and Preserve the Environment"
+	),
+	new Article(
+		"https://www.womansdivorce.com/happiness-after-divorce.html",
+		"Happiness After Divorce",
+		"When Am I Going To Be Happy Again?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/head-of-household-tax.html",
+		"Head of Household Tax",
+		"Can You Claim the Head of Household Tax Filing Status after Divorce or Separation?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/healing.html",
+		"Healing",
+		"Healing the Wounds of Divorce and Rebuilding Your Life on Your Own Terms"
+	),
+	new Article(
+		"https://www.womansdivorce.com/healing-after-divorce.html",
+		"Healing After Divorce",
+		"Steps to Healing after Divorce"
+	),
+	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
