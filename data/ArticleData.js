@@ -1237,5 +1237,4 @@ export const ARTICLES = [
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
-	new Article("", "", ""),
 ];
