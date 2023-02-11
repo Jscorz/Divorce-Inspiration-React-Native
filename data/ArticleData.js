@@ -1286,8 +1286,16 @@ export const ARTICLES = [
 		"How Is Custody Determined",
 		"How is custody determined during a divorce? Answers from the Expert"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/how-men-handle-divorce.html",
+		"How Men Handle Divorce",
+		"Dealing with Divorce Psychosis"
+	),
+	new Article(
+		"https://www.womansdivorce.com/how-to-cope-with-divorce.html",
+		"How To Cope With Divorce",
+		""
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
