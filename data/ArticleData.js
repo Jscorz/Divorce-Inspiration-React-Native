@@ -1626,6 +1626,86 @@ export const ARTICLES = [
 		"Passport After Divorce",
 		"What Divorcing Parents Should Know about Their Child’s Passport after Divorce"
 	),
+	new Article(
+		"https://www.womansdivorce.com/passport-consent.html",
+		"Passport Consent",
+		"Passport Consent Issues for Divorced Parents – Input from the Legal Expert"
+	),
+	new Article(
+		"https://www.womansdivorce.com/paternity-and-child-support.html",
+		"Paternity and Child Support",
+		"Paternity and Child Support Obligations – Is He Required to Support Your Child?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/pendente-lite-relief.html",
+		"Pendente Lite Relief",
+		"Isn't he required to provide for us until the divorce is over?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/pension-and-divorce-evaluations.html",
+		"Pension and Divorce Evaluations",
+		"Are his Pensions Considered Assets or Income if He is Receiving Monthly Benefits?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/personal-budgeting.html",
+		"Personal Budgeting",
+		"Tips to Help You Get a Handle on Your Finances"
+	),
+	new Article(
+		"https://www.womansdivorce.com/perspective-on-divorce.html",
+		"Perspective On Divorce",
+		"The futility of blaming your ex for everything."
+	),
+	new Article(
+		"https://www.womansdivorce.com/pet-custody.html",
+		"Pet Custody",
+		"How Pet Custody Disputes are Decided and Creating a Pet Parenting Plan"
+	),
+	new Article(
+		"https://www.womansdivorce.com/positive-side-of-divorce.html",
+		"Positive Side of Divorce",
+		"The Positive Side of Divorce - Using Divorce as a Catalyst for Change"
+	),
+	new Article(
+		"https://www.womansdivorce.com/post-divorce-dating.html",
+		"Post Divorce Dating",
+		"Post-Divorce Dating: How to Determine if You’re Ready for the Dating Scene"
+	),
+	new Article(
+		"https://www.womansdivorce.com/pre-divorce-advice.html",
+		"Pre-Divorce Advice",
+		"Thinking About Splitting Up? - Why it's important to create an exit plan."
+	),
+	new Article(
+		"https://www.womansdivorce.com/premarital-agreement.html",
+		"Premarital Agreement",
+		"Prenuptial and Premarital Agreements – What They Do and When They can be Changed"
+	),
+	new Article(
+		"https://www.womansdivorce.com/prepare-for-a-divorce.html",
+		"Prepare For A Divorce",
+		"How to Financially Prepare for a Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/prepare-for-divorce.html",
+		"Prepare For Divorce",
+		"Positive Steps to Help Prepare for Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/preparing-for-a-divorce.html",
+		"Preparing For A Divorce",
+		"Practical Steps to Take Before Filing for a Divorce"
+	),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
