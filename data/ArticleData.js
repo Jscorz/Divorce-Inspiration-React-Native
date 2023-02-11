@@ -1221,17 +1221,61 @@ export const ARTICLES = [
 		"Healing After Divorce",
 		"Steps to Healing after Divorce"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/healing-from-divorce.html",
+		"Healing From Divorce",
+		"Self-care tips to help as you rebuild your life after divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/health-insurance-and-divorce.html",
+		"Health Insurance and Divorce",
+		"Can he drop me from his insurance before the divorce is final?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/helping-children-cope-with-divorce.html",
+		"Helping Children Cope With Divorce",
+		"Helping children cope with divorce as they get older"
+	),
+	new Article(
+		"https://www.womansdivorce.com/hide-assets.html",
+		"Hide Assets",
+		"The Top 9 Places Your Husband May Hide Assets during Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/holiday-visitation.html",
+		"Holiday Vistitation",
+		"Does Holiday Visitation Take Priority Over the Regular Visitation Schedule?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/home-repairs-yourself.html",
+		"Home RepairsYourself",
+		"Simple Tools and Resources for Doing Home Repairs Yourself after Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/house-divorce.html",
+		"House Divorce",
+		"Divorce Options for Dividing the Marital Home"
+	),
+	new Article(
+		"https://www.womansdivorce.com/household-moving-checklist.html",
+		"Household Moving Checklist",
+		"Getting Ready for Moving Day"
+	),
+	new Article(
+		"https://www.womansdivorce.com/how-can-i-handle-my-anger.html",
+		"How Can I Handle My Anger",
+		"Tips for Getting Past the Anger from Divorce"
+	),
+	new Article(
+		"https://www.womansdivorce.com/how-court-works.html",
+		"How Court Works",
+		"Explaining How the Court Process Works to Help Reduce Your Child’s Anxiety"
+	),
+	new Article(
+		"https://www.womansdivorce.com/how-divorce-affects-teenagers.html",
+		"How Divorce Affects Teenagers",
+		"How Divorce Affects Teenagers"
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
