@@ -1596,6 +1596,51 @@ export const ARTICLES = [
 		"Parenting Plan Template",
 		"Use this Parenting Plan Template to Make Realistic Plans for Co-parenting Your Children"
 	),
+	new Article(
+		"https://www.womansdivorce.com/parenting-relationship.html",
+		"Parenting Relationship",
+		"Improving Your Parenting Relationship with Your Ex by Breaking Old Patterns"
+	),
+	new Article(
+		"https://www.womansdivorce.com/parenting-styles.html",
+		"Parenting Styles",
+		"Balancing Parenting Styles and How to Cope if Your Ex Parents Differently"
+	),
+	new Article(
+		"https://www.womansdivorce.com/parenting-teenagers-during-divorce.html",
+		"Parenting Teenagers During Divorce",
+		"Parenting Teenagers during Divorce – How to Keep Visitation Fights to a Minimum"
+	),
+	new Article(
+		"https://www.womansdivorce.com/parenting-time-visitation-schedule.html",
+		"Parenting Time Visitation Schedule",
+		"Tips for Changing the Visitation Schedule as Your Children Grow Older"
+	),
+	new Article(
+		"https://www.womansdivorce.com/parents-conflict-affects-children.html",
+		"Parents Conflict Affects Children",
+		"How Parents Conflict Affects Children – Pity Children Caught in the Middle"
+	),
+	new Article(
+		"https://www.womansdivorce.com/passport-after-divorce.html",
+		"Passport After Divorce",
+		"What Divorcing Parents Should Know about Their Child’s Passport after Divorce"
+	),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
+	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
