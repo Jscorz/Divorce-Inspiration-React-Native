@@ -1696,16 +1696,56 @@ export const ARTICLES = [
 		"Preparing For A Divorce",
 		"Practical Steps to Take Before Filing for a Divorce"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/private-investigator.html",
+		"Private Investigator",
+		"Points to Consider when Looking for and Choosing a Private Investigator"
+	),
+	new Article(
+		"https://www.womansdivorce.com/property-bought-during-divorce.html",
+		"Property Bought During Divorce",
+		"Is Property Bought During Divorce Considered Marital Property?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/protecting-assets.html",
+		"Protecting Assets",
+		"Protecting Assets from a Vindictive Spouse"
+	),
+	new Article(
+		"https://www.womansdivorce.com/psychological-emotional-abuse.html",
+		"Psychological Emotional Abuse",
+		"Being Held Emotionally Captive - Understanding Psychological and Emotional Abuse"
+	),
+	new Article(
+		"https://www.womansdivorce.com/questions-about-child-support-payments.html",
+		"Questions about Child Support Payments",
+		"Frequently Asked Questions about Child Support Payments"
+	),
+	new Article(
+		"https://www.womansdivorce.com/questions-about-profit-sharing-plans.html",
+		"Questions About Profit Sharing",
+		"Questions about Profit Sharing Plans and Divorce – Answers from the Financial Expert"
+	),
+	new Article(
+		"https://www.womansdivorce.com/questions-to-ask.html",
+		"Questions To Ask During An Interview",
+		"9 Questions to Ask During an Interview to Boost Your Chances of Getting Hired"
+	),
+	new Article(
+		"https://www.womansdivorce.com/reasons-for-divorce.html",
+		"Reasons For Divorce",
+		"The Real Reasons for Divorce – Understanding What Really Causes a Marriage to Fail"
+	),
+	new Article(
+		"https://www.womansdivorce.com/reasons-people-should-get-a-prenuptial-agreement.html",
+		"Reasons People Should Get A Prenup",
+		"Reasons Women Should Get a Prenuptial Agreement When They Remarry"
+	),
+	new Article(
+		"https://www.womansdivorce.com/reasons-to-change-visitation-schedule.html",
+		"Reasons to Change Visitation Schedule",
+		"Reasons for Changing Your Child Visitation Schedule"
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
