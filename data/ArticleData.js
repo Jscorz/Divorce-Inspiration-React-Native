@@ -1796,16 +1796,56 @@ export const ARTICLES = [
 		"Relocation and Child Custody",
 		"Relocation and Child Custody FAQs – Answers from the Legal Expert"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/relocation-and-kids.html",
+		"Relocation and Kids",
+		"Relocation and Kids – How to Support Your Child through the Changes"
+	),
+	new Article(
+		"https://www.womansdivorce.com/resilience-after-divorce.html",
+		"Resilience After Divorce",
+		"Life Satisfaction and Resilience after Divorce - Beginning the Healing Journey"
+	),
+	new Article(
+		"https://www.womansdivorce.com/response-to-divorce-filing.html",
+		"Response To Divorce Filing",
+		"FAQs on Responding to a Divorce Petition – Answers from the Legal Expert"
+	),
+	new Article(
+		"https://www.womansdivorce.com/restraining-orders.html",
+		"Restraining Orders",
+		"Restraining Orders Information and FAQs to Help You Understand the Issues"
+	),
+	new Article(
+		"https://www.womansdivorce.com/resume-mistakes.html",
+		"Resume Mistakes",
+		"10 Things to Never Put on Your Resume"
+	),
+	new Article(
+		"https://www.womansdivorce.com/retirement.html",
+		"Retirement",
+		"What Happens to Retirement Assets in a Divorce?"
+	),
+	new Article(
+		"https://www.womansdivorce.com/reverting-to-maiden-name.html",
+		"Reverting To Maiden Name",
+		"Reverting to Your Maiden Name after Divorce - Answers to Your Questions"
+	),
+	new Article(
+		"https://www.womansdivorce.com/role-of-the-guardian-ad-litem.html",
+		"Role of the Guardian Ad Litem",
+		"Role of the Guardian ad Litem – Questions Answered by the Legal Expert"
+	),
+	new Article(
+		"https://www.womansdivorce.com/rules.html",
+		"Rules",
+		"Why Keeping Rules the Same at Both Houses is Good for Your Kids"
+	),
+	new Article(
+		"https://www.womansdivorce.com/save.html",
+		"Save",
+		"Save Your Money to Gain Freedom"
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
