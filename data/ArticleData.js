@@ -1896,8 +1896,16 @@ export const ARTICLES = [
 		"Separation Advice",
 		"Separation Advice – Where to Live, How to File, Support Issues, and More"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/separation-in-texas.html",
+		"Separation In Texas",
+		"Is Legal Separation In Texas Possible? Options for Separating Couples"
+	),
+	new Article(
+		"https://www.womansdivorce.com/shacking-up.html",
+		"Shacking Up",
+		"Divorced Parents and Shacking Up – What to Consider before Moving In"
+	),
 	new Article("", "", ""),
 	new Article("", "", ""),
 	new Article("", "", ""),
