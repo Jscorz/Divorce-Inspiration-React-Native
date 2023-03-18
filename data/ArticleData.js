@@ -2251,28 +2251,29 @@ export const ARTICLES = [
 		"Why Divorce Takes So Long",
 		"Reasons Why Divorce Takes So Long"
 	),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
-	new Article("", "", ""),
+	new Article(
+		"https://www.womansdivorce.com/win-custody.html",
+		"Win Custody",
+		"What it takes to win Custody"
+	),
+	new Article(
+		"https://www.womansdivorce.com/women-returning-to-work.html",
+		"Women Returning To Work",
+		"Career Moves for the Newly Divorced"
+	),
+	new Article(
+		"https://www.womansdivorce.com/words-hurt.html",
+		"Words-hurt",
+		"Verbal Abuse – The Hidden Hurt"
+	),
+	new Article(
+		"https://www.womansdivorce.com/working-with-your-lawyer.html",
+		"Working With Your Lawyer",
+		"What you need to know about legal representation during a divorce."
+	),
+	new Article(
+		"https://www.womansdivorce.com/your-marital-status.html",
+		"Your Marital Status",
+		"How to Explain Your Marital Status to Your Kids for Separation or Annulment"
+	),
 ];
