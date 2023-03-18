@@ -5,6 +5,7 @@ import { StyleSheet, View, SafeAreaView, ImageBackground } from "react-native";
 import Colors from "./constants/colors";
 import QuoteDisplayScreen from "./screens/QuoteDisplayScreen";
 import WelcomeScreen from "./screens/WelcomeScreen";
+import Quote from "./data/QuoteConstructor";
 
 export default function App() {
 	const [welcomeBackIsOver, setWelcomeBackIsOver] = useState(false);
