@@ -6,6 +6,7 @@ import Colors from "../constants/colors";
 import PrimaryButton from "./PrimaryButton";
 import IndividualArticleButton from "./IndividualArticleButton";
 import { useFocusEffect } from "@react-navigation/native";
+import ArticlePageButton from "./ArticlePageButton";
 
 function IndividualQuoteTwo() {
 	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
@@ -80,6 +81,7 @@ function IndividualQuoteTwo() {
 			{numberOfQuotesViewed === 3 && noMoreQuotesToBeViewable === false && (
 				<View style={styles.IndividualArticleButtonContainer}>
 					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
+					<ArticlePageButton />
 				</View>
 			)}
 		</View>
