@@ -23,7 +23,7 @@ function IndividualArticleButton({ onPress }) {
 			Animated.sequence([
 				Animated.timing(progress.current, {
 					toValue: 1.2,
-					duration: 1000,
+					duration: 500,
 					useNativeDriver: true,
 				}),
 				Animated.timing(progress.current, {

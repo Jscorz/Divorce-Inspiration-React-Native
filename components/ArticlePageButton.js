@@ -1,9 +1,32 @@
+import { useState, useEffect, useRef } from "react";
 import { Pressable, Text, StyleSheet, Animated, Linking } from "react-native";
 import Colors from "../constants/colors";
 
 const ArticlePageButton = () => {
+	const progress = useRef(new Animated.Value(0));
+
+	useEffect(() => {
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(progress.current, {
+					toValue: 1.2,
+					duration: 1000,
+					useNativeDriver: true,
+				}),
+				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 1000,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
+
 	return (
-		<Animated.View style={styles.buttonOuterContainer}>
+		<Animated.View
+			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
+		>
 			<Pressable
 				style={({ pressed }) =>
 					pressed
@@ -23,11 +46,12 @@ export default ArticlePageButton;
 const styles = StyleSheet.create({
 	buttonOuterContainer: {
 		borderRadius: 28,
+		marginTop: 16,
 		marginHorizontal: 36,
 		overflow: "hidden",
 	},
 	buttonInnerContainer: {
-		backgroundColor: Colors.accent600,
+		backgroundColor: Colors.accent500,
 		paddingVertical: 8,
 		paddingHorizontal: 16,
 		elevation: 2,
