@@ -5,8 +5,8 @@ import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
 import PrimaryButton from "./PrimaryButton";
 import IndividualArticleButton from "./IndividualArticleButton";
-import { useFocusEffect } from "@react-navigation/native";
 import ArticlePageButton from "./ArticlePageButton";
+import SuggestedArticles from "./SuggestedArticles";
 
 function IndividualQuoteTwo() {
 	let randomNumber = Math.floor(Math.random() * (553 - 1) + 1);
@@ -89,6 +89,7 @@ function IndividualQuoteTwo() {
 					<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 				</View>
 			)}
+			{suggestedArticleModalOpen && <SuggestedArticles />}
 		</View>
 	);
 }

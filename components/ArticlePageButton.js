@@ -33,6 +33,7 @@ const ArticlePageButton = ({ onPress }) => {
 						? [styles.buttonInnerContainer, styles.pressed]
 						: styles.buttonInnerContainer
 				}
+				onPress={onPress}
 				android_ripple={{ color: Colors.primary700 }}
 			>
 				<Text style={styles.buttonText}>Browse a Few Suggested Articles</Text>
