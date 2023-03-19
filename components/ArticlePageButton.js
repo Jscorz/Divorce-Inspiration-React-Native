@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Pressable, Text, StyleSheet, Animated, Linking } from "react-native";
 import Colors from "../constants/colors";
 
-const ArticlePageButton = () => {
+const ArticlePageButton = ({ onPress }) => {
 	const progress = useRef(new Animated.Value(0));
 
 	useEffect(() => {

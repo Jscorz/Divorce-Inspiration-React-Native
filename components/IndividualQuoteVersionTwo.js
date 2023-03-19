@@ -14,6 +14,7 @@ function IndividualQuoteTwo() {
 	const [quoteOfTheDay, setQuoteOfTheDay] = useState();
 	const [numberOfQuotesViewed, setNumberOfQuotesViewed] = useState(1);
 	const [noMoreQuotesToBeViewable, setNoMoreQuotesToBeViewable] = useState(false);
+	const [suggestedArticleModalOpen, setSuggestedArticleModalOpen] = useState(false);
 
 	const progress = useRef(new Animated.Value(0));
 
@@ -54,6 +55,10 @@ function IndividualQuoteTwo() {
 		setNoMoreQuotesToBeViewable(true);
 	}
 
+	function toggleSuggestedArticlesModal() {
+		setSuggestedArticleModalOpen(!suggestedArticleModalOpen);
+	}
+
 	return (
 		<View>
 			<View style={styles.rootContainer}>
@@ -81,7 +86,7 @@ function IndividualQuoteTwo() {
 			{numberOfQuotesViewed === 3 && noMoreQuotesToBeViewable === false && (
 				<View style={styles.IndividualArticleButtonContainer}>
 					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
-					<ArticlePageButton />
+					<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 				</View>
 			)}
 		</View>
