@@ -34,6 +34,11 @@ const SuggestedArticles = () => {
 	return (
 		<View style={styles.outerContainer}>
 			<Text>{suggestedArticleOne.linkText}</Text>
+			{/* <Text>{suggestedArticleTwo.linkText}</Text>
+			<Text>{suggestedArticleThree.linkText}</Text>
+			<Text>{suggestedArticleFour.linkText}</Text>
+			<Text>{suggestedArticleFive.linkText}</Text>
+			<Text>{suggestedArticleSix.linkText}</Text> */}
 		</View>
 	);
 };

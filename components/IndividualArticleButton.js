@@ -13,11 +13,6 @@ function IndividualArticleButton({ onPress }) {
 		onPress(), Linking.openURL(`${suggestedArticle.url}`);
 	}
 
-	function consoleLogger() {
-		console.log(suggestedArticle);
-		console.log(ARTICLES.length);
-	}
-
 	useEffect(() => {
 		Animated.loop(
 			Animated.sequence([
