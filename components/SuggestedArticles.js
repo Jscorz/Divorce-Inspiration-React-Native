@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useLayoutEffect } from "react";
 import { View, Text, StyleSheet, Animated } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
@@ -11,34 +11,32 @@ const SuggestedArticles = () => {
 	const randomNumberFive = getRandomNumber();
 	const randomNumberSix = getRandomNumber();
 
-	const [suggestedArticleOne, setSuggestedArticleOne] = useState();
-	const [suggestedArticleTwo, setSuggestedArticleTwo] = useState();
-	const [suggestedArticleThree, setSuggestedArticleThree] = useState();
-	const [suggestedArticleFour, setSuggestedArticleFour] = useState();
-	const [suggestedArticleFive, setSuggestedArticleFive] = useState();
-	const [suggestedArticleSix, setSuggestedArticleSix] = useState();
+	const [suggestedArticleOne, setSuggestedArticleOne] = useState(ARTICLES[randomNumberOne]);
+	const [suggestedArticleTwo, setSuggestedArticleTwo] = useState(ARTICLES[randomNumberTwo]);
+	const [suggestedArticleThree, setSuggestedArticleThree] = useState(ARTICLES[randomNumberThree]);
+	const [suggestedArticleFour, setSuggestedArticleFour] = useState(ARTICLES[randomNumberFour]);
+	const [suggestedArticleFive, setSuggestedArticleFive] = useState(ARTICLES[randomNumberFive]);
+	const [suggestedArticleSix, setSuggestedArticleSix] = useState(ARTICLES[randomNumberSix]);
+
+	const [firstTitle, setFirstTitle] = useState(suggestedArticleOne.linkText);
+	// const [secondTitle, setSecondTitle] = useState(suggestedArticleTwo.linkText);
+	// const [thirdTitle, setThirdTitle] = useState(suggestedArticleThree.linkText);
+	// const [fourthTitle, setFourthTitle] = useState(suggestedArticleFour.linkText);
+	// const [fifthTitle, setFifthTitle] = useState(suggestedArticleFive.linkText);
+	// const [sixthTitle, setSixthTitle] = useState(suggestedArticleSix.linkText);
 
 	function getRandomNumber() {
 		Math.floor(Math.random() * (454 - 1) + 1);
 	}
 
-	useEffect(() => {
-		setSuggestedArticleOne(ARTICLES[randomNumberOne]);
-		setSuggestedArticleTwo(ARTICLES[randomNumberTwo]);
-		setSuggestedArticleThree(ARTICLES[randomNumberThree]);
-		setSuggestedArticleFour(ARTICLES[randomNumberFour]);
-		setSuggestedArticleFive(ARTICLES[randomNumberFive]);
-		setSuggestedArticleSix(ARTICLES[randomNumberSix]);
-	}, []);
-
 	return (
 		<View style={styles.outerContainer}>
-			<Text>{suggestedArticleOne.linkText}</Text>
-			{/* <Text>{suggestedArticleTwo.linkText}</Text>
-			<Text>{suggestedArticleThree.linkText}</Text>
-			<Text>{suggestedArticleFour.linkText}</Text>
-			<Text>{suggestedArticleFive.linkText}</Text>
-			<Text>{suggestedArticleSix.linkText}</Text> */}
+			<Text>{firstTitle}</Text>
+			{/* <Text>{secondTitle}</Text>
+			<Text>{thirdTitle}</Text>
+			<Text>{fourthTitle}</Text>
+			<Text>{fifthTitle}</Text>
+			<Text>{sixthTitle}</Text> */}
 		</View>
 	);
 };
