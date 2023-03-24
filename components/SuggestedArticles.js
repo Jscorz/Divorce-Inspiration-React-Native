@@ -1,7 +1,9 @@
 import { View, Text, StyleSheet, Animated } from "react-native";
+import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 const SuggestedArticles = () => {
+	const randomNumber = Math.floor(Math.random() * (454 - 1) + 1);
 	return (
 		<View style={styles.outerContainer}>
 			<Text>SuggestedArticles</Text>

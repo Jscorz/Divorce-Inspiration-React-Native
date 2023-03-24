@@ -4,7 +4,7 @@ import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 function IndividualArticleButton({ onPress }) {
-	const randomNumber = Math.floor(Math.random() * (110 - 1) + 1);
+	const randomNumber = Math.floor(Math.random() * (454 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
 
 	const progress = useRef(new Animated.Value(0));
