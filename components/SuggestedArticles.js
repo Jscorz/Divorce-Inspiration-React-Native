@@ -1,6 +1,7 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
 import { View, Text, StyleSheet, Animated, ImageBackground } from "react-native";
+import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
@@ -48,6 +49,9 @@ const SuggestedArticles = () => {
 					<Text style={styles.individualArticle}>{fourthTitle}</Text>
 					<Text style={styles.individualArticle}>{fifthTitle}</Text>
 					<Text style={styles.individualArticle}>{sixthTitle}</Text>
+					<View style={styles.iconContainer}>
+						<FontAwesome name='window-close-o' size={60} color={Colors.secondary500} />
+					</View>
 				</View>
 			</ImageBackground>
 		</LinearGradient>
@@ -95,5 +99,8 @@ const styles = StyleSheet.create({
 		marginVertical: 6,
 		marginHorizontal: 6,
 		overflow: "hidden",
+	},
+	iconContainer: {
+		alignSelf: "center",
 	},
 });
