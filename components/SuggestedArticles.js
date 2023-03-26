@@ -31,12 +31,12 @@ const SuggestedArticles = () => {
 
 	return (
 		<View style={styles.outerContainer}>
-			<Text>{firstTitle}</Text>
-			<Text>{secondTitle}</Text>
-			<Text>{thirdTitle}</Text>
-			<Text>{fourthTitle}</Text>
-			<Text>{fifthTitle}</Text>
-			<Text>{sixthTitle}</Text>
+			<Text style={styles.individualArticle}>{firstTitle}</Text>
+			<Text style={styles.individualArticle}>{secondTitle}</Text>
+			<Text style={styles.individualArticle}>{thirdTitle}</Text>
+			<Text style={styles.individualArticle}>{fourthTitle}</Text>
+			<Text style={styles.individualArticle}>{fifthTitle}</Text>
+			<Text style={styles.individualArticle}>{sixthTitle}</Text>
 		</View>
 	);
 };
@@ -49,12 +49,21 @@ const styles = StyleSheet.create({
 		top: "25%",
 		bottom: "0%",
 		zIndex: 50,
-		backgroundColor: "white",
+		backgroundColor: Colors.primary700,
 		width: "100%",
 		minHeight: "160%",
 		borderWidth: 4,
 		borderColor: Colors.accent500,
 		borderTopRightRadius: 4,
 		borderTopLeftRadius: 4,
+	},
+	individualArticle: {
+		backgroundColor: Colors.accent500,
+		padding: 4,
+		fontSize: 14,
+		color: Colors.primary800,
+		borderWidth: 2,
+		borderColor: Colors.primary800,
+		marginBottom: 6,
 	},
 });
