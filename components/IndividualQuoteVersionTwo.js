@@ -86,8 +86,10 @@ function IndividualQuoteTwo() {
 			{numberOfQuotesViewed === 3 && noMoreQuotesToBeViewable === false && (
 				<View style={styles.IndividualArticleButtonContainer}>
 					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
-					<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 				</View>
+			)}
+			{numberOfQuotesViewed === 3 && (
+				<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 			)}
 			{suggestedArticleModalOpen && (
 				<SuggestedArticles onPress={toggleSuggestedArticlesModal} />
