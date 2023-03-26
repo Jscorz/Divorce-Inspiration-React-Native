@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
-import { useState } from "react";
-import { View, Pressable, Text, StyleSheet, Animated, ImageBackground } from "react-native";
+import { useState, useRef, useEffect } from "react";
+import { View, Pressable, Text, StyleSheet, Animated, ImageBackground, Easing } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
@@ -34,9 +34,30 @@ const SuggestedArticles = ({ onPress }) => {
 	const [articleFivePressed, setArticleFivePressed] = useState(false);
 	const [articleSixPressed, setArticleSixPressed] = useState(false);
 
+	const progress = useRef(new Animated.Value(-600));
+
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
 	}
+
+	useEffect(() => {
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(progress.current, {
+					toValue: 0,
+					duration: 600,
+					useNativeDriver: true,
+					easing: Easing.linear,
+				}),
+				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 500,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
 
 	return (
 		<LinearGradient
@@ -49,7 +70,14 @@ const SuggestedArticles = ({ onPress }) => {
 				style={styles.rootScreen}
 				imageStyle={styles.backgroundImage}
 			>
-				<View style={styles.articleContainer}>
+				<Animated.View
+					style={[
+						styles.articleContainer,
+						{
+							transform: [{ translateX: progress.current }],
+						},
+					]}
+				>
 					{articleOnePressed ? (
 						<Pressable
 							style={({ pressed }) =>
@@ -220,7 +248,7 @@ const SuggestedArticles = ({ onPress }) => {
 							onPress={onPress}
 						/>
 					</View>
-				</View>
+				</Animated.View>
 			</ImageBackground>
 		</LinearGradient>
 	);
