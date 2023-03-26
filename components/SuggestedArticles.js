@@ -4,7 +4,7 @@ import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 const SuggestedArticles = () => {
-	const randomNumberOne = Math.floor(Math.random() * (454 - 1) + 1);
+	const randomNumberOne = getRandomNumber();
 	const randomNumberTwo = getRandomNumber();
 	const randomNumberThree = getRandomNumber();
 	const randomNumberFour = getRandomNumber();
@@ -19,24 +19,24 @@ const SuggestedArticles = () => {
 	const [suggestedArticleSix, setSuggestedArticleSix] = useState(ARTICLES[randomNumberSix]);
 
 	const [firstTitle, setFirstTitle] = useState(suggestedArticleOne.linkText);
-	// const [secondTitle, setSecondTitle] = useState(suggestedArticleTwo.linkText);
-	// const [thirdTitle, setThirdTitle] = useState(suggestedArticleThree.linkText);
-	// const [fourthTitle, setFourthTitle] = useState(suggestedArticleFour.linkText);
-	// const [fifthTitle, setFifthTitle] = useState(suggestedArticleFive.linkText);
-	// const [sixthTitle, setSixthTitle] = useState(suggestedArticleSix.linkText);
+	const [secondTitle, setSecondTitle] = useState(suggestedArticleTwo.linkText);
+	const [thirdTitle, setThirdTitle] = useState(suggestedArticleThree.linkText);
+	const [fourthTitle, setFourthTitle] = useState(suggestedArticleFour.linkText);
+	const [fifthTitle, setFifthTitle] = useState(suggestedArticleFive.linkText);
+	const [sixthTitle, setSixthTitle] = useState(suggestedArticleSix.linkText);
 
 	function getRandomNumber() {
-		Math.floor(Math.random() * (454 - 1) + 1);
+		return Math.floor(Math.random() * (454 - 1) + 1);
 	}
 
 	return (
 		<View style={styles.outerContainer}>
 			<Text>{firstTitle}</Text>
-			{/* <Text>{secondTitle}</Text>
+			<Text>{secondTitle}</Text>
 			<Text>{thirdTitle}</Text>
 			<Text>{fourthTitle}</Text>
 			<Text>{fifthTitle}</Text>
-			<Text>{sixthTitle}</Text> */}
+			<Text>{sixthTitle}</Text>
 		</View>
 	);
 };
