@@ -1,5 +1,6 @@
+import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { View, Text, StyleSheet, Animated } from "react-native";
+import { View, Text, StyleSheet, Animated, ImageBackground } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
@@ -30,26 +31,52 @@ const SuggestedArticles = () => {
 	}
 
 	return (
-		<View style={styles.outerContainer}>
-			<Text style={styles.individualArticle}>{firstTitle}</Text>
-			<Text style={styles.individualArticle}>{secondTitle}</Text>
-			<Text style={styles.individualArticle}>{thirdTitle}</Text>
-			<Text style={styles.individualArticle}>{fourthTitle}</Text>
-			<Text style={styles.individualArticle}>{fifthTitle}</Text>
-			<Text style={styles.individualArticle}>{sixthTitle}</Text>
-		</View>
+		<LinearGradient
+			colors={[Colors.primary500, Colors.primary800]}
+			style={styles.outerContainer}
+		>
+			<ImageBackground
+				source={require("../assets/images/modern-background.png")}
+				resizeMode='cover'
+				style={styles.rootScreen}
+				imageStyle={styles.backgroundImage}
+			>
+				<View style={styles.articleContainer}>
+					<Text style={styles.individualArticle}>{firstTitle}</Text>
+					<Text style={styles.individualArticle}>{secondTitle}</Text>
+					<Text style={styles.individualArticle}>{thirdTitle}</Text>
+					<Text style={styles.individualArticle}>{fourthTitle}</Text>
+					<Text style={styles.individualArticle}>{fifthTitle}</Text>
+					<Text style={styles.individualArticle}>{sixthTitle}</Text>
+				</View>
+			</ImageBackground>
+		</LinearGradient>
 	);
 };
 
 export default SuggestedArticles;
 
 const styles = StyleSheet.create({
+	rootScreen: {
+		flex: 1,
+	},
+	backgroundImage: {
+		opacity: 0.15,
+	},
 	outerContainer: {
 		position: "absolute",
 		top: "25%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
+		width: "100%",
+		minHeight: "160%",
+		borderWidth: 4,
+		borderColor: Colors.accent500,
+		borderTopRightRadius: 4,
+		borderTopLeftRadius: 4,
+	},
+	articleContainer: {
 		width: "100%",
 		minHeight: "160%",
 		borderWidth: 4,
