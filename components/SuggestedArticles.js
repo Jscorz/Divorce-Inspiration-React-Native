@@ -5,7 +5,7 @@ import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
-const SuggestedArticles = () => {
+const SuggestedArticles = ({ onPress }) => {
 	const randomNumberOne = getRandomNumber();
 	const randomNumberTwo = getRandomNumber();
 	const randomNumberThree = getRandomNumber();
@@ -50,7 +50,12 @@ const SuggestedArticles = () => {
 					<Text style={styles.individualArticle}>{fifthTitle}</Text>
 					<Text style={styles.individualArticle}>{sixthTitle}</Text>
 					<View style={styles.iconContainer}>
-						<FontAwesome name='window-close-o' size={60} color={Colors.secondary500} />
+						<FontAwesome
+							name='window-close-o'
+							size={60}
+							color={Colors.secondary500}
+							onPress={onPress}
+						/>
 					</View>
 				</View>
 			</ImageBackground>

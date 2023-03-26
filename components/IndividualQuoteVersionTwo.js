@@ -89,7 +89,9 @@ function IndividualQuoteTwo() {
 					<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 				</View>
 			)}
-			{suggestedArticleModalOpen && <SuggestedArticles />}
+			{suggestedArticleModalOpen && (
+				<SuggestedArticles onPress={toggleSuggestedArticlesModal} />
+			)}
 		</View>
 	);
 }
