@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
 	},
 	individualArticle: {
 		backgroundColor: Colors.accent500,
-		padding: 4,
+		padding: 10,
 		fontSize: 14,
 		color: Colors.primary800,
 		borderWidth: 2,
