@@ -1,6 +1,6 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import { View, Text, StyleSheet, Animated, ImageBackground } from "react-native";
+import { View, Pressable, Text, StyleSheet, Animated, ImageBackground } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
@@ -27,6 +27,13 @@ const SuggestedArticles = ({ onPress }) => {
 	const [fifthTitle, setFifthTitle] = useState(suggestedArticleFive.linkText);
 	const [sixthTitle, setSixthTitle] = useState(suggestedArticleSix.linkText);
 
+	const [articleOnePressed, setArticleOnePressed] = useState(false);
+	const [articleTwoPressed, setArticleTwoPressed] = useState(false);
+	const [articleThreePressed, setArticleThreePressed] = useState(false);
+	const [articleFourPressed, setArticleFourPressed] = useState(false);
+	const [articleFivePressed, setArticleFivePressed] = useState(false);
+	const [articleSixPressed, setArticleSixPressed] = useState(false);
+
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
 	}
@@ -43,12 +50,168 @@ const SuggestedArticles = ({ onPress }) => {
 				imageStyle={styles.backgroundImage}
 			>
 				<View style={styles.articleContainer}>
-					<Text style={styles.individualArticle}>{firstTitle}</Text>
-					<Text style={styles.individualArticle}>{secondTitle}</Text>
-					<Text style={styles.individualArticle}>{thirdTitle}</Text>
-					<Text style={styles.individualArticle}>{fourthTitle}</Text>
-					<Text style={styles.individualArticle}>{fifthTitle}</Text>
-					<Text style={styles.individualArticle}>{sixthTitle}</Text>
+					{articleOnePressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleOnePressed(true)}
+						>
+							<Text>{firstTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleOnePressed(true)}
+						>
+							<Text>{firstTitle}</Text>
+						</Pressable>
+					)}
+					{articleTwoPressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleTwoPressed(true)}
+						>
+							<Text>{secondTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleTwoPressed(true)}
+						>
+							<Text>{secondTitle}</Text>
+						</Pressable>
+					)}
+					{articleThreePressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleThreePressed(true)}
+						>
+							<Text>{thirdTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleThreePressed(true)}
+						>
+							<Text>{thirdTitle}</Text>
+						</Pressable>
+					)}
+					{articleFourPressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleFourPressed(true)}
+						>
+							<Text>{fourthTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleFourPressed(true)}
+						>
+							<Text>{fourthTitle}</Text>
+						</Pressable>
+					)}
+					{articleFivePressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleFivePressed(true)}
+						>
+							<Text>{fifthTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleFivePressed(true)}
+						>
+							<Text>{fifthTitle}</Text>
+						</Pressable>
+					)}
+					{articleSixPressed ? (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [
+											styles.individualArticle,
+											styles.pressed,
+											styles.articlePressed,
+									  ]
+									: [styles.individualArticle, styles.articlePressed]
+							}
+							onPress={() => setArticleSixPressed(true)}
+						>
+							<Text>{sixthTitle}</Text>
+						</Pressable>
+					) : (
+						<Pressable
+							style={({ pressed }) =>
+								pressed
+									? [styles.individualArticle, styles.pressed]
+									: styles.individualArticle
+							}
+							onPress={() => setArticleSixPressed(true)}
+						>
+							<Text>{sixthTitle}</Text>
+						</Pressable>
+					)}
 					<View style={styles.iconContainer}>
 						<FontAwesome
 							name='window-close-o'
@@ -107,5 +270,11 @@ const styles = StyleSheet.create({
 	},
 	iconContainer: {
 		alignSelf: "center",
+	},
+	pressed: {
+		opacity: 0.65,
+	},
+	articlePressed: {
+		opacity: 0.75,
 	},
 });
