@@ -64,6 +64,9 @@ const styles = StyleSheet.create({
 		color: Colors.primary800,
 		borderWidth: 2,
 		borderColor: Colors.primary800,
-		marginBottom: 6,
+		borderRadius: 6,
+		marginVertical: 6,
+		marginHorizontal: 6,
+		overflow: "hidden",
 	},
 });
