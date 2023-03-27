@@ -7,10 +7,14 @@ const Colors = {
 	secondary600: "#cd062aff",
 	secondary700: "#9c0420ff",
 	secondaryLowOpacity: "#ff002f80",
+	accent200: "#edce20ff",
 	accent500: "#ddb52f",
 	accent600: "#ae8e25",
 	accent500LowOpacity: "#ddb42f82",
 	offWhite: "#f1f1f1",
+	gray500: "#dac1c5ff",
+	pink500: "#ff00d4ff",
+	altPink500: "#ff006fff",
 	AnimatedSquareLowOpacity: "#ffffff80",
 };
 

@@ -264,7 +264,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 						<FontAwesome
 							name='window-close-o'
 							size={60}
-							color={Colors.secondary500}
+							color={Colors.gray500}
 							onPress={onPress}
 						/>
 					</View>
