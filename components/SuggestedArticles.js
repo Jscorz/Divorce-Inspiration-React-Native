@@ -34,7 +34,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const [articleFivePressed, setArticleFivePressed] = useState(false);
 	const [articleSixPressed, setArticleSixPressed] = useState(false);
 
-	const progress = useRef(new Animated.Value(-600));
+	const progress = useRef(new Animated.Value(0));
 
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
@@ -69,15 +69,10 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 		Animated.loop(
 			Animated.sequence([
 				Animated.timing(progress.current, {
-					toValue: 0,
+					toValue: 1,
 					duration: 600,
 					useNativeDriver: true,
 					easing: Easing.linear,
-				}),
-				Animated.timing(progress.current, {
-					toValue: 1,
-					duration: 500,
-					useNativeDriver: true,
 				}),
 			]),
 			{ iterations: 1 }
@@ -99,7 +94,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 					style={[
 						styles.articleContainer,
 						{
-							transform: [{ translateX: progress.current }],
+							transform: [{ scale: progress.current }],
 						},
 					]}
 				>
