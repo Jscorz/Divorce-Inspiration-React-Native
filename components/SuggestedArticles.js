@@ -5,7 +5,7 @@ import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
-const SuggestedArticles = ({ onPress }) => {
+const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const randomNumberOne = getRandomNumber();
 	const randomNumberTwo = getRandomNumber();
 	const randomNumberThree = getRandomNumber();
@@ -38,6 +38,31 @@ const SuggestedArticles = ({ onPress }) => {
 
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
+	}
+
+	function ArticleOnePress() {
+		resetQuotes();
+		setArticleOnePressed(true);
+	}
+	function ArticleTwoPress() {
+		resetQuotes();
+		setArticleTwoPressed(true);
+	}
+	function ArticleThreePress() {
+		resetQuotes();
+		setArticleThreePressed(true);
+	}
+	function ArticleFourPress() {
+		resetQuotes();
+		setArticleFourPressed(true);
+	}
+	function ArticleFivePress() {
+		resetQuotes();
+		setArticleFivePressed(true);
+	}
+	function ArticleSixPress() {
+		resetQuotes();
+		setArticleSixPressed(true);
 	}
 
 	useEffect(() => {
@@ -89,7 +114,7 @@ const SuggestedArticles = ({ onPress }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleOnePressed(true)}
+							onPress={() => ArticleOnePress}
 						>
 							<Text>{firstTitle}</Text>
 						</Pressable>
@@ -100,7 +125,7 @@ const SuggestedArticles = ({ onPress }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleOnePressed(true)}
+							onPress={ArticleOnePress}
 						>
 							<Text>{firstTitle}</Text>
 						</Pressable>

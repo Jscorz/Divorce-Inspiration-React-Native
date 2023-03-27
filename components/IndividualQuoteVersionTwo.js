@@ -88,11 +88,14 @@ function IndividualQuoteTwo() {
 					<IndividualArticleButton onPress={resetNumberOfQuotesViewed} />
 				</View>
 			)}
-			{numberOfQuotesViewed === 3 && (
-				<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
-			)}
+
+			<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
+
 			{suggestedArticleModalOpen && (
-				<SuggestedArticles onPress={toggleSuggestedArticlesModal} />
+				<SuggestedArticles
+					onPress={toggleSuggestedArticlesModal}
+					resetQuotes={resetNumberOfQuotesViewed}
+				/>
 			)}
 		</View>
 	);
