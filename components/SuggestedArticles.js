@@ -11,7 +11,6 @@ import {
 	Easing,
 	Linking,
 } from "react-native";
-import { FontAwesome } from "@expo/vector-icons";
 import { AntDesign } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
@@ -283,12 +282,6 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 						</Pressable>
 					)}
 					<View style={styles.iconContainer}>
-						{/* <FontAwesome
-							name='window-close-o'
-							size={60}
-							color={Colors.gray500}
-							onPress={onPress}
-						/> */}
 						<AntDesign
 							name='closecircle'
 							size={50}
