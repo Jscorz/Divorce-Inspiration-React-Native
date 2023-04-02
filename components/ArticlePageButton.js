@@ -3,29 +3,30 @@ import { Pressable, Text, StyleSheet, Animated, Linking } from "react-native";
 import Colors from "../constants/colors";
 
 const ArticlePageButton = ({ onPress }) => {
-	const progress = useRef(new Animated.Value(0));
+	// const progress = useRef(new Animated.Value(0));
 
-	useEffect(() => {
-		Animated.loop(
-			Animated.sequence([
-				Animated.timing(progress.current, {
-					toValue: 1.2,
-					duration: 1000,
-					useNativeDriver: true,
-				}),
-				Animated.timing(progress.current, {
-					toValue: 1,
-					duration: 1000,
-					useNativeDriver: true,
-				}),
-			]),
-			{ iterations: 1 }
-		).start();
-	}, []);
+	// useEffect(() => {
+	// 	Animated.loop(
+	// 		Animated.sequence([
+	// 			Animated.timing(progress.current, {
+	// 				toValue: 1.2,
+	// 				duration: 1000,
+	// 				useNativeDriver: true,
+	// 			}),
+	// 			Animated.timing(progress.current, {
+	// 				toValue: 1,
+	// 				duration: 1000,
+	// 				useNativeDriver: true,
+	// 			}),
+	// 		]),
+	// 		{ iterations: 1 }
+	// 	).start();
+	// }, []);
 
 	return (
 		<Animated.View
-			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
+			// style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
+			style={styles.buttonOuterContainer}
 		>
 			<Pressable
 				style={({ pressed }) =>
@@ -36,7 +37,7 @@ const ArticlePageButton = ({ onPress }) => {
 				onPress={onPress}
 				android_ripple={{ color: Colors.primary700 }}
 			>
-				<Text style={styles.buttonText}>Browse a Few Suggested Articles</Text>
+				<Text style={styles.buttonText}>Browse a Few Helpful Articles</Text>
 			</Pressable>
 		</Animated.View>
 	);
