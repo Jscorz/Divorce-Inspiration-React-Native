@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
 	},
 	outerContainer: {
 		position: "absolute",
-		top: "25%",
+		top: "5%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
