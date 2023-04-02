@@ -9,6 +9,7 @@ import {
 	Animated,
 	ImageBackground,
 	Easing,
+	Linking,
 } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
@@ -52,26 +53,32 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	function ArticleOnePress() {
 		resetQuotes();
 		setArticleOnePressed(true);
+		Linking.openURL(`${suggestedArticleOne.url}`);
 	}
 	function ArticleTwoPress() {
 		resetQuotes();
 		setArticleTwoPressed(true);
+		Linking.openURL(`${suggestedArticleTwo.url}`);
 	}
 	function ArticleThreePress() {
 		resetQuotes();
 		setArticleThreePressed(true);
+		Linking.openURL(`${suggestedArticleThree.url}`);
 	}
 	function ArticleFourPress() {
 		resetQuotes();
 		setArticleFourPressed(true);
+		Linking.openURL(`${suggestedArticleFour.url}`);
 	}
 	function ArticleFivePress() {
 		resetQuotes();
 		setArticleFivePressed(true);
+		Linking.openURL(`${suggestedArticleFive.url}`);
 	}
 	function ArticleSixPress() {
 		resetQuotes();
 		setArticleSixPressed(true);
+		Linking.openURL(`${suggestedArticleSix.url}`);
 	}
 
 	useEffect(() => {
@@ -118,7 +125,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => ArticleOnePress}
+							onPress={ArticleOnePress}
 						>
 							<Text>{firstTitle}</Text>
 						</Pressable>
@@ -145,7 +152,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleTwoPressed(true)}
+							onPress={ArticleTwoPress}
 						>
 							<Text>{secondTitle}</Text>
 						</Pressable>
@@ -156,7 +163,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleTwoPressed(true)}
+							onPress={ArticleTwoPress}
 						>
 							<Text>{secondTitle}</Text>
 						</Pressable>
@@ -172,7 +179,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleThreePressed(true)}
+							onPress={ArticleThreePress}
 						>
 							<Text>{thirdTitle}</Text>
 						</Pressable>
@@ -183,7 +190,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleThreePressed(true)}
+							onPress={ArticleThreePress}
 						>
 							<Text>{thirdTitle}</Text>
 						</Pressable>
@@ -199,7 +206,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleFourPressed(true)}
+							onPress={ArticleFourPress}
 						>
 							<Text>{fourthTitle}</Text>
 						</Pressable>
@@ -210,7 +217,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleFourPressed(true)}
+							onPress={ArticleFourPress}
 						>
 							<Text>{fourthTitle}</Text>
 						</Pressable>
@@ -226,7 +233,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleFivePressed(true)}
+							onPress={ArticleFivePress}
 						>
 							<Text>{fifthTitle}</Text>
 						</Pressable>
@@ -237,7 +244,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleFivePressed(true)}
+							onPress={ArticleFivePress}
 						>
 							<Text>{fifthTitle}</Text>
 						</Pressable>
@@ -253,7 +260,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									  ]
 									: [styles.individualArticle, styles.articlePressed]
 							}
-							onPress={() => setArticleSixPressed(true)}
+							onPress={ArticleSixPress}
 						>
 							<Text>{sixthTitle}</Text>
 						</Pressable>
@@ -264,7 +271,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									? [styles.individualArticle, styles.pressed]
 									: styles.individualArticle
 							}
-							onPress={() => setArticleSixPressed(true)}
+							onPress={ArticleSixPress}
 						>
 							<Text>{sixthTitle}</Text>
 						</Pressable>
