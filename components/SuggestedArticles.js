@@ -1,6 +1,15 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { useState, useRef, useEffect } from "react";
-import { View, Pressable, Text, StyleSheet, Animated, ImageBackground, Easing } from "react-native";
+import {
+	View,
+	ScrollView,
+	Pressable,
+	Text,
+	StyleSheet,
+	Animated,
+	ImageBackground,
+	Easing,
+} from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
@@ -90,7 +99,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 				style={styles.rootScreen}
 				imageStyle={styles.backgroundImage}
 			>
-				<Animated.View
+				<Animated.ScrollView
 					style={[
 						styles.articleContainer,
 						{
@@ -268,7 +277,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 							onPress={onPress}
 						/>
 					</View>
-				</Animated.View>
+				</Animated.ScrollView>
 			</ImageBackground>
 		</LinearGradient>
 	);
