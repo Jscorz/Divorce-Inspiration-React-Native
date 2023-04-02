@@ -131,6 +131,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleOnePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{firstTitle}</Text>
 						</Pressable>
@@ -142,6 +143,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleOnePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{firstTitle}</Text>
 						</Pressable>
@@ -158,6 +160,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleTwoPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{secondTitle}</Text>
 						</Pressable>
@@ -169,6 +172,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleTwoPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{secondTitle}</Text>
 						</Pressable>
@@ -185,6 +189,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleThreePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{thirdTitle}</Text>
 						</Pressable>
@@ -196,6 +201,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleThreePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{thirdTitle}</Text>
 						</Pressable>
@@ -212,6 +218,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleFourPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{fourthTitle}</Text>
 						</Pressable>
@@ -223,6 +230,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleFourPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{fourthTitle}</Text>
 						</Pressable>
@@ -239,6 +247,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleFivePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{fifthTitle}</Text>
 						</Pressable>
@@ -250,6 +259,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleFivePress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{fifthTitle}</Text>
 						</Pressable>
@@ -266,6 +276,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: [styles.individualArticle, styles.articlePressed]
 							}
 							onPress={ArticleSixPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{sixthTitle}</Text>
 						</Pressable>
@@ -277,6 +288,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									: styles.individualArticle
 							}
 							onPress={ArticleSixPress}
+							android_ripple={{ color: Colors.primary700 }}
 						>
 							<Text>{sixthTitle}</Text>
 						</Pressable>
