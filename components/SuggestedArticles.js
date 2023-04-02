@@ -44,8 +44,6 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const [articleFivePressed, setArticleFivePressed] = useState(false);
 	const [articleSixPressed, setArticleSixPressed] = useState(false);
 
-	const progress = useRef(new Animated.Value(0));
-
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
 	}
@@ -81,14 +79,21 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 		Linking.openURL(`${suggestedArticleSix.url}`);
 	}
 
+	const progress = useRef(new Animated.Value(-600));
+
 	useEffect(() => {
 		Animated.loop(
 			Animated.sequence([
 				Animated.timing(progress.current, {
-					toValue: 1,
+					toValue: 0,
 					duration: 600,
 					useNativeDriver: true,
 					easing: Easing.linear,
+				}),
+				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 500,
+					useNativeDriver: true,
 				}),
 			]),
 			{ iterations: 1 }
@@ -110,7 +115,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 					style={[
 						styles.articleContainer,
 						{
-							transform: [{ scale: progress.current }],
+							transform: [{ translateY: progress.current }],
 						},
 					]}
 				>
