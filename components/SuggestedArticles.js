@@ -10,6 +10,7 @@ import {
 	ImageBackground,
 	Easing,
 	Linking,
+	Platform,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
@@ -332,7 +333,7 @@ const styles = StyleSheet.create({
 	articleContainer: {
 		width: "100%",
 		minHeight: "160%",
-		borderWidth: 4,
+		borderWidth: Platform.OS === "ios" ? 4 : 0,
 		borderColor: Colors.accent500,
 		borderTopRightRadius: 4,
 		borderTopLeftRadius: 4,
