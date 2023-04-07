@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { View, Text, StyleSheet, Animated } from "react-native";
+import { View, Text, StyleSheet, Animated, useWindowDimensions } from "react-native";
 import { QUOTES } from "../data/QuoteData";
 import { FontAwesome } from "@expo/vector-icons";
 import Colors from "../constants/colors";
@@ -15,6 +15,17 @@ function IndividualQuoteTwo() {
 	const [numberOfQuotesViewed, setNumberOfQuotesViewed] = useState(1);
 	const [noMoreQuotesToBeViewable, setNoMoreQuotesToBeViewable] = useState(false);
 	const [suggestedArticleModalOpen, setSuggestedArticleModalOpen] = useState(false);
+
+	const { width, height } = useWindowDimensions();
+	let quoteFontSize = 24;
+
+	if (height < 700) {
+		quoteFontSize: 6;
+	}
+
+	const quoteStyle = {
+		fontSize: quoteFontSize,
+	};
 
 	const progress = useRef(new Animated.Value(0));
 
@@ -66,9 +77,14 @@ function IndividualQuoteTwo() {
 					style={[styles.quoteContainer, { transform: [{ scale: progress.current }] }]}
 				>
 					<View style={styles.iconContainer}>
-						<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
+						{height > 700 && (
+							<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
+						)}
+						{height < 700 && (
+							<FontAwesome name='quote-right' size={40} color={Colors.primary600} />
+						)}
 					</View>
-					<Text style={styles.quoteText}>{quoteOfTheDay}</Text>
+					<Text style={[styles.quoteText, quoteStyle]}>{quoteOfTheDay}</Text>
 				</Animated.View>
 				<View style={styles.bottomOfQuoteContainer}></View>
 			</View>
@@ -113,7 +129,7 @@ const styles = StyleSheet.create({
 		borderRadius: 96,
 		minHeight: 400,
 		padding: 30,
-		paddingTop: 300,
+		paddingTop: 400,
 		marginTop: -500,
 	},
 	quoteContainer: {
@@ -143,7 +159,6 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 	},
 	quoteText: {
-		fontSize: 24,
 		padding: 24,
 	},
 	authorText: {
