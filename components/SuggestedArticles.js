@@ -319,7 +319,7 @@ const styles = StyleSheet.create({
 	},
 	outerContainer: {
 		position: "absolute",
-		top: "5%",
+		top: "20%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
