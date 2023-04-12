@@ -107,12 +107,23 @@ function IndividualQuoteTwo() {
 
 			<ArticlePageButton onPress={toggleSuggestedArticlesModal} />
 
-			{suggestedArticleModalOpen && (
+			{/* {suggestedArticleModalOpen && (
 				<SuggestedArticles
 					onPress={toggleSuggestedArticlesModal}
 					resetQuotes={resetNumberOfQuotesViewed}
+					visible={suggestedArticleModalOpen}
+					options={{ type: "slide", from: "top" }}
+					duration={500}
 				/>
-			)}
+			)} */}
+
+			<SuggestedArticles
+				onPress={toggleSuggestedArticlesModal}
+				resetQuotes={resetNumberOfQuotesViewed}
+				visible={suggestedArticleModalOpen}
+				options={{ type: "slide", from: "top" }}
+				duration={500}
+			/>
 		</View>
 	);
 }
