@@ -81,17 +81,37 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	}
 
 	const progress = useRef(new Animated.Value(-600));
+	const opacityProgress = useRef(new Animated.Value(0));
 
 	useEffect(() => {
 		Animated.loop(
 			Animated.sequence([
 				Animated.timing(progress.current, {
 					toValue: 0,
-					duration: 500,
+					duration: 1000,
 					useNativeDriver: true,
 					easing: Easing.linear,
 				}),
 				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 500,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
+
+	useEffect(() => {
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(opacityProgress.current, {
+					toValue: 0,
+					duration: 500,
+					useNativeDriver: true,
+					easing: Easing.linear,
+				}),
+				Animated.timing(opacityProgress.current, {
 					toValue: 1,
 					duration: 500,
 					useNativeDriver: true,
@@ -118,6 +138,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 						{
 							transform: [{ translateY: progress.current }],
 						},
+						{ opacity: opacityProgress.current },
 					]}
 				>
 					{articleOnePressed ? (
