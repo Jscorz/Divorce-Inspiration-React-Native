@@ -11,13 +11,12 @@ import {
 	Easing,
 	Linking,
 	Platform,
-	Dimensions,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
-const SuggestedArticles = ({ onPress, resetQuotes, visible, options, duration }) => {
+const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const randomNumberOne = getRandomNumber();
 	const randomNumberTwo = getRandomNumber();
 	const randomNumberThree = getRandomNumber();
@@ -81,62 +80,26 @@ const SuggestedArticles = ({ onPress, resetQuotes, visible, options, duration })
 		Linking.openURL(`${suggestedArticleSix.url}`);
 	}
 
-	const { height } = Dimensions.get("screen");
-	const progress = options?.from === "top" ? -height : height;
-	const transY = useRef(new Animated.Value(progress));
+	const progress = useRef(new Animated.Value(-600));
 
 	useEffect(() => {
-		if (visible) {
-			startAnimimation(0);
-		} else {
-			startAnimimation(progress);
-		}
-	});
-
-	const startAnimimation = (toValue) => {
-		Animated.timing(transY.current, {
-			toValue,
-			duration,
-			easing: Easing.inOut(Easing.ease),
-			useNativeDriver: true,
-		}).start();
-	};
-
-	const generateBackgroundOpacity = () => {
-		if (progress >= 0) {
-			return transY.current.interpolate({
-				inputRange: [0, progress],
-				outputRange: [0.8, 0],
-				extrapolate: "clamp",
-			});
-		} else {
-			return transY.current.interpolate({
-				inputRange: [progress, 0],
-				outputRange: [0, 0.8],
-				extrapolate: "clamp",
-			});
-		}
-	};
-	// const progress = useRef(new Animated.Value(-600));
-
-	// useEffect(() => {
-	// 	Animated.loop(
-	// 		Animated.sequence([
-	// 			Animated.timing(progress.current, {
-	// 				toValue: 0,
-	// 				duration: 600,
-	// 				useNativeDriver: true,
-	// 				easing: Easing.linear,
-	// 			}),
-	// 			Animated.timing(progress.current, {
-	// 				toValue: 1,
-	// 				duration: 500,
-	// 				useNativeDriver: true,
-	// 			}),
-	// 		]),
-	// 		{ iterations: 1 }
-	// 	).start();
-	// }, []);
+		Animated.loop(
+			Animated.sequence([
+				Animated.timing(progress.current, {
+					toValue: 0,
+					duration: 500,
+					useNativeDriver: true,
+					easing: Easing.linear,
+				}),
+				Animated.timing(progress.current, {
+					toValue: 1,
+					duration: 500,
+					useNativeDriver: true,
+				}),
+			]),
+			{ iterations: 1 }
+		).start();
+	}, []);
 
 	return (
 		<LinearGradient
@@ -149,19 +112,11 @@ const SuggestedArticles = ({ onPress, resetQuotes, visible, options, duration })
 				style={styles.rootScreen}
 				imageStyle={styles.backgroundImage}
 			>
-				{/* <Animated.ScrollView
-					style={[
-						styles.articleContainer,
-						{
-							transform: [{ translateY: progress.current }],
-						},
-					]}
-				> */}
 				<Animated.ScrollView
 					style={[
 						styles.articleContainer,
 						{
-							transform: [{ translateY: transY.current }],
+							transform: [{ translateY: progress.current }],
 						},
 					]}
 				>
