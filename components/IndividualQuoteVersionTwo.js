@@ -68,15 +68,15 @@ function IndividualQuoteTwo() {
 					style={[styles.quoteContainer, { transform: [{ scale: progress.current }] }]}
 				>
 					<View style={styles.iconContainer}>
-						{height > 700 && (
-							<FontAwesome name='quote-right' size={70} color={Colors.primary600} />
-						)}
-						{height < 700 && (
-							<FontAwesome name='quote-right' size={40} color={Colors.primary600} />
-						)}
+						<FontAwesome
+							name='quote-right'
+							size={height > 700 ? 70 : 40}
+							color={Colors.primary600}
+						/>
 					</View>
-					{height > 700 && <Text style={styles.quoteText}>{quoteOfTheDay}</Text>}
-					{height < 700 && <Text style={styles.quoteSmallText}>{quoteOfTheDay}</Text>}
+					<Text style={height > 700 ? styles.quoteText : styles.quoteSmallText}>
+						{quoteOfTheDay}
+					</Text>
 				</Animated.View>
 				<View style={styles.bottomOfQuoteContainer}></View>
 			</View>
