@@ -1114,7 +1114,8 @@ export const QUOTES = [
 		"Success seems to be largely a matter of hanging on after others have let go."
 	),
 	new Quote(
-		`Brian Tracy","Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’`
+		"Brian Tracy",
+		`Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, ‘What’s in it for me?’`
 	),
 	new Quote(
 		"Unknown",
