@@ -11,6 +11,7 @@ import {
 	Easing,
 	Linking,
 	Platform,
+	useWindowDimensions,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import { ARTICLES } from "../data/ArticleData";
@@ -82,6 +83,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 
 	const progress = useRef(new Animated.Value(-600));
 	const opacityProgress = useRef(new Animated.Value(0));
+	const { width, height } = useWindowDimensions();
 
 	useEffect(() => {
 		Animated.loop(
@@ -124,7 +126,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	return (
 		<LinearGradient
 			colors={[Colors.primary500, Colors.primary800]}
-			style={[styles.outerContainer]}
+			style={height > 700 ? styles.outerContainer : styles.outerContainerSmall}
 		>
 			<ImageBackground
 				source={require("../assets/images/modern-background.png")}
@@ -341,6 +343,19 @@ const styles = StyleSheet.create({
 	outerContainer: {
 		position: "absolute",
 		top: "20%",
+		bottom: "0%",
+		zIndex: 50,
+		backgroundColor: Colors.primary700,
+		width: "100%",
+		minHeight: "160%",
+		borderWidth: 4,
+		borderColor: Colors.accent500,
+		borderTopRightRadius: 4,
+		borderTopLeftRadius: 4,
+	},
+	outerContainerSmall: {
+		position: "absolute",
+		top: "0%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
