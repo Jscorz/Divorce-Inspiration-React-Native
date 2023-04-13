@@ -17,15 +17,6 @@ function IndividualQuoteTwo() {
 	const [suggestedArticleModalOpen, setSuggestedArticleModalOpen] = useState(false);
 
 	const { width, height } = useWindowDimensions();
-	let quoteFontSize = 24;
-
-	if (height < 700) {
-		quoteFontSize: 6;
-	}
-
-	const quoteStyle = {
-		fontSize: quoteFontSize,
-	};
 
 	const progress = useRef(new Animated.Value(0));
 
@@ -84,7 +75,8 @@ function IndividualQuoteTwo() {
 							<FontAwesome name='quote-right' size={40} color={Colors.primary600} />
 						)}
 					</View>
-					<Text style={[styles.quoteText, quoteStyle]}>{quoteOfTheDay}</Text>
+					{height > 700 && <Text style={styles.quoteText}>{quoteOfTheDay}</Text>}
+					{height < 700 && <Text style={styles.quoteSmallText}>{quoteOfTheDay}</Text>}
 				</Animated.View>
 				<View style={styles.bottomOfQuoteContainer}></View>
 			</View>
@@ -159,7 +151,14 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 	},
 	quoteText: {
+		fontSize: 24,
 		padding: 24,
+		color: Colors.primary500,
+	},
+	quoteSmallText: {
+		fontSize: 20,
+		padding: 24,
+		color: Colors.primary500,
 	},
 	authorText: {
 		fontSize: 24,
