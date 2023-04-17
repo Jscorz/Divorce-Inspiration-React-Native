@@ -125,208 +125,213 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 
 	return (
 		<LinearGradient
-			colors={[Colors.primary500, Colors.primary800]}
-			style={height > 700 ? styles.outerContainer : styles.outerContainerSmall}
+			colors={[Colors.BlackLowOpacity, Colors.AnimatedSquareLowOpacity]}
+			style={styles.outerContainerBackground}
 		>
-			<ImageBackground
-				source={require("../assets/images/modern-background.png")}
-				resizeMode='cover'
-				style={styles.rootScreen}
-				imageStyle={styles.backgroundImage}
+			<LinearGradient
+				colors={[Colors.primary500, Colors.primary800]}
+				style={height > 700 ? styles.outerContainer : styles.outerContainerSmall}
 			>
-				<Animated.ScrollView
-					style={[
-						styles.articleContainer,
-						{
-							transform: [{ translateY: progress.current }],
-						},
-						{ opacity: opacityProgress.current },
-					]}
+				<ImageBackground
+					source={require("../assets/images/modern-background.png")}
+					resizeMode='cover'
+					style={styles.rootScreen}
+					imageStyle={styles.backgroundImage}
 				>
-					{articleOnePressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleOnePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{firstTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleOnePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{firstTitle}</Text>
-						</Pressable>
-					)}
-					{articleTwoPressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleTwoPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{secondTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleTwoPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{secondTitle}</Text>
-						</Pressable>
-					)}
-					{articleThreePressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleThreePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{thirdTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleThreePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{thirdTitle}</Text>
-						</Pressable>
-					)}
-					{articleFourPressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleFourPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{fourthTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleFourPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{fourthTitle}</Text>
-						</Pressable>
-					)}
-					{articleFivePressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleFivePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{fifthTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleFivePress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{fifthTitle}</Text>
-						</Pressable>
-					)}
-					{articleSixPressed ? (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [
-											styles.individualArticle,
-											styles.pressed,
-											styles.articlePressed,
-									  ]
-									: [styles.individualArticle, styles.articlePressed]
-							}
-							onPress={ArticleSixPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{sixthTitle}</Text>
-						</Pressable>
-					) : (
-						<Pressable
-							style={({ pressed }) =>
-								pressed
-									? [styles.individualArticle, styles.pressed]
-									: styles.individualArticle
-							}
-							onPress={ArticleSixPress}
-							android_ripple={{ color: Colors.primary700 }}
-						>
-							<Text>{sixthTitle}</Text>
-						</Pressable>
-					)}
-					<View style={styles.iconContainer}>
-						<AntDesign
-							name='closecircle'
-							size={50}
-							color={Colors.gray500}
-							onPress={onPress}
-						/>
-					</View>
-				</Animated.ScrollView>
-			</ImageBackground>
+					<Animated.ScrollView
+						style={[
+							styles.articleContainer,
+							{
+								transform: [{ translateY: progress.current }],
+							},
+							{ opacity: opacityProgress.current },
+						]}
+					>
+						{articleOnePressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleOnePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{firstTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleOnePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{firstTitle}</Text>
+							</Pressable>
+						)}
+						{articleTwoPressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleTwoPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{secondTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleTwoPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{secondTitle}</Text>
+							</Pressable>
+						)}
+						{articleThreePressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleThreePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{thirdTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleThreePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{thirdTitle}</Text>
+							</Pressable>
+						)}
+						{articleFourPressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleFourPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{fourthTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleFourPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{fourthTitle}</Text>
+							</Pressable>
+						)}
+						{articleFivePressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleFivePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{fifthTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleFivePress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{fifthTitle}</Text>
+							</Pressable>
+						)}
+						{articleSixPressed ? (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [
+												styles.individualArticle,
+												styles.pressed,
+												styles.articlePressed,
+										  ]
+										: [styles.individualArticle, styles.articlePressed]
+								}
+								onPress={ArticleSixPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{sixthTitle}</Text>
+							</Pressable>
+						) : (
+							<Pressable
+								style={({ pressed }) =>
+									pressed
+										? [styles.individualArticle, styles.pressed]
+										: styles.individualArticle
+								}
+								onPress={ArticleSixPress}
+								android_ripple={{ color: Colors.primary700 }}
+							>
+								<Text>{sixthTitle}</Text>
+							</Pressable>
+						)}
+						<View style={styles.iconContainer}>
+							<AntDesign
+								name='closecircle'
+								size={50}
+								color={Colors.gray500}
+								onPress={onPress}
+							/>
+						</View>
+					</Animated.ScrollView>
+				</ImageBackground>
+			</LinearGradient>
 		</LinearGradient>
 	);
 };
@@ -355,7 +360,7 @@ const styles = StyleSheet.create({
 	},
 	outerContainerSmall: {
 		position: "absolute",
-		top: "0%",
+		top: "20%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
@@ -365,6 +370,15 @@ const styles = StyleSheet.create({
 		borderColor: Colors.accent500,
 		borderTopRightRadius: 4,
 		borderTopLeftRadius: 4,
+	},
+	outerContainerBackground: {
+		position: "absolute",
+		top: "-70%",
+		bottom: "0%",
+		zIndex: 30,
+		backgroundColor: Colors.primary700,
+		width: "100%",
+		minHeight: "160%",
 	},
 	articleContainer: {
 		width: "100%",

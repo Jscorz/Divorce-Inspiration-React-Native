@@ -16,6 +16,7 @@ const Colors = {
 	pink500: "#ff00d4ff",
 	altPink500: "#ff006fff",
 	AnimatedSquareLowOpacity: "#ffffff80",
+	BlackLowOpacity: "#000000b1",
 };
 
 export default Colors;
