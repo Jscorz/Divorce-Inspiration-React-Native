@@ -134,7 +134,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 			>
 				<ImageBackground
 					source={require("../assets/images/modern-background.png")}
-					resizeMode='cover'
+					resizeMode='stretch'
 					style={styles.rootScreen}
 					imageStyle={styles.backgroundImage}
 				>
