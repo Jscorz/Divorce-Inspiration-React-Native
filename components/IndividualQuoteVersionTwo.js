@@ -138,7 +138,8 @@ const styles = StyleSheet.create({
 		borderRadius: 96,
 		minHeight: 400,
 		padding: 100,
-		paddingTop: 400,
+		paddingTop: 800,
+		paddingBottom: 200,
 		marginTop: -800,
 	},
 	quoteContainer: {
@@ -180,7 +181,7 @@ const styles = StyleSheet.create({
 		alignSelf: "flex-end",
 		marginBottom: -120,
 		marginRight: 40,
-		transform: [{ rotate: "280deg" }],
+		transform: [{ translateY: 120 }, { rotate: "280deg" }],
 		zIndex: -10,
 	},
 	iconContainer: {
