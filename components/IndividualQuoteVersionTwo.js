@@ -63,7 +63,7 @@ function IndividualQuoteTwo() {
 
 	return (
 		<View>
-			<View style={styles.rootContainer}>
+			<View style={height > 700 ? styles.rootContainerBig : styles.rootContainer}>
 				<Animated.View
 					style={[styles.quoteContainer, { transform: [{ scale: progress.current }] }]}
 				>
@@ -78,10 +78,18 @@ function IndividualQuoteTwo() {
 						{quoteOfTheDay}
 					</Text>
 				</Animated.View>
-				<View style={styles.bottomOfQuoteContainer}></View>
+				<View
+					style={
+						height > 1000
+							? styles.bottomOfQuoteContainerBig
+							: styles.bottomOfQuoteContainer
+					}
+				></View>
 			</View>
 			<View>
-				<Text style={styles.authorText}>- {authorOfTheDay}</Text>
+				<Text style={height > 1000 ? styles.authorTextBig : styles.authorText}>
+					- {authorOfTheDay}
+				</Text>
 			</View>
 			<View style={styles.anotherQuoteButtonContainer}>
 				<PrimaryButton
@@ -124,6 +132,15 @@ const styles = StyleSheet.create({
 		paddingTop: 400,
 		marginTop: -500,
 	},
+	rootContainerBig: {
+		minWidth: "100%",
+		backgroundColor: Colors.offWhite,
+		borderRadius: 96,
+		minHeight: 400,
+		padding: 100,
+		paddingTop: 400,
+		marginTop: -800,
+	},
 	quoteContainer: {
 		alignItems: "center",
 		justifyContent: "space-between",
@@ -147,6 +164,25 @@ const styles = StyleSheet.create({
 		transform: [{ rotate: "280deg" }],
 		zIndex: -10,
 	},
+	bottomOfQuoteContainerBig: {
+		width: 0,
+		height: 0,
+		backgroundColor: "transparent",
+		borderStyle: "solid",
+		borderTopWidth: 0,
+		borderRightWidth: 45,
+		borderBottomWidth: 90,
+		borderLeftWidth: 45,
+		borderTopColor: "transparent",
+		borderRightColor: "transparent",
+		borderBottomColor: Colors.offWhite,
+		borderLeftColor: "transparent",
+		alignSelf: "flex-end",
+		marginBottom: -120,
+		marginRight: 40,
+		transform: [{ rotate: "280deg" }],
+		zIndex: -10,
+	},
 	iconContainer: {
 		alignSelf: "center",
 	},
@@ -166,6 +202,14 @@ const styles = StyleSheet.create({
 		alignSelf: "flex-start",
 		color: Colors.accent500,
 		marginTop: 70,
+		marginLeft: 50,
+	},
+	authorTextBig: {
+		fontSize: 24,
+		fontWeight: "bold",
+		alignSelf: "flex-start",
+		color: Colors.accent500,
+		marginTop: 180,
 		marginLeft: 50,
 	},
 	anotherQuoteButtonContainer: {
