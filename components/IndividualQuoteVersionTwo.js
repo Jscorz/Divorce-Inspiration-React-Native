@@ -197,6 +197,11 @@ const styles = StyleSheet.create({
 		padding: 24,
 		color: Colors.primary500,
 	},
+	quoteBigText: {
+		fontSize: 40,
+		padding: 24,
+		color: Colors.primary500,
+	},
 	authorText: {
 		fontSize: 24,
 		fontWeight: "bold",
