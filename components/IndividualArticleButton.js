@@ -1,11 +1,13 @@
 import { useState, useEffect, useRef } from "react";
-import { Pressable, Text, StyleSheet, Animated, Linking } from "react-native";
+import { Pressable, Text, StyleSheet, Animated, Linking, useWindowDimensions } from "react-native";
 import { ARTICLES } from "../data/ArticleData";
 import Colors from "../constants/colors";
 
 function IndividualArticleButton({ onPress }) {
 	const randomNumber = Math.floor(Math.random() * (454 - 1) + 1);
 	const [suggestedArticle, setSuggestedArticle] = useState();
+
+	const { width, height } = useWindowDimensions();
 
 	const progress = useRef(new Animated.Value(0));
 
@@ -39,23 +41,44 @@ function IndividualArticleButton({ onPress }) {
 		<Animated.View
 			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
 		>
-			<Pressable
-				style={({ pressed }) =>
-					pressed
-						? [styles.buttonInnerContainer, styles.pressed]
-						: styles.buttonInnerContainer
-				}
-				onPress={onPress}
-				android_ripple={{ color: Colors.primary700 }}
-			>
-				<Text
-					style={styles.buttonText}
-					onPress={OpenLinkInBrowser}
-					// onPress={consoleLogger}
+			{height < 850 && (
+				<Pressable
+					style={({ pressed }) =>
+						pressed
+							? [styles.buttonInnerContainer, styles.pressed]
+							: styles.buttonInnerContainer
+					}
+					onPress={onPress}
+					android_ripple={{ color: Colors.primary700 }}
 				>
-					View an article that may help you to unlock more quotes
-				</Text>
-			</Pressable>
+					<Text
+						style={styles.buttonText}
+						onPress={OpenLinkInBrowser}
+						// onPress={consoleLogger}
+					>
+						View an article that may help you to unlock more quotes
+					</Text>
+				</Pressable>
+			)}
+			{height > 850 && (
+				<Pressable
+					style={({ pressed }) =>
+						pressed
+							? [styles.buttonInnerContainerBig, styles.pressed]
+							: styles.buttonInnerContainerBig
+					}
+					onPress={onPress}
+					android_ripple={{ color: Colors.primary700 }}
+				>
+					<Text
+						style={styles.buttonTextBig}
+						onPress={OpenLinkInBrowser}
+						// onPress={consoleLogger}
+					>
+						View an article that may help you to unlock more quotes
+					</Text>
+				</Pressable>
+			)}
 		</Animated.View>
 	);
 }
@@ -64,19 +87,32 @@ export default IndividualArticleButton;
 
 const styles = StyleSheet.create({
 	buttonOuterContainer: {
-		borderRadius: 28,
-		marginHorizontal: 36,
 		overflow: "hidden",
 	},
 	buttonInnerContainer: {
 		backgroundColor: Colors.accent500,
 		paddingVertical: 8,
 		paddingHorizontal: 16,
+		marginHorizontal: 36,
+		borderRadius: 28,
+		elevation: 2,
+	},
+	buttonInnerContainerBig: {
+		backgroundColor: Colors.accent500,
+		paddingVertical: 16,
+		paddingHorizontal: 16,
+		marginHorizontal: 140,
+		borderRadius: 28,
 		elevation: 2,
 	},
 	buttonText: {
 		color: Colors.primary800,
 		textAlign: "center",
+	},
+	buttonTextBig: {
+		color: Colors.primary800,
+		textAlign: "center",
+		fontSize: 16,
 	},
 	pressed: {
 		opacity: 0.75,
