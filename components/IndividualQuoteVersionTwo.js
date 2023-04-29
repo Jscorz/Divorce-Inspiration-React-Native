@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
 	rootContainerBig: {
 		minWidth: "100%",
 		backgroundColor: Colors.offWhite,
-		borderRadius: 96,
+		borderRadius: 250,
 		minHeight: 400,
 		padding: 100,
 		paddingTop: 800,
@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 	},
 	quoteText: {
-		fontSize: 24,
+		fontSize: 40,
 		padding: 24,
 		color: Colors.primary500,
 	},
@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
 		fontWeight: "bold",
 		alignSelf: "flex-start",
 		color: Colors.accent500,
-		marginTop: 140,
+		marginTop: 120,
 		marginLeft: 140,
 	},
 	anotherQuoteButtonContainer: {
