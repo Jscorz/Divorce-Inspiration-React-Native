@@ -693,7 +693,7 @@ const styles = StyleSheet.create({
 		color: Colors.DarkGrey,
 	},
 	articleTextBig: {
-		fontSize: 24,
+		fontSize: 22,
 		color: Colors.DarkGrey,
 	},
 	iconContainer: {
