@@ -24,6 +24,8 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const randomNumberFour = getRandomNumber();
 	const randomNumberFive = getRandomNumber();
 	const randomNumberSix = getRandomNumber();
+	const randomNumberSeven = getRandomNumber();
+	const randomNumberEight = getRandomNumber();
 
 	const [suggestedArticleOne, setSuggestedArticleOne] = useState(ARTICLES[randomNumberOne]);
 	const [suggestedArticleTwo, setSuggestedArticleTwo] = useState(ARTICLES[randomNumberTwo]);
@@ -31,6 +33,8 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const [suggestedArticleFour, setSuggestedArticleFour] = useState(ARTICLES[randomNumberFour]);
 	const [suggestedArticleFive, setSuggestedArticleFive] = useState(ARTICLES[randomNumberFive]);
 	const [suggestedArticleSix, setSuggestedArticleSix] = useState(ARTICLES[randomNumberSix]);
+	const [suggestedArticleSeven, setSuggestedArticleSeven] = useState(ARTICLES[randomNumberSeven]);
+	const [suggestedArticleEight, setSuggestedArticleEight] = useState(ARTICLES[randomNumberEight]);
 
 	const [firstTitle, setFirstTitle] = useState(suggestedArticleOne.linkText);
 	const [secondTitle, setSecondTitle] = useState(suggestedArticleTwo.linkText);
@@ -38,6 +42,8 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const [fourthTitle, setFourthTitle] = useState(suggestedArticleFour.linkText);
 	const [fifthTitle, setFifthTitle] = useState(suggestedArticleFive.linkText);
 	const [sixthTitle, setSixthTitle] = useState(suggestedArticleSix.linkText);
+	const [seventhTitle, setSeventhTitle] = useState(suggestedArticleSeven.linkText);
+	const [eighthTitle, setEighthTitle] = useState(suggestedArticleEight.linkText);
 
 	const [articleOnePressed, setArticleOnePressed] = useState(false);
 	const [articleTwoPressed, setArticleTwoPressed] = useState(false);
@@ -45,6 +51,8 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 	const [articleFourPressed, setArticleFourPressed] = useState(false);
 	const [articleFivePressed, setArticleFivePressed] = useState(false);
 	const [articleSixPressed, setArticleSixPressed] = useState(false);
+	const [articleSevenPressed, setArticleSevenPressed] = useState(false);
+	const [articleEightPressed, setArticleEightPressed] = useState(false);
 
 	function getRandomNumber() {
 		return Math.floor(Math.random() * (454 - 1) + 1);
@@ -79,6 +87,16 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 		resetQuotes();
 		setArticleSixPressed(true);
 		Linking.openURL(`${suggestedArticleSix.url}`);
+	}
+	function ArticleSevenPress() {
+		resetQuotes();
+		setArticleSevenPressed(true);
+		Linking.openURL(`${suggestedArticleSeven.url}`);
+	}
+	function ArticleEightPress() {
+		resetQuotes();
+		setArticleEightPressed(true);
+		Linking.openURL(`${suggestedArticleEight.url}`);
 	}
 
 	const progress = useRef(new Animated.Value(-600));
@@ -516,6 +534,64 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 									android_ripple={{ color: Colors.primary700 }}
 								>
 									<Text style={styles.articleTextBig}>{sixthTitle}</Text>
+								</Pressable>
+							)}
+							{articleSevenPressed ? (
+								<Pressable
+									style={({ pressed }) =>
+										pressed
+											? [
+													styles.individualArticleBig,
+													styles.pressed,
+													styles.articlePressed,
+											  ]
+											: [styles.individualArticleBig, styles.articlePressed]
+									}
+									onPress={ArticleSevenPress}
+									android_ripple={{ color: Colors.primary700 }}
+								>
+									<Text style={styles.articleTextBig}>{seventhTitle}</Text>
+								</Pressable>
+							) : (
+								<Pressable
+									style={({ pressed }) =>
+										pressed
+											? [styles.individualArticleBig, styles.pressed]
+											: styles.individualArticleBig
+									}
+									onPress={ArticleSevenPress}
+									android_ripple={{ color: Colors.primary700 }}
+								>
+									<Text style={styles.articleTextBig}>{seventhTitle}</Text>
+								</Pressable>
+							)}
+							{articleEightPressed ? (
+								<Pressable
+									style={({ pressed }) =>
+										pressed
+											? [
+													styles.individualArticleBig,
+													styles.pressed,
+													styles.articlePressed,
+											  ]
+											: [styles.individualArticleBig, styles.articlePressed]
+									}
+									onPress={ArticleEightPress}
+									android_ripple={{ color: Colors.primary700 }}
+								>
+									<Text style={styles.articleTextBig}>{eighthTitle}</Text>
+								</Pressable>
+							) : (
+								<Pressable
+									style={({ pressed }) =>
+										pressed
+											? [styles.individualArticleBig, styles.pressed]
+											: styles.individualArticleBig
+									}
+									onPress={ArticleEightPress}
+									android_ripple={{ color: Colors.primary700 }}
+								>
+									<Text style={styles.articleTextBig}>{eighthTitle}</Text>
 								</Pressable>
 							)}
 							<View style={styles.iconContainerBig}>
