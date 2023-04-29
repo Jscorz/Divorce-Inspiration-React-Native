@@ -211,12 +211,12 @@ const styles = StyleSheet.create({
 		marginLeft: 50,
 	},
 	authorTextBig: {
-		fontSize: 24,
+		fontSize: 36,
 		fontWeight: "bold",
 		alignSelf: "flex-start",
 		color: Colors.accent500,
-		marginTop: 180,
-		marginLeft: 50,
+		marginTop: 140,
+		marginLeft: 140,
 	},
 	anotherQuoteButtonContainer: {
 		marginTop: 44,
