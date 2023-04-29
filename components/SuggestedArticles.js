@@ -154,7 +154,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 					source={require("../assets/images/modern-background.png")}
 					resizeMode='stretch'
 					style={styles.rootScreen}
-					imageStyle={styles.backgroundImage}
+					imageStyle={height > 1000 ? styles.backgroundImageBig : styles.backgroundImage}
 				>
 					{height < 850 && (
 						<Animated.ScrollView
@@ -618,6 +618,11 @@ const styles = StyleSheet.create({
 	},
 	backgroundImage: {
 		opacity: 0.15,
+		height: 800,
+	},
+	backgroundImageBig: {
+		opacity: 0.15,
+		height: 1400,
 	},
 	outerContainer: {
 		position: "absolute",
