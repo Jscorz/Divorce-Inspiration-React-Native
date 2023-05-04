@@ -156,7 +156,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 					style={styles.rootScreen}
 					imageStyle={height > 1000 ? styles.backgroundImageBig : styles.backgroundImage}
 				>
-					{height < 850 && (
+					{height < 1000 && (
 						<Animated.ScrollView
 							style={[
 								styles.articleContainer,
@@ -351,7 +351,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 							</View>
 						</Animated.ScrollView>
 					)}
-					{height > 850 && (
+					{height > 1000 && (
 						<Animated.ScrollView
 							style={[
 								styles.articleContainer,
