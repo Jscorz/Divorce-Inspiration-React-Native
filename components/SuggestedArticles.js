@@ -645,7 +645,7 @@ const styles = StyleSheet.create({
 	},
 	outerContainerSmall: {
 		position: "absolute",
-		top: "20%",
+		top: "30%",
 		bottom: "0%",
 		zIndex: 50,
 		backgroundColor: Colors.primary700,
