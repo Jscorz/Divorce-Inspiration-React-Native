@@ -141,14 +141,20 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 		).start();
 	}, []);
 
+	let backgroundStyle = styles.outerContainerBackground;
+
+	if ((height > 800) & (width < 800)) {
+		backgroundStyle = styles.outerContainerBackgroundBig;
+	}
+
 	return (
 		<LinearGradient
 			colors={[Colors.BlackLowOpacity, Colors.AnimatedSquareLowOpacity]}
-			style={styles.outerContainerBackground}
+			style={backgroundStyle}
 		>
 			<LinearGradient
 				colors={[Colors.primary500, Colors.primary800]}
-				style={height > 700 ? styles.outerContainer : styles.outerContainerSmall}
+				style={height > 1000 ? styles.outerContainer : styles.outerContainerSmall}
 			>
 				<ImageBackground
 					source={require("../assets/images/modern-background.png")}
@@ -653,6 +659,15 @@ const styles = StyleSheet.create({
 	outerContainerBackground: {
 		position: "absolute",
 		top: "-70%",
+		bottom: "0%",
+		zIndex: 30,
+		backgroundColor: Colors.primary700,
+		width: "100%",
+		minHeight: "160%",
+	},
+	outerContainerBackgroundBig: {
+		position: "absolute",
+		top: "-110%",
 		bottom: "0%",
 		zIndex: 30,
 		backgroundColor: Colors.primary700,
