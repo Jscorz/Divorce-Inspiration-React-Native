@@ -41,7 +41,7 @@ function IndividualArticleButton({ onPress }) {
 		<Animated.View
 			style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
 		>
-			{height < 850 && (
+			{height < 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed
@@ -60,7 +60,7 @@ function IndividualArticleButton({ onPress }) {
 					</Text>
 				</Pressable>
 			)}
-			{height > 850 && (
+			{height > 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed

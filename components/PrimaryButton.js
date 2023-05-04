@@ -12,7 +12,7 @@ function PrimaryButton({ children, onPress, numberOfQuotesViewed }) {
 					: styles.buttonOuterContainer
 			}
 		>
-			{height < 850 && (
+			{height < 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed
@@ -25,7 +25,7 @@ function PrimaryButton({ children, onPress, numberOfQuotesViewed }) {
 					<Text style={styles.buttonText}>{children}</Text>
 				</Pressable>
 			)}
-			{height > 850 && (
+			{height > 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed

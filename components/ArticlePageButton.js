@@ -30,7 +30,7 @@ const ArticlePageButton = ({ onPress }) => {
 			// style={[styles.buttonOuterContainer, { transform: [{ scale: progress.current }] }]}
 			style={styles.buttonOuterContainer}
 		>
-			{height < 850 && (
+			{height < 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed
@@ -43,7 +43,7 @@ const ArticlePageButton = ({ onPress }) => {
 					<Text style={styles.buttonText}>Browse a Few Helpful Articles</Text>
 				</Pressable>
 			)}
-			{height > 850 && (
+			{height > 1000 && (
 				<Pressable
 					style={({ pressed }) =>
 						pressed
