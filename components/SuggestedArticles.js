@@ -143,7 +143,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 
 	let backgroundStyle = styles.outerContainerBackground;
 
-	if ((height > 800) & (width < 800)) {
+	if ((height > 700) & (width < 800)) {
 		backgroundStyle = styles.outerContainerBackgroundBig;
 	}
 
