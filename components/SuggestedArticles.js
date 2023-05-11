@@ -143,7 +143,7 @@ const SuggestedArticles = ({ onPress, resetQuotes }) => {
 
 	let backgroundStyle = styles.outerContainerBackground;
 
-	if ((height > 700) & (width < 800)) {
+	if ((width < 500) & (height > 500)) {
 		backgroundStyle = styles.outerContainerBackgroundBig;
 	}
 
@@ -658,7 +658,7 @@ const styles = StyleSheet.create({
 	},
 	outerContainerBackground: {
 		position: "absolute",
-		top: "-70%",
+		top: "-60%",
 		bottom: "0%",
 		zIndex: 30,
 		backgroundColor: Colors.primary700,
