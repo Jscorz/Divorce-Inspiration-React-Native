@@ -156,7 +156,7 @@ export const QUOTES = [
 	),
 	new Quote("Unknown", "Believe you have it and you have it."),
 	new Quote("Theodore Roosevelt", "Believe you can and you're halfway there."),
-	new Quote("Anonymous", "Believng that you can is half the battle."),
+	new Quote("Anonymous", "Believing that you can is half the battle."),
 	new Quote(
 		"Author Unknown",
 		"Blessed are those that can give without remembering and receive without forgetting."
@@ -634,7 +634,7 @@ export const QUOTES = [
 		"Dean Smith",
 		"If you treat every situation as a life and death matter, you'll die a lot of times."
 	),
-	new Quote("Merry Browne", "If you want an accounting of your worth, count you friends."),
+	new Quote("Merry Browne", "If you want an accounting of your worth, count your friends."),
 	new Quote("Dolly Parton", "If you want the rainbow, you've got to put up with the rain."),
 	new Quote(
 		"Ann Landers",
