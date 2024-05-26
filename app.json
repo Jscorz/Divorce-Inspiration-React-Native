@@ -4,10 +4,10 @@
 		"slug": "DivorceInspiration",
 		"version": "1.0.0",
 		"orientation": "portrait",
-		"icon": "./assets/icon.png",
+		"icon": "./assets/app-icon.jpeg",
 		"userInterfaceStyle": "light",
 		"splash": {
-			"image": "./assets/splash.png",
+			"image": "./assets/app-splash.jpeg",
 			"resizeMode": "contain"
 		},
 		"updates": {
@@ -24,7 +24,7 @@
 			}
 		},
 		"web": {
-			"favicon": "./assets/favicon.png"
+			"favicon": "./assets/app-icon.jpeg"
 		}
 	}
 }
