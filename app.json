@@ -8,7 +8,7 @@
 		"userInterfaceStyle": "light",
 		"splash": {
 			"image": "./assets/app-splash.jpeg",
-			"resizeMode": "cover"
+			"resizeMode": "contain"
 		},
 		"updates": {
 			"fallbackToCacheTimeout": 0
